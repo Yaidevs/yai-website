@@ -3,7 +3,8 @@ import React from "react";
 function ServiceSection() {
   return (
     <section className="what-brewing space-comm paddTop0">
-      <div className="container">
+      <div className="container
+      ">
         <div className="title-head text-left">
           <small>SERVICES</small>
           <h2>Business-Oriented Mobile App &amp; Web Development Services</h2>
