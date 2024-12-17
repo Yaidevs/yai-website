@@ -2,7 +2,6 @@ import React from "react";
 import aboutbanner from "../assets/images/about-banner.webp";
 import missionvisionimg from "../assets/images/mission-vision-img.png";
 import "./about.css";
-import "../assets/css/common.css"
 import Blogs from "../components/Blogs";
 import GetFreeQuote from "../components/GetFreeQuote";
 import Honour from "../components/Honour";

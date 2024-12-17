@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./assets/js/lazysizes.min.js";
+import "./assets/css/common.css";
 import "./assets/css/animation-2023.css";
 import "./assets/css/common-head-foot-2023.css";
 import "./assets/css/faq.css";
@@ -42,7 +43,7 @@ import FooterCopyright from "./components/FooterCopyright";
 // Additional Pages
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Other from "./pages/Other";
+// import Other from "./pages/Other";
 
 function App() {
   return (
@@ -91,7 +92,7 @@ function App() {
               <Route path="/portfolio" element={<Portfolio />} />
 
               {/* Other Route */}
-              <Route path="/other" element={<Other />} />
+              {/* <Route path="/other" element={<Other />} /> */}
             </Routes>
 
             {/* Footer (Displayed for All Pages) */}
