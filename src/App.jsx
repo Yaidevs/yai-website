@@ -1,7 +1,6 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import MyHero from "./components/MyHero";
 import "./assets/js/lazysizes.min.js";
 import "./assets/css/animation-2023.css";
 import "./assets/css/common-head-foot-2023.css";
@@ -10,6 +9,10 @@ import "./assets/css/home.css";
 import "./assets/css/hire-modal.css";
 import "./assets/css/intlTelInput.css";
 import "./assets/css/owl.carousel.min.css";
+
+// Import Components
+import Navbar from "./components/Navbar";
+import MyHero from "./components/MyHero";
 import PartnerSections from "./components/PartnerSections";
 import VisionSection from "./components/VisionSection";
 import BoostBusiness from "./components/BoostBusiness";
@@ -35,46 +38,74 @@ import ServingFooter from "./components/ServingFooter";
 import FooterMenu from "./components/FooterMenu";
 import FooterSocial from "./components/FooterSocial";
 import FooterCopyright from "./components/FooterCopyright";
+
+// Additional Pages
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Other from "./pages/Other";
+
 function App() {
   return (
-    <div className="site_content lazyload" id="">
-      <canvas class="snow" id="snow" width="1848" height="515"></canvas>
-      <div className="page-warper">
-        <Navbar />
-        <main>
-          <MyHero />
-          <PartnerSections />
-          <VisionSection />
-          <BoostBusiness />
-          <ServiceSection />
-          <FeatureSection />
-          <GainUpperEdge />
-          <ServingAll />
-          <Industries />
-          <OurApp1 />
-          <OurApp2 />
-          <OurApp3 />
-          <OurApp4 />
-          <DiscussYourProject />
-          <Testimonials />
-          <CaseStudies />
-          <Faq />
-          <div>
-            <Blogs />
-            <GetFreeQuote />
-            <Honour />
-            <OurOffices />
-          </div>
-          <footer className="lazyload">
-            <NewsLetter />
-            <ServingFooter />
-            <FooterMenu />
-            <FooterSocial />
-            <FooterCopyright />
-          </footer>
-        </main>
+    <Router>
+      <div className="site_content lazyload">
+        <div className="page-warper">
+          <Navbar />
+          <main>
+            <Routes>
+              {/* Home Route */}
+              <Route
+                path="/"
+                element={
+                  <>
+                    <MyHero />
+                    <PartnerSections />
+                    <VisionSection />
+                    <BoostBusiness />
+                    <ServiceSection />
+                    <FeatureSection />
+                    <GainUpperEdge />
+                    <ServingAll />
+                    <Industries />
+                    <OurApp1 />
+                    <OurApp2 />
+                    <OurApp3 />
+                    <OurApp4 />
+                    <DiscussYourProject />
+                    <Testimonials />
+                    <CaseStudies />
+                    <Faq />
+                    <div>
+                      <Blogs />
+                      <GetFreeQuote />
+                      <Honour />
+                      <OurOffices />
+                    </div>
+                  </>
+                }
+              />
+
+              {/* About Route */}
+              <Route path="/about" element={<About />} />
+
+              {/* Portfolio Route */}
+              <Route path="/portfolio" element={<Portfolio />} />
+
+              {/* Other Route */}
+              <Route path="/other" element={<Other />} />
+            </Routes>
+
+            {/* Footer (Displayed for All Pages) */}
+            <footer className="lazyload">
+              <NewsLetter />
+              <ServingFooter />
+              <FooterMenu />
+              <FooterSocial />
+              <FooterCopyright />
+            </footer>
+          </main>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

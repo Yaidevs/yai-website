@@ -4,8 +4,7 @@ function Faq() {
   return (
     <section className="faq-inner space-comm paddBot0 lazyload">
       <div className="container lazyload">
-        <div className="main-he
-        ading-box main-heading-box-inner lazyload">
+        <div className="main-heading-box main-heading-box-inner lazyload">
           <h2 className="lazyload">Frequently Asked Questions</h2>
         </div>
         <div className="faq-box lazyload">

@@ -4,6 +4,8 @@ import logowhite from '../assets/images/logo-cmmi-white.png'
 import quoteicon from '../assets/images/quote-icon.svg'
 import whatsappicon from '../assets/images/whatsapp.svg'
 import menu from '../assets/images/menu.svg'
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
   return (
@@ -53,7 +55,7 @@ function Navbar() {
           <div className="navlist-main">
             <ul className="navlist">
               <li>
-                <a href="https://devtechnosys.com/about.php">About</a>
+                <Link to='/about' >About</Link>
               </li>
               <li>
                 <a
@@ -147,7 +149,7 @@ function Navbar() {
                 </div>
               </li>
               <li>
-                <a href="https://devtechnosys.com/portfolio.php">Portfolio</a>
+                <Link to='/portfolio' >Portfolio</Link>
               </li>
               <li>
                 <a href="https://devtechnosys.com/insights/demo-video/">
