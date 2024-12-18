@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function ServiceSection() {
+  const [activeTab, setActiveTab] = useState("tab1");
+
+  // Function to handle tab switching
+  const handleTabClick = (tabId) => {
+    setActiveTab(tabId);
+  };
+
+  useEffect(() => {
+    const tabs = document.querySelectorAll(".tabs li");
+    tabs.forEach((tab) => {
+      const rel = tab.getAttribute("rel");
+      tab.classList.toggle("active", rel === activeTab);
+    });
+
+    const tabContents = document.querySelectorAll(".tab_content");
+    tabContents.forEach((content) => {
+      content.style.display = content.id === activeTab ? "block" : "none";
+    });
+  }, [activeTab]);
+
   return (
     <section className="what-brewing space-comm paddTop0">
-      <div className="container
-      ">
+      <div className="container">
         <div className="title-head text-left">
           <small>SERVICES</small>
           <h2>Business-Oriented Mobile App &amp; Web Development Services</h2>
@@ -14,54 +33,62 @@ function ServiceSection() {
           </p>
         </div>
         <div className="what-brewing-content">
+          {/* Tabs */}
           <ul className="tabs">
-            <li className="active" rel="tab1">
+            <li
+              className={activeTab === "tab1" ? "active" : ""}
+              rel="tab1"
+              onClick={() => handleTabClick("tab1")}
+            >
               <div className="tab-l">
                 <figure>
                   <img
-                    className="lazyload"
-                    alt="Mobile App Devlopment"
-                    data-src="https://devtechnosys.com/images-2023/home/home-service-icn_1.svg"
+                    alt="Mobile App Development"
+                    src="https://devtechnosys.com/images-2023/home/home-service-icn_1.svg"
                   />
                 </figure>
-                <h3>Mobile App Development </h3>
+                <h3>Mobile App Development</h3>
               </div>
               <div className="tab-r">
                 <span>01</span>
                 <img
-                  className="lazyload"
                   alt="arrow"
-                  data-src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
+                  src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
                 />
               </div>
             </li>
-            <li rel="tab2">
+            <li
+              className={activeTab === "tab2" ? "active" : ""}
+              rel="tab2"
+              onClick={() => handleTabClick("tab2")}
+            >
               <div className="tab-l">
                 <figure>
                   <img
-                    className="lazyload"
-                    alt="Website Devlopment"
-                    data-src="https://devtechnosys.com/images-2023/home/home-service-icn_2.svg"
+                    alt="Website Development"
+                    src="https://devtechnosys.com/images-2023/home/home-service-icn_2.svg"
                   />
                 </figure>
-                <h3>Website Development </h3>
+                <h3>Website Development</h3>
               </div>
               <div className="tab-r">
                 <span>02</span>
                 <img
-                  className="lazyload"
                   alt="arrow"
-                  data-src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
+                  src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
                 />
               </div>
             </li>
-            <li rel="tab3">
+            <li
+              className={activeTab === "tab3" ? "active" : ""}
+              rel="tab3"
+              onClick={() => handleTabClick("tab3")}
+            >
               <div className="tab-l">
                 <figure>
                   <img
-                    className="lazyload"
-                    alt="On deman app devlopment"
-                    data-src="https://devtechnosys.com/images-2023/home/home-service-icn_3.svg"
+                    alt="On-Demand App Development"
+                    src="https://devtechnosys.com/images-2023/home/home-service-icn_3.svg"
                   />
                 </figure>
                 <h3>On-demand App Development</h3>
@@ -69,19 +96,21 @@ function ServiceSection() {
               <div className="tab-r">
                 <span>03</span>
                 <img
-                  className="lazyload"
                   alt="arrow"
-                  data-src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
+                  src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
                 />
               </div>
             </li>
-            <li rel="tab4">
+            <li
+              className={activeTab === "tab4" ? "active" : ""}
+              rel="tab4"
+              onClick={() => handleTabClick("tab4")}
+            >
               <div className="tab-l">
                 <figure>
                   <img
-                    className="lazyload"
                     alt="Software Development"
-                    data-src="https://devtechnosys.com/images-2023/home/home-service-icn_4.svg"
+                    src="https://devtechnosys.com/images-2023/home/home-service-icn_4.svg"
                   />
                 </figure>
                 <h3>Software Development</h3>
@@ -89,19 +118,21 @@ function ServiceSection() {
               <div className="tab-r">
                 <span>04</span>
                 <img
-                  className="lazyload"
                   alt="arrow"
-                  data-src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
+                  src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
                 />
               </div>
             </li>
-            <li rel="tab5">
+            <li
+              className={activeTab === "tab5" ? "active" : ""}
+              rel="tab5"
+              onClick={() => handleTabClick("tab5")}
+            >
               <div className="tab-l">
                 <figure>
                   <img
-                    className="lazyload"
                     alt="Hire Dedicated Developers"
-                    data-src="https://devtechnosys.com/images-2023/home/home-service-icn_5.svg"
+                    src="https://devtechnosys.com/images-2023/home/home-service-icn_5.svg"
                   />
                 </figure>
                 <h3>Hire Dedicated Developers</h3>
@@ -109,13 +140,14 @@ function ServiceSection() {
               <div className="tab-r">
                 <span>05</span>
                 <img
-                  className="lazyload"
-                  alt="Arrow"
-                  data-src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
+                  alt="arrow"
+                  src="https://devtechnosys.com/images-2023/home/arrow-tab.svg"
                 />
               </div>
             </li>
           </ul>
+
+          {/* Tab Content */}
           <div className="tab_container">
             <div id="tab1" className="tab_content">
               <div className="tab_content-inner">
@@ -234,7 +266,6 @@ function ServiceSection() {
                 </ul>
               </div>
             </div>
-            {/* #tab1 */}
             <div id="tab2" className="tab_content">
               <div className="tab_content-inner">
                 <h3>Website Development </h3>
@@ -353,7 +384,6 @@ function ServiceSection() {
                 </ul>
               </div>
             </div>
-            {/* #tab2 */}
             <div id="tab3" className="tab_content">
               <div className="tab_content-inner">
                 <h3>On-demand App Development</h3>
@@ -470,7 +500,6 @@ function ServiceSection() {
                 </ul>
               </div>
             </div>
-            {/* #tab3 */}
             <div id="tab4" className="tab_content">
               <div className="tab_content-inner">
                 <h3>Software Development</h3>

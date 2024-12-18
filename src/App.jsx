@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./assets/js/lazysizes.min.js";
-import "./assets/css/common.css";
 import "./assets/css/animation-2023.css";
 import "./assets/css/common-head-foot-2023.css";
 import "./assets/css/faq.css";

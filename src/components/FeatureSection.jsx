@@ -1,7 +1,22 @@
-import React from "react";
-
-
+import React, { useEffect } from "react";
+import "../assets/css/featuresection.css";
 function FeatureSection() {
+  useEffect(() => {
+    const container = document.querySelector(".keyfetures-owl");
+
+    // Allow horizontal scrolling with mouse wheel or touch gestures
+    const handleScroll = (e) => {
+      e.preventDefault();
+      container.scrollLeft += e.deltaY;
+    };
+
+    container.addEventListener("wheel", handleScroll, { passive: false });
+    // Cleanup the event listener on component unmount
+    return () => {
+      container.removeEventListener("wheel", handleScroll);
+    };
+  }, []);
+
   return (
     <section className="our-keyfetures space-comm">
       <div className="container">
@@ -15,13 +30,12 @@ function FeatureSection() {
         </div>
       </div>
       <div className="our-keyfetures-list">
-        <div className="owl-carousel owl-theme keyfetures-owl">
+        <div className="keyfetures-owl">
           <div className="item">
             <figure className="orange-bg-box">
               <img
-                className="lazyload"
                 alt="Time Delivery"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-6.svg"
+                src="https://devtechnosys.com/images-2023/home/slide-icon-6.svg"
               />
             </figure>
             <figcaption>
@@ -36,9 +50,8 @@ function FeatureSection() {
           <div className="item">
             <figure className="green-bg-box">
               <img
-                className="lazyload"
                 alt="Top Work Quality"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-7.svg"
+                src="https://devtechnosys.com/images-2023/home/slide-icon-7.svg"
               />
             </figure>
             <figcaption>
@@ -46,16 +59,15 @@ function FeatureSection() {
               <p>
                 We never compromise with the work quality and ensure to deliver
                 top quality work adhering to the business needs and project
-                requirements.{" "}
+                requirements.
               </p>
             </figcaption>
           </div>
           <div className="item">
             <figure className="blue-bg-box">
               <img
-                className="lazyload"
                 alt="Dedicated Team"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-1.svg"
+                src="https://devtechnosys.com/images-2023/home/slide-icon-1.svg"
               />
             </figure>
             <figcaption>
@@ -70,9 +82,8 @@ function FeatureSection() {
           <div className="item">
             <figure className="purple-bg-box">
               <img
-                className="lazyload"
                 alt="24*7 Support"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-2.svg"
+                src="https://devtechnosys.com/images-2023/home/slide-icon-2.svg"
               />
             </figure>
             <figcaption>
@@ -80,16 +91,15 @@ function FeatureSection() {
               <p>
                 It doesn’t matter what time or day it is; Dev Technosys customer
                 support is there to assist you with the best services and
-                resolve concerns instantly.{" "}
+                resolve concerns instantly.
               </p>
             </figcaption>
           </div>
           <div className="item">
             <figure className="pink-bg-box">
               <img
-                className="lazyload"
                 alt="Agile Development"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-3.svg"
+                src="https://devtechnosys.com/images-2023/home/slide-icon-3.svg"
               />
             </figure>
             <figcaption>
@@ -104,9 +114,8 @@ function FeatureSection() {
           <div className="item">
             <figure className="orange-bg-box">
               <img
-                className="lazyload"
                 alt="Cost-effective Solutions"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-4.svg"
+                src="https://devtechnosys.com/images-2023/home/slide-icon-4.svg"
               />
             </figure>
             <figcaption>
@@ -121,9 +130,8 @@ function FeatureSection() {
           <div className="item">
             <figure className="orange-bg-box">
               <img
-                className="lazyload"
                 alt="User-centric Development"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-5.svg"
+                src="https://devtechnosys.com/images-2023/home/slide-icon-5.svg"
               />
             </figure>
             <figcaption>

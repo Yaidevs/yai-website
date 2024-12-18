@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <header className="full-header lazyload">
+    <header className="full-header lazyload ">
       <div className="nav-left">
         <div className="branding-logo lazyload">
           <a className="lazyload" href="https://devtechnosys.com/">

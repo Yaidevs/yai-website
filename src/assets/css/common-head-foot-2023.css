@@ -427,9 +427,10 @@ body.fixed header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 999;
+  z-index: 1000;
   top: 0;
-  background: #fff;
+  background: #fff !important;
+
 }
 .full-header .navbar {
   width: 100%;
