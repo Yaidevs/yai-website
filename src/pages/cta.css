@@ -1,0 +1,221 @@
+.looking-bg-2:after,
+.looking-bg-2:before {
+  border-radius: 20px;
+  content: "";
+  right: 0;
+  height: 100px;
+  margin: auto;
+}
+section.cta-style-4:after,
+section.cta-style-4:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.looking-bg-shape {
+  background: #0084fe;
+  padding: 110px 100px 0;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  z-index: 9;
+  position: relative;
+}
+.looking-for-R h2 {
+  font-size: 40px;
+  color: #fff;
+  font-family: Cambria-Bold;
+  margin-bottom: 25px;
+}
+.looking-for-R h2.font34 {
+  font-size: 34px;
+}
+.black-bg {
+  background: #000;
+}
+.looking-bg-2:after {
+  background: #b5d9fc;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 95%;
+}
+.looking-bg-2:before {
+  background: #e1eefb;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 90%;
+}
+.looking-bg-2 {
+  position: relative;
+  margin: 15px 0 80px;
+  animation-name: float_up_down;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: float_up_down;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: float_up_down;
+  -moz-animation-duration: 5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float_up_down;
+  -ms-animation-duration: 5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float_left_right;
+  -o-animation-duration: 5s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+@-webkit-keyframes float_up_down {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    opacity: 1;
+  }
+}
+@keyframes float_up_down {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(30px);
+    opacity: 1;
+  }
+}
+.looking-for {
+  background: #6d4ad0;
+}
+.looking-for-L {
+  margin-top: -75px;
+}
+.looking-for .row {
+  align-items: center;
+}
+.marTop75 {
+  margin-top: 75px;
+}
+.marBot75 {
+  margin-bottom: 75px;
+}
+.paddBot0 {
+  padding-bottom: 0;
+}
+.marTop100 {
+  margin-top: 100px;
+}
+section.cta-style-4 {
+  background: #dfae66;
+  position: relative;
+}
+section.cta-style-4:before {
+  height: 115px;
+  background: #53828c;
+}
+section.cta-style-4:after {
+  height: 33px;
+  background: #282421;
+}
+.cta-style-4 .section-padding {
+  margin-bottom: 115px;
+}
+.cta-style-4 .main-heading-box {
+  text-align: initial;
+}
+.cta-style-4 .main-heading-box h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.cta-style-4 .main-heading-box a.btn.btn-white {
+  background: #000;
+  color: #fff;
+  box-shadow: none;
+}
+@media screen and (min-width: 1024px) and (max-width: 1169px) {
+  .looking-bg-shape {
+    padding: 50px;
+  }
+  .looking-bg-shape .row {
+    align-items: center;
+  }
+  .looking-for-R h2 {
+    font-size: 32px;
+  }
+  .looking-for-L img {
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .looking-bg-shape {
+    padding: 30px;
+  }
+  .looking-bg-shape .row {
+    align-items: center;
+  }
+  .looking-for-L img {
+    height: auto;
+  }
+  .looking-for-R .btn {
+    display: inline-block;
+  }
+  .looking-for-R h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .looking-bg-shape {
+    padding: 30px;
+  }
+  .looking-bg-shape .row {
+    align-items: center;
+  }
+  .looking-for-L img {
+    height: auto;
+  }
+  .looking-for-R .btn {
+    display: inline-block;
+  }
+  .looking-bg-shape .col-md-7.looking-for-R {
+    flex: 0 0 100%;
+    max-width: 100%;
+    -ms-flex: 0 0 100%;
+  }
+  .cta-style-2-imgbox,
+  .looking-bg-shape .col-md-5.looking-for-L {
+    display: none;
+  }
+  .looking-for-R h2 {
+    font-size: 26px;
+  }
+  .looking-for {
+    padding-bottom: 30px;
+  }
+  .looking-for .row .col-md-5,
+  .looking-for .row .col-md-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .looking-for-2.marTop75 {
+    margin-top: 30px;
+  }
+  .cta-style-4 .section-padding {
+    margin-bottom: 0;
+  }
+  .cta-style-4 .main-heading-box h2 {
+    font-size: 24px;
+  }
+}

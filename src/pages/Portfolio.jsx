@@ -5,6 +5,15 @@ import "./bsm.css";
 import "./css2Minify.css";
 import "./cssFamily.css";
 import "./jquery-ui.css";
+import starshape1 from "../assets/images/star-shape.png";
+import starshapeb from "../assets/images/star-shape-b.png";
+import mob1 from "../assets/images/mob-1.png";
+import mob2 from "../assets/images/mob-2.png";
+import img1 from "../assets/images/img-1.png";
+import screen1 from "../assets/images/screen-1.png";
+import img2 from "../assets/images/img-2.png";
+import img3 from "../assets/images/img-3.png";
+import arrow from "../assets/images/arrow-up.png";
 
 function Portfolio() {
   return (
@@ -13,15 +22,11 @@ function Portfolio() {
         <div className="banner-sec">
           <div className="container">
             <figure className="banner-sec-shape-l">
-              <img
-                className="lazyload"
-                src="images/2023/porfolio/star-shape.png"
-                alt="Dev Technosys"
-              />
+              <img className="lazyload" src={starshape1} alt="Dev Technosys" />
             </figure>
             <div className="banner-sec-content">
               <h1>
-                <i>Transforming </i> Goals into Thriving Business{" "}
+                <i>Transforming </i> Goals into Thriving Business
                 <i>Opportunities </i>
               </h1>
               <p>
@@ -33,11 +38,7 @@ function Portfolio() {
               </p>
             </div>
             <figure className="banner-sec-shape-r">
-              <img
-                className="lazyload"
-                src="images/2023/porfolio/star-shape-b.png"
-                alt="Dev Technosys"
-              />
+              <img className="lazyload" src={starshapeb} alt="Dev Technosys" />
             </figure>
           </div>
         </div>
@@ -45,11 +46,7 @@ function Portfolio() {
           <div className="container">
             <div className="green-bg box-portfolio-inner">
               <figure className="porfolio-mob">
-                <img
-                  className="lazyload"
-                  src="images/2023/porfolio/mob-1.png"
-                  alt="Dev Technosys"
-                />
+                <img className="lazyload" src={mob1} alt="Dev Technosys" />
               </figure>
               <div className="box-portfolio-content">
                 <div className="img-content">
@@ -64,22 +61,13 @@ function Portfolio() {
                     className="link-text"
                   >
                     View Case Study
-                    <img
-                      className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
-                      alt="Dev Technosys"
-                    />
+                    <img className="lazyload" src={arrow} alt="Dev Technosys" />
                   </a>
                 </div>
               </div>
               <div className="box-portfolio-img">
                 <figure>
-                  {" "}
-                  <img
-                    className="lazyload"
-                    src="images/2023/porfolio/img-1.png"
-                    alt="Dev Technosys"
-                  />
+                  <img className="lazyload" src={img1} alt="Dev Technosys" />
                 </figure>
               </div>
             </div>
@@ -89,20 +77,11 @@ function Portfolio() {
           <div className="container">
             <div className="skin-bg box-portfolio-inner">
               <figure className="porfolio-screen">
-                <img
-                  className="lazyload"
-                  src="images/2023/porfolio/screen-1.png"
-                  alt="Dev Technosys"
-                />
+                <img className="lazyload" src={screen1} alt="Dev Technosys" />
               </figure>
               <div className="box-portfolio-img">
                 <figure>
-                  {" "}
-                  <img
-                    className="lazyload"
-                    src="images/2023/porfolio/img-2.png"
-                    alt="Dev Technosys"
-                  />
+                  <img className="lazyload" src={img2} alt="Dev Technosys" />
                 </figure>
               </div>
               <div className=" box-portfolio-content">
@@ -117,12 +96,8 @@ function Portfolio() {
                     href="https://devtechnosys.com/case-study/ecommerce-kawni.php"
                     className="link-text"
                   >
-                    View Case Study{" "}
-                    <img
-                      className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
-                      alt="Dev Technosys"
-                    />
+                    View Case Study
+                    <img className="lazyload" src={arrow} alt="Dev Technosys" />
                   </a>
                 </div>
               </div>
@@ -133,11 +108,7 @@ function Portfolio() {
           <div className="container">
             <div className="green-bg box-portfolio-inner">
               <figure className="porfolio-mob">
-                <img
-                  className="lazyload"
-                  src="images/2023/porfolio/mob-2.png"
-                  alt="Dev Technosys"
-                />
+                <img className="lazyload" src={mob2} alt="Dev Technosys" />
               </figure>
               <div className="col-md-7 box-portfolio-content">
                 <div className="img-content">
@@ -151,29 +122,20 @@ function Portfolio() {
                     href="https://devtechnosys.com/case-study/music-application-giggle.php"
                     className="link-text"
                   >
-                    View Case Study{" "}
-                    <img
-                      className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
-                      alt="Dev Technosys"
-                    />
+                    View Case Study
+                    <img className="lazyload" src={arrow} alt="Dev Technosys" />
                   </a>
                 </div>
               </div>
               <div className="box-portfolio-img">
                 <figure>
-                  {" "}
-                  <img
-                    className="lazyload"
-                    src="images/2023/porfolio/img-3.png"
-                    alt="Dev Technosys"
-                  />
+                  <img className="lazyload" src={img3} alt="Dev Technosys" />
                 </figure>
               </div>
             </div>
           </div>
         </div>
-        <div className="box-portfolio portfolio-odd">
+        {/* <div className="box-portfolio portfolio-odd">
           <div className="container">
             <div className="skin-bg box-portfolio-inner">
               <figure className="porfolio-screen">
@@ -185,7 +147,7 @@ function Portfolio() {
               </figure>
               <div className="box-portfolio-img">
                 <figure>
-                  {" "}
+                  
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-4.png"
@@ -208,10 +170,10 @@ function Portfolio() {
                     href="https://devtechnosys.com/case-study/ecommerce-app-shoppers-supermarket.php"
                     className="link-text"
                   >
-                    View Case Study{" "}
+                    View Case Study
                     <img
                       className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
+                      src={arrow}
                       alt="Dev Technosys"
                     />
                   </a>
@@ -232,7 +194,7 @@ function Portfolio() {
               </figure>
               <div className="box-portfolio-img">
                 <figure>
-                  {" "}
+                  
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-5.png"
@@ -247,16 +209,16 @@ function Portfolio() {
                   <p>
                     Fashion Porters is a mobile app platform for
                     customers/service seekers who like to buy dresses by knowing
-                    exactly how they would look on them.{" "}
+                    exactly how they would look on them.
                   </p>
                   <a
                     href="https://devtechnosys.com/case-study/ecommerce-application-fashion-porters.php"
                     className="link-text"
                   >
-                    View Case Study{" "}
+                    View Case Study
                     <img
                       className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
+                      src={arrow}
                       alt="Dev Technosys"
                     />
                   </a>
@@ -281,16 +243,16 @@ function Portfolio() {
                   <h4>Elevating Shopping Experiences Worldwide</h4>
                   <p>
                     Qarqish is an online platform enabling B2C to sell any
-                    product. Here customers can purchase any product directly.{" "}
+                    product. Here customers can purchase any product directly.
                   </p>
                   <a
                     href="https://devtechnosys.com/case-study/e-commerce-qarqish.php"
                     className="link-text"
                   >
-                    View Case Study{" "}
+                    View Case Study
                     <img
                       className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
+                      src={arrow}
                       alt="Dev Technosys"
                     />
                   </a>
@@ -328,16 +290,16 @@ function Portfolio() {
                   <p>
                     Birlingo is a language learning platform mainly targeting
                     German-speaking people who want to learn different
-                    languages.{" "}
+                    languages.
                   </p>
                   <a
                     href="https://devtechnosys.com/case-study/education-application-birlingo.php"
                     className="link-text"
                   >
-                    View Case Study{" "}
+                    View Case Study
                     <img
                       className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
+                      src={arrow}
                       alt="Dev Technosys"
                     />
                   </a>
@@ -367,7 +329,7 @@ function Portfolio() {
               </figure>
               <div className="box-portfolio-img">
                 <figure>
-                  {" "}
+                  
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-8.png"
@@ -381,7 +343,7 @@ function Portfolio() {
                   <h4>Simplifying Care with All-in-One Healthcare Companion</h4>
                   <p>
                     FYNDA PRO is a doctor-on-demand platform enabling users to
-                    connect with doctors to offer different services.{" "}
+                    connect with doctors to offer different services.
                   </p>
                   <a
                     href="https://devtechnosys.com/case-study/healthcare-application-fynda-pro.php"
@@ -390,7 +352,7 @@ function Portfolio() {
                     View Case Study
                     <img
                       className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
+                      src={arrow}
                       alt="Dev Technosys"
                     />
                   </a>
@@ -411,7 +373,7 @@ function Portfolio() {
               </figure>
               <div className="box-portfolio-img">
                 <figure>
-                  {" "}
+                  
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-9.png"
@@ -435,7 +397,7 @@ function Portfolio() {
                     View Case Study
                     <img
                       className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
+                      src={arrow}
                       alt="Dev Technosys"
                     />
                   </a>
@@ -456,7 +418,7 @@ function Portfolio() {
               </figure>
               <div className="box-portfolio-img">
                 <figure>
-                  {" "}
+                  
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-10.png"
@@ -473,7 +435,7 @@ function Portfolio() {
                   <p>
                     The multi-parking mobile application is an online platform
                     where customers search the nearby valet and send requests to
-                    park a car.{" "}
+                    park a car.
                   </p>
                   <a
                     href="https://devtechnosys.com/case-study/parking-booking-app-multipark-valet.php"
@@ -482,7 +444,7 @@ function Portfolio() {
                     View Case Study
                     <img
                       className="lazyload"
-                      src="images/2023/porfolio/arrow-up.png"
+                      src={arrow}
                       alt="Dev Technosys"
                     />
                   </a>
@@ -490,8 +452,9 @@ function Portfolio() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
+  
     </div>
   );
 }

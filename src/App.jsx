@@ -42,6 +42,7 @@ import FooterCopyright from "./components/FooterCopyright";
 // Additional Pages
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import Pricing from "./pages/Pricing";
 // import Other from "./pages/Other";
 
 function App() {
@@ -89,6 +90,7 @@ function App() {
 
               {/* Portfolio Route */}
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/pricing" element={<Pricing />} />
 
               {/* Other Route */}
               {/* <Route path="/other" element={<Other />} /> */}

@@ -1,31 +1,43 @@
-import React from "react";
-import logo from '../assets/images/logo-cmmi.png'
-import logowhite from '../assets/images/logo-cmmi-white.png'
-import quoteicon from '../assets/images/quote-icon.svg'
-import whatsappicon from '../assets/images/whatsapp.svg'
-import menu from '../assets/images/menu.svg'
+import React, { useEffect } from "react";
+import logo from "../assets/images/logo-cmmi.png";
+import logowhite from "../assets/images/logo-cmmi-white.png";
+import quoteicon from "../assets/images/quote-icon.svg";
+import whatsappicon from "../assets/images/whatsapp.svg";
+import menu from "../assets/images/menu.svg";
 import { Link } from "react-router-dom";
 
-
 function Navbar() {
+  useEffect(() => {
+    // Mobile Menu Toggle
+    const menuIcon = document.querySelector(".menu-icon");
+    const navListMain = document.querySelector(".navlist-main");
+
+    const toggleMenu = () => {
+      if (navListMain) {
+        navListMain.classList.toggle("show");
+      }
+    };
+
+    if (menuIcon) {
+      menuIcon.addEventListener("click", toggleMenu);
+    }
+
+    // Cleanup
+    return () => {
+      if (menuIcon) {
+        menuIcon.removeEventListener("click", toggleMenu);
+      }
+    };
+  }, []);
+
   return (
     <header className="full-header lazyload ">
       <div className="nav-left">
         <div className="branding-logo lazyload">
-          <a className="lazyload" href="https://devtechnosys.com/">
-            {/* <img class="lazyload logo-b" src="images-2023/common/logo-cm.png" alt="Dev Logo"/>
-    <img class="lazyload logo-w" src="images-2023/common/logo-cm-w.png" alt="Dev Logo"/> */}
-            <img
-              className="lazyload logo-b"
-              src={logo}
-              alt="Dev Logo"
-            />
-            <img
-              className="lazyload logo-w"
-              src={logowhite}
-              alt="Dev Logo"
-            />
-          </a>
+          <Link to="/" className="lazyload">
+            <img className="lazyload logo-b" src={logo} alt="Dev Logo" />
+            <img className="lazyload logo-w" src={logowhite} alt="Dev Logo" />
+          </Link>
         </div>
         <nav className="nav-list">
           <button className="menu-icon" style={{ display: "none" }}>
@@ -55,103 +67,32 @@ function Navbar() {
           <div className="navlist-main">
             <ul className="navlist">
               <li>
-                <Link to='/about' >About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a
+                <Link
+                  to="/pricing"
                   className=" price-btn lazyload"
                   href="https://devtechnosys.com/calculate-it-project-cost.php"
                 >
                   <span className="price-text">Pricing</span>
-                </a>
+                </Link>
               </li>
-              <li>
+              {/* <li>
                 <div className="resourcesBox lazyload">
                   <a href="javascript:;" className=" mar-left0 lazyload">
                     Resources
                   </a>
                   <div className="resourcesDropdownBg lazyload">
                     <ul className="lazyload">
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/stories.php"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          Web Stories
-                        </a>
-                      </li>
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/app-of-the-week.php"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          App of the week
-                        </a>
-                      </li>
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/top-platforms.php"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          Top Platforms
-                        </a>
-                      </li>
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/insights/"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          Insight
-                        </a>
-                      </li>
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/press-release.php"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          Press Release
-                        </a>
-                      </li>
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/guide.php"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          Guide
-                        </a>
-                      </li>
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/data.php"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          Data
-                        </a>
-                      </li>
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/business-model.php"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          Business Model
-                        </a>
-                      </li>
-                      <li className="lazyload">
-                        <a
-                          href="https://devtechnosys.com/resources.php"
-                          className="lets-btn mar-left0 lazyload"
-                        >
-                          Resources
-                        </a>
-                      </li>
                     </ul>
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li>
-                <Link to='/portfolio' >Portfolio</Link>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://devtechnosys.com/insights/demo-video/">
                   Demo Video
                 </a>
@@ -160,7 +101,7 @@ function Navbar() {
                 <a href="https://devtechnosys.com/video-consultations-for-it-services.php">
                   Video Consulting
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
@@ -201,11 +142,7 @@ function Navbar() {
                 className="header-btn menu-bg lazyload"
                 title="menu"
               >
-                <img
-                  className="lazyload"
-                  src={menu}
-                  alt="Dev Menu"
-                />
+                <img className="lazyload" src={menu} alt="Dev Menu" />
               </a>
             </div>
             <a
