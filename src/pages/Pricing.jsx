@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import "./price.css";
 import "./cta.css";
-import "../assets/css/common.css"
+import "../assets/css/common.css";
 import icon1 from "../assets/images/project-icon-1.png";
 import icon2 from "../assets/images/client-icon.png";
 import img1 from "../assets/images/portrait-happy.png";
 import shape2 from "../assets/images/shape-2.png";
 import shape1 from "../assets/images/shape-1.png";
 import WarningModal from "./WarningModal";
+import LookingFor from "./LookingFor";
+import CostEstimation from "./CostEstimation";
+
 
 function Pricing() {
   const [currentStep, setCurrentStep] = useState(1);
@@ -19,49 +22,59 @@ function Pricing() {
     app_stack: [],
     ui_stack: [],
     screen_stack: [],
-    urgency_stack: []
+    urgency_stack: [],
   });
 
   const [contactForm, setContactForm] = useState({
-    fullName: '',
-    email: '',
-    phone: '',
-    description: ''
+    fullName: "",
+    email: "",
+    phone: "",
+    description: "",
   });
 
   const validateStep = (step) => {
     switch (step) {
       case 1:
         if (formData.tech_stack.length === 0) {
-          setWarningMessage("Please select at-least one technology stack for further steps.");
+          setWarningMessage(
+            "Please select at-least one technology stack for further steps."
+          );
           setShowWarning(true);
           return false;
         }
         break;
       case 2:
         if (formData.app_stack.length === 0) {
-          setWarningMessage("Please select at-least one app type for further steps.");
+          setWarningMessage(
+            "Please select at-least one app type for further steps."
+          );
           setShowWarning(true);
           return false;
         }
         break;
       case 3:
         if (formData.ui_stack.length === 0) {
-          setWarningMessage("Please select at-least one UI type for further steps.");
+          setWarningMessage(
+            "Please select at-least one UI type for further steps."
+          );
           setShowWarning(true);
           return false;
         }
         break;
       case 4:
         if (formData.screen_stack.length === 0) {
-          setWarningMessage("Please select number of screens for further steps.");
+          setWarningMessage(
+            "Please select number of screens for further steps."
+          );
           setShowWarning(true);
           return false;
         }
         break;
       case 5:
         if (formData.urgency_stack.length === 0) {
-          setWarningMessage("Please select your development urgency for further steps.");
+          setWarningMessage(
+            "Please select your development urgency for further steps."
+          );
           setShowWarning(true);
           return false;
         }
@@ -72,19 +85,19 @@ function Pricing() {
 
   const handleInputChange = (e, category) => {
     const { value, checked } = e.target;
-    setFormData(prevState => ({
+    setFormData((prevState) => ({
       ...prevState,
       [category]: checked
         ? [...prevState[category], value]
-        : prevState[category].filter(item => item !== value)
+        : prevState[category].filter((item) => item !== value),
     }));
   };
 
   const handleContactFormChange = (e) => {
     const { name, value } = e.target;
-    setContactForm(prev => ({
+    setContactForm((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -114,7 +127,10 @@ function Pricing() {
 
   const handleStepClick = (step) => {
     // Can only navigate to completed steps or next step
-    if (step < currentStep || (step === currentStep + 1 && validateStep(currentStep))) {
+    if (
+      step < currentStep ||
+      (step === currentStep + 1 && validateStep(currentStep))
+    ) {
       setCurrentStep(step);
     }
   };
@@ -122,14 +138,19 @@ function Pricing() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Validate contact form
-    if (!contactForm.fullName || !contactForm.email || !contactForm.phone || !contactForm.description) {
+    if (
+      !contactForm.fullName ||
+      !contactForm.email ||
+      !contactForm.phone ||
+      !contactForm.description
+    ) {
       setWarningMessage("Please fill in all required fields.");
       setShowWarning(true);
       return;
     }
     console.log("Final submission:", {
       ...formData,
-      contact: contactForm
+      contact: contactForm,
     });
     // Here you can send the data to your backend
   };
@@ -142,9 +163,17 @@ function Pricing() {
           <li
             key={step}
             role="presentation"
-            className={currentStep === step ? "active" : step < currentStep ? "completed" : "disabled"}
+            className={
+              currentStep === step
+                ? "active"
+                : step < currentStep
+                ? "completed"
+                : "disabled"
+            }
             onClick={() => handleStepClick(step)}
-            style={{ cursor: step <= currentStep + 1 ? 'pointer' : 'not-allowed' }}
+            style={{
+              cursor: step <= currentStep + 1 ? "pointer" : "not-allowed",
+            }}
           >
             <a
               href={`#step${step}`}
@@ -226,11 +255,13 @@ function Pricing() {
           <div className="row d-flex justify-content-center">
             <div className="col-md-12">
               <div className="wizard">
-                <div className="wizard-inner">
-                  {renderProgressSteps()}
-                </div>
+                <div className="wizard-inner">{renderProgressSteps()}</div>
                 <div className="tab-content" id="main_form">
-                  <div className={`tab-pane ${currentStep === 1 ? 'active' : ''}`} role="tabpanel" id="step1">
+                  <div
+                    className={`tab-pane ${currentStep === 1 ? "active" : ""}`}
+                    role="tabpanel"
+                    id="step1"
+                  >
                     <div className="questions-box">
                       <div className="questions-box-head text-center">
                         <h3>What Type of App You Want to Develop?</h3>
@@ -238,10 +269,22 @@ function Pricing() {
                       </div>
                       <ul className="questions-list">
                         {[
-                          { value: "Android", icon: "s1-icon1.svg", label: "Android" },
+                          {
+                            value: "Android",
+                            icon: "s1-icon1.svg",
+                            label: "Android",
+                          },
                           { value: "IOS", icon: "s1-icon2.svg", label: "iOS" },
-                          { value: "Web App", icon: "s1-icon3.svg", label: "Web App" },
-                          { value: "Hybrid (Android+IOS)", icon: "s1-icon4.svg", label: "Hybrid (Android+iOS)" }
+                          {
+                            value: "Web App",
+                            icon: "s1-icon3.svg",
+                            label: "Web App",
+                          },
+                          {
+                            value: "Hybrid (Android+IOS)",
+                            icon: "s1-icon4.svg",
+                            label: "Hybrid (Android+iOS)",
+                          },
                         ].map((item, index) => (
                           <li key={index}>
                             <label className="radio-coustom-design mr-5">
@@ -249,8 +292,12 @@ function Pricing() {
                                 type="checkbox"
                                 name="tech_stack[]"
                                 value={item.value}
-                                checked={formData.tech_stack.includes(item.value)}
-                                onChange={(e) => handleInputChange(e, 'tech_stack')}
+                                checked={formData.tech_stack.includes(
+                                  item.value
+                                )}
+                                onChange={(e) =>
+                                  handleInputChange(e, "tech_stack")
+                                }
                               />
                               <span className="checkmark" />
                               <div className="option-content">
@@ -280,7 +327,11 @@ function Pricing() {
                       </li>
                     </ul>
                   </div>
-                  <div className={`tab-pane ${currentStep === 2 ? 'active' : ''}`} role="tabpanel" id="step2">
+                  <div
+                    className={`tab-pane ${currentStep === 2 ? "active" : ""}`}
+                    role="tabpanel"
+                    id="step2"
+                  >
                     <div className="questions-box">
                       <div className="questions-box-head text-center">
                         <h3>What is Your App About?</h3>
@@ -296,7 +347,7 @@ function Pricing() {
                           { value: "E-commerce App", icon: "s2-icon6.svg" },
                           { value: "POS App", icon: "s2-icon7.svg" },
                           { value: "E-learning App", icon: "s2-icon8.svg" },
-                          { value: "Others", icon: "s2-icon9.svg" }
+                          { value: "Others", icon: "s2-icon9.svg" },
                         ].map((item, index) => (
                           <li key={index}>
                             <label className="radio-coustom-design mr-5">
@@ -304,8 +355,12 @@ function Pricing() {
                                 type="checkbox"
                                 name="app_stack[]"
                                 value={item.value}
-                                checked={formData.app_stack.includes(item.value)}
-                                onChange={(e) => handleInputChange(e, 'app_stack')}
+                                checked={formData.app_stack.includes(
+                                  item.value
+                                )}
+                                onChange={(e) =>
+                                  handleInputChange(e, "app_stack")
+                                }
                               />
                               <span className="checkmark" />
                               <div className="option-content">
@@ -353,7 +408,11 @@ function Pricing() {
                       </li>
                     </ul>
                   </div>
-                  <div className={`tab-pane ${currentStep === 3 ? 'active' : ''}`} role="tabpanel" id="step3">
+                  <div
+                    className={`tab-pane ${currentStep === 3 ? "active" : ""}`}
+                    role="tabpanel"
+                    id="step3"
+                  >
                     <div className="questions-box">
                       <div className="questions-box-head text-center">
                         <h3>What Type of UI Do You Prefer?</h3>
@@ -363,7 +422,7 @@ function Pricing() {
                         {[
                           { value: "Basic UX/UI", icon: "s3-icon1.svg" },
                           { value: "Custom UI", icon: "s3-icon2.svg" },
-                          { value: "Animated UI", icon: "s3-icon3.svg" }
+                          { value: "Animated UI", icon: "s3-icon3.svg" },
                         ].map((item, index) => (
                           <li key={index}>
                             <label className="radio-coustom-design mr-5">
@@ -372,7 +431,9 @@ function Pricing() {
                                 name="ui_stack[]"
                                 value={item.value}
                                 checked={formData.ui_stack.includes(item.value)}
-                                onChange={(e) => handleInputChange(e, 'ui_stack')}
+                                onChange={(e) =>
+                                  handleInputChange(e, "ui_stack")
+                                }
                               />
                               <span className="checkmark" />
                               <div className="option-content">
@@ -420,10 +481,16 @@ function Pricing() {
                       </li>
                     </ul>
                   </div>
-                  <div className={`tab-pane ${currentStep === 4 ? 'active' : ''}`} role="tabpanel" id="step4">
+                  <div
+                    className={`tab-pane ${currentStep === 4 ? "active" : ""}`}
+                    role="tabpanel"
+                    id="step4"
+                  >
                     <div className="questions-box">
                       <div className="questions-box-head text-center">
-                        <h3>How Many Screens Your App or Website Will Contain?</h3>
+                        <h3>
+                          How Many Screens Your App or Website Will Contain?
+                        </h3>
                         <span>(Select Atleast One Option)</span>
                       </div>
                       <ul className="questions-list">
@@ -431,7 +498,7 @@ function Pricing() {
                           { value: "5 Screens", icon: "s4-icon1.svg" },
                           { value: "5-10 Screens", icon: "s4-icon2.svg" },
                           { value: "10-15 Screens", icon: "s4-icon3.svg" },
-                          { value: "Above 15 Screens", icon: "s4-icon4.svg" }
+                          { value: "Above 15 Screens", icon: "s4-icon4.svg" },
                         ].map((item, index) => (
                           <li key={index}>
                             <label className="radio-coustom-design mr-5">
@@ -439,8 +506,12 @@ function Pricing() {
                                 type="checkbox"
                                 name="screen_stack[]"
                                 value={item.value}
-                                checked={formData.screen_stack.includes(item.value)}
-                                onChange={(e) => handleInputChange(e, 'screen_stack')}
+                                checked={formData.screen_stack.includes(
+                                  item.value
+                                )}
+                                onChange={(e) =>
+                                  handleInputChange(e, "screen_stack")
+                                }
                               />
                               <span className="checkmark" />
                               <div className="option-content">
@@ -488,7 +559,11 @@ function Pricing() {
                       </li>
                     </ul>
                   </div>
-                  <div className={`tab-pane ${currentStep === 5 ? 'active' : ''}`} role="tabpanel" id="step5">
+                  <div
+                    className={`tab-pane ${currentStep === 5 ? "active" : ""}`}
+                    role="tabpanel"
+                    id="step5"
+                  >
                     <div className="questions-box">
                       <div className="questions-box-head text-center">
                         <h3>What is Your App/Web Development Urgency?</h3>
@@ -498,7 +573,7 @@ function Pricing() {
                         {[
                           { value: "Low", icon: "s5-icon1.svg" },
                           { value: "Medium", icon: "s5-icon2.svg" },
-                          { value: "High", icon: "s5-icon3.svg" }
+                          { value: "High", icon: "s5-icon3.svg" },
                         ].map((item, index) => (
                           <li key={index}>
                             <label className="radio-coustom-design mr-5">
@@ -506,8 +581,12 @@ function Pricing() {
                                 type="checkbox"
                                 name="urgency_stack[]"
                                 value={item.value}
-                                checked={formData.urgency_stack.includes(item.value)}
-                                onChange={(e) => handleInputChange(e, 'urgency_stack')}
+                                checked={formData.urgency_stack.includes(
+                                  item.value
+                                )}
+                                onChange={(e) =>
+                                  handleInputChange(e, "urgency_stack")
+                                }
                               />
                               <span className="checkmark" />
                               <div className="option-content">
@@ -547,11 +626,17 @@ function Pricing() {
                       </li>
                     </ul>
                   </div>
-                  <div className={`tab-pane ${currentStep === 6 ? 'active' : ''}`} role="tabpanel" id="step6">
+                  <div
+                    className={`tab-pane ${currentStep === 6 ? "active" : ""}`}
+                    role="tabpanel"
+                    id="step6"
+                  >
                     <div className="form-box">
                       <div className="questions-box-head text-center">
                         <h3>Almost Done!</h3>
-                        <span>Let Us Know Where We Should Send Your Final Estimation</span>
+                        <span>
+                          Let Us Know Where We Should Send Your Final Estimation
+                        </span>
                       </div>
                       <form onSubmit={handleSubmit} className="mt-8 space-y-4">
                         <div className="form-group">
@@ -612,9 +697,10 @@ function Pricing() {
           </div>
         </div>
       </section>
+      <LookingFor />
+      <CostEstimation />
     </div>
   );
 }
 
 export default Pricing;
-
