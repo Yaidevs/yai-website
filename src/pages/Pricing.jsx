@@ -10,6 +10,8 @@ import shape1 from "../assets/images/shape-1.png";
 import WarningModal from "./WarningModal";
 import LookingFor from "./LookingFor";
 import CostEstimation from "./CostEstimation";
+import LookingFor2 from "./LookingFor2";
+import Testinomials from "./Testimonials";
 
 
 function Pricing() {
@@ -699,6 +701,8 @@ function Pricing() {
       </section>
       <LookingFor />
       <CostEstimation />
+      <LookingFor2/>
+      <Testinomials/>
     </div>
   );
 }
