@@ -48,7 +48,7 @@ import Pricing from "./pages/Pricing";
 function App() {
   return (
     <Router>
-      <div className="site_content lazyload">
+      <div className="site_content overflow-hidden lazyload">
         <div className="page-warper">
           <Navbar />
           <main>

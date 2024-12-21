@@ -70,8 +70,7 @@ function Navbar() {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link
-                  to="/pricing"
+                <Link to='/pricing'
                   className=" price-btn lazyload"
                   href="https://devtechnosys.com/calculate-it-project-cost.php"
                 >
