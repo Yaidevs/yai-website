@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaTrophy } from 'react-icons/fa';
+import img1 from '../assets/images/hero-img1-women.jpg'
 
 function Hero() {
   return (
@@ -28,7 +29,7 @@ function Hero() {
             </div>
             <div className="hero-grid p-4">
               <div className="hero-image-wrapper">
-                <img src="/placeholder.jpg" alt="Person with laptop" className="hero-image" />
+                <img src={img1} alt="Person with laptop" className="hero-image" />
               </div>
               <div className="hero-image-wrapper">
                 <img src="/placeholder.jpg" alt="Person with phone" className="hero-image" />

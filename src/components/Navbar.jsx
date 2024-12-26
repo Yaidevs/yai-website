@@ -35,8 +35,10 @@ function Navbar() {
       <div className="nav-left">
         <div className="branding-logo lazyload">
           <Link to="/" className="lazyload">
-            <img className="lazyload logo-b" src={logo} alt="Dev Logo" />
-            <img className="lazyload logo-w" src={logowhite} alt="Dev Logo" />
+
+            <h1 className=" text-2xl border-red-500"> <span className="text-gray-600 font-bold text-4xl">YAI   </span> SOFTWARE TECHNOLOGY PLC</h1>
+            {/* <img className="lazyload logo-b" src={logo} alt="Dev Logo" /> */}
+            {/* <img className="lazyload logo-w" src={logowhite} alt="Dev Logo" /> */}
           </Link>
         </div>
         <nav className="nav-list">
