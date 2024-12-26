@@ -1,5 +1,4 @@
 import React from "react";
-import '../assets/css/home.css'
 function BoostBusiness() {
   return (
     <section className="cta-black space-comm">
