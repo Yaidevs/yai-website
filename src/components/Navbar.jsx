@@ -35,8 +35,13 @@ function Navbar() {
       <div className="nav-left">
         <div className="branding-logo lazyload">
           <Link to="/" className="lazyload">
-
-            <h1 className=" text-2xl border-red-500"> <span className="text-gray-600 font-bold text-4xl">YAI   </span> SOFTWARE TECHNOLOGY PLC</h1>
+            <h1 className=" text-2xl border-red-500">
+              {" "}
+              <span className="text-gray-600 font-bold text-4xl">
+                YAI{" "}
+              </span>{" "}
+              SOFTWARE TECHNOLOGY PLC
+            </h1>
             {/* <img className="lazyload logo-b" src={logo} alt="Dev Logo" /> */}
             {/* <img className="lazyload logo-w" src={logowhite} alt="Dev Logo" /> */}
           </Link>
@@ -72,7 +77,8 @@ function Navbar() {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to='/pricing'
+                <Link
+                  to="/pricing"
                   className=" price-btn lazyload"
                   href="https://devtechnosys.com/calculate-it-project-cost.php"
                 >
@@ -111,7 +117,7 @@ function Navbar() {
         <nav className="navbar lazyload">
           <div className="right-nav-bt lazyload">
             <div className="icon-box">
-              <a
+              {/* <a
                 className="header-btn quote-bg lazyload get-consultant"
                 href="javascript:;"
                 title="Let's talk"
@@ -144,7 +150,7 @@ function Navbar() {
                 title="menu"
               >
                 <img className="lazyload" src={menu} alt="Dev Menu" />
-              </a>
+              </a> */}
             </div>
             <a
               href="https://devtechnosys.com/request-a-quote.php"
