@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function FeatureSection() {
   return (
     <section className="our-keyfetures space-comm">
@@ -29,7 +28,7 @@ function FeatureSection() {
               <p>
                 Time is money. At Dev Technosys, we value every client’s time;
                 hence, our team makes sure to deliver the project within the
-                promised deadline.
+                promised deadline.{" "}
               </p>
             </figcaption>
           </div>

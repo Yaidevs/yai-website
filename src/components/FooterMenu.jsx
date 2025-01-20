@@ -9,63 +9,42 @@ function FooterMenu() {
             <h4 className="footer-tit lazyload">Quick links</h4>
             <ul className="footer-menu lazyload">
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/about.php"
-                >
+                <a className="lazyload" href=".">
                   About Us
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/portfolio.php"
-                >
+                <a className="lazyload" href=".">
                   Portfolio
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/contact.php"
-                >
+                <a className="lazyload" href=".">
                   Contact Us
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/insights/"
-                >
+                <a className="lazyload" href=".">
                   Insights
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/testimonials.php"
-                >
+                <a className="lazyload" href=".">
                   Testimonials
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/careers.php"
-                >
+                <a className="lazyload" href=".">
                   Careers
                 </a>
               </li>
               <li className="lazyload">
-                <a className="lazyload" href="https://devtechnosys.com/faq.php">
+                <a className="lazyload" href=".">
                   FAQ
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/sitemap.php"
-                >
+                <a className="lazyload" href=".">
                   Sitemap
                 </a>
               </li>
@@ -75,74 +54,47 @@ function FooterMenu() {
             <h4 className="footer-tit lazyload">Our services</h4>
             <ul className="footer-menu lazyload">
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/mobile-app-development.php"
-                >
+                <a className="lazyload" href=".">
                   Mobile Application Development
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/iot-development.php"
-                >
+                <a className="lazyload" href=".">
                   IOT Application Development
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/blockchain-development-company.php"
-                >
+                <a className="lazyload" href=".">
                   Blockchain Development
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/pos-software-development.php"
-                >
+                <a className="lazyload" href=".">
                   POS Development Solution
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/artificial-intelligence-development.php"
-                >
+                <a className="lazyload" href=".">
                   AI Development
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/ico-development-company.php"
-                >
+                <a className="lazyload" href=".">
                   ICO Development
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/custom-web-development.php"
-                >
+                <a className="lazyload" href=".">
                   Custom Web Development
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/mobile-app-development-cost.php"
-                >
+                <a className="lazyload" href=".">
                   Mobile App Development Cost
                 </a>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/web3-development.php"
-                >
+                <a className="lazyload" href=".">
                   Web3 Development
                 </a>
               </li>

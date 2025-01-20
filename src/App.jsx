@@ -73,8 +73,8 @@ function App() {
                     <OurApp4 />
                     <DiscussYourProject />
                     <Testimonials />
-                    <CaseStudies />
-                    <Faq />
+                    {/* <CaseStudies /> */}
+                    {/* <Faq /> */}
                     <div>
                       <Blogs />
                       <GetFreeQuote />
