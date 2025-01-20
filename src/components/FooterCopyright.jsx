@@ -6,7 +6,7 @@ function FooterCopyright() {
       <div className="container lazyload">
         <div className="footer-copyright-in d-flex lazyload">
           <span className="lazyload">
-            Copyright © 2024 devtechnosys.com. All Rights Reserved
+            Copyright © 2024 yaidevs.com. All Rights Reserved
           </span>
           {/* <img class="lazyload" data-src="images/2021-new/dmca_premi_badge_5.jpg" alt="Dev Technosys" width="135" height="28"> */}
           <ul className="lazyload">

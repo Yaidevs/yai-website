@@ -32,7 +32,7 @@ import Faq from "./components/Faq";
 import Blogs from "./components/Blogs";
 import GetFreeQuote from "./components/GetFreeQuote";
 import Honour from "./components/Honour";
-import OurOffices from "./components/OurOffices";
+// import OurOffices from "./components/OurOffices";
 import NewsLetter from "./components/NewsLetter";
 import ServingFooter from "./components/ServingFooter";
 import FooterMenu from "./components/FooterMenu";
@@ -79,7 +79,7 @@ function App() {
                       <Blogs />
                       <GetFreeQuote />
                       <Honour />
-                      <OurOffices />
+                      {/* <OurOffices /> */}
                     </div>
                   </>
                 }

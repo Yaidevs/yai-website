@@ -1,4 +1,12 @@
 import React from "react";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaLinkedinIn,
+  FaYoutubeSquare,
+} from "react-icons/fa";
+import { PiStarThin } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 function FooterSocial() {
   return (
@@ -13,13 +21,7 @@ function FooterSocial() {
                   target="_blank"
                   rel="nofollow"
                 >
-                  <img
-                    className="lazyload"
-                    data-src="https://devtechnosys.com/images-2023/common/facebook.svg"
-                    alt="Dev Technosys"
-                    width={21}
-                    height={21}
-                  />
+                  <FaFacebookSquare size={40} color="white" />
                 </a>
               </li>
               <li>
@@ -28,13 +30,7 @@ function FooterSocial() {
                   target="_blank"
                   rel="nofollow"
                 >
-                  <img
-                    className="lazyload"
-                    data-src="https://devtechnosys.com/images-2023/common/youtube.svg"
-                    alt="Dev Technosys"
-                    width={24}
-                    height={19}
-                  />
+                  <FaYoutubeSquare size={40} color="white" />
                 </a>
               </li>
               <li>
@@ -43,76 +39,19 @@ function FooterSocial() {
                   target="_blank"
                   rel="nofollow"
                 >
-                  <img
-                    className="lazyload"
-                    data-src="https://devtechnosys.com/images-2023/common/twitter.svg"
-                    alt="Dev Technosys"
-                    width={24}
-                    height={20}
-                  />
+                  <FaInstagramSquare size={40} color="white" />
                 </a>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.instagram.com/devtechnosys/"
                   target="_blank"
                   rel="nofollow"
                 >
-                  <img
-                    className="lazyload"
-                    data-src="https://devtechnosys.com/images-2023/common/instagram.svg"
-                    alt="Dev Technosys"
-                    width={24}
-                    height={24}
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://in.pinterest.com/devtechnosys/_created/"
-                  target="_blank"
-                  rel="nofollow"
-                >
-                  <img
-                    className="lazyload"
-                    data-src="https://devtechnosys.com/images-2023/common/pinterest.svg"
-                    alt="Dev Technosys"
-                    width={24}
-                    height={24}
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/company/3057818/"
-                  target="_blank"
-                  rel="nofollow"
-                >
-                  <img
-                    className="lazyload"
-                    data-src="https://devtechnosys.com/images-2023/common/linkedin.svg"
-                    alt="Dev Technosys"
-                    width={21}
-                    height={21}
-                  />
-                </a>
+                  <FaLinkedinIn size={40} color="white" />
+                </Link>
               </li>
             </ul>
-            <a
-              href="//www.dmca.com/Protection/Status.aspx?ID=4727914d-7c19-457d-bef6-b66cdc573de5"
-              title="DMCA.com Protection Status"
-              target="_blank"
-              className="dmca-badge lazyload"
-              rel="nofollow"
-            >
-              <img
-                className="lazyload"
-                src="images/_dmca_premi_badge_4.png"
-                width={135}
-                height={28}
-                alt="DMCA.com Protection Status"
-              />
-            </a>
           </div>
           <div className="rating-star lazyload">
             <span className="rating-tag">

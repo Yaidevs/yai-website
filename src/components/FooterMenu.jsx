@@ -222,7 +222,7 @@ function FooterMenu() {
               <h4 className="footer-tit lazyload">Get in touch</h4>
               <ul className="get-in-info lazyload">
                 <li className="lazyload">
-                  <span className="lazyload">Sales :</span>{" "}
+                  <span className="lazyload">Email :</span>{" "}
                   <a
                     className="lazyload"
                     href="/cdn-cgi/l/email-protection#f39a9d959cb39796858796909b9d9c808a80dd909c9e"
@@ -231,12 +231,12 @@ function FooterMenu() {
                       className="__cf_email__"
                       data-cfemail="e48d8a828ba48081929081878c8a8b979d97ca878b89"
                     >
-                      [email�&nbsp;protected]
+                      barnaan@gmail.com
                     </span>
                   </a>
                 </li>
                 <li className="lazyload">
-                  <span className="lazyload">Sales UAE :</span>{" "}
+                  <span className="lazyload">Phone Number :</span>{" "}
                   <a
                     className="lazyload"
                     href="/cdn-cgi/l/email-protection#31585f575e71555447455452595f5e4248421f5054"
@@ -245,44 +245,18 @@ function FooterMenu() {
                       className="__cf_email__"
                       data-cfemail="61080f070e21050417150402090f0e1218124f0004"
                     >
-                      [email�&nbsp;protected]
+                      0948952757
                     </span>
-                  </a>
-                </li>
-                <li className="lazyload">
-                  <span className="lazyload">Career With Us :</span>{" "}
-                  <a
-                    className="lazyload"
-                    href="/cdn-cgi/l/email-protection#f59d87b59190838190969d9b9a868c86db969a98"
-                  >
-                    <span
-                      className="__cf_email__"
-                      data-cfemail="6f071d2f0b0a191b0a0c0701001c161c410c0002"
-                    >
-                      [email�&nbsp;protected]
-                    </span>
-                  </a>
-                </li>
-                <li className="lazyload">
-                  <span className="lazyload">Sales :</span>{" "}
-                  <a className="lazyload" href="tel:+1 415-992-5493">
-                    +1 415-992-5493
-                  </a>{" "}
-                  ,
-                  <a className="lazyload" href="tel:+44 20 8638 7669">
-                    +44 20 8638 7669
                   </a>
                 </li>
                 <li className="lazyload">
                   <span className="lazyload">HR :</span>{" "}
                   <a className="lazyload" href="tel:+91 141-4107667">
-                    +91 141-4107667
+                    +251948952757
                   </a>
                 </li>
                 <li className="lazyload">
-                  <span className="lazyload">HQ :</span> B-11-12, Lal Bahadur
-                  Nagar, Sector 9 <br />
-                  Malviya Nagar, Jaipur, Rajasthan - INDIA 302017
+                  <span className="lazyload">HQ :</span>Ethiopia ,Oromia ,Jimma
                 </li>
               </ul>
             </div>
