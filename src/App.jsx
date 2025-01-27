@@ -43,6 +43,7 @@ import FooterCopyright from "./components/FooterCopyright";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Pricing from "./pages/Pricing";
+import NewTestimonials from "./components/NewTestimonials";
 // import Other from "./pages/Other";
 
 function App() {
@@ -66,13 +67,14 @@ function App() {
                     <FeatureSection />
                     <GainUpperEdge />
                     <ServingAll />
-                    <Industries />
+                    {/* <Industries /> */}
                     <OurApp1 />
                     <OurApp2 />
                     <OurApp3 />
-                    <OurApp4 />
+                    {/* <OurApp4 /> */}
                     <DiscussYourProject />
-                    <Testimonials />
+                    <NewTestimonials />
+                    {/* <Testimonials /> */}
                     {/* <CaseStudies /> */}
                     {/* <Faq /> */}
                     <div>

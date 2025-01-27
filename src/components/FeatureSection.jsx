@@ -1,143 +1,52 @@
-import React from "react";
+import { Clock, Target, Users, Headphones, GitBranch } from "lucide-react";
+import FeatureCard from "./FeatureCard";
 
-function FeatureSection() {
+export default function FeaturesSection() {
   return (
-    <section className="our-keyfetures space-comm">
-      <div className="container">
-        <div className="title-head text-center">
-          <small className="green-tag">OUR FEATURES</small>
-          <h2>Why Choose Dev Technosys?</h2>
-          <p>
-            Here’s a glimpse of the result-oriented services that make us the
-            top web and mobile app development company.
-          </p>
-        </div>
+    <div className="w-full px-4 py-12 md:py-16">
+      <div className="text-center mb-12">
+        <p className="text-green-500 font-medium mb-2">OUR FEATURES</p>
+        <h2 className="text-[32px] font-bold text-[#1a237e] mb-4">
+          Why Choose Yai Software Technologies?
+        </h2>
+        <p className="text-gray-600 max-w-3xl mx-auto">
+          Here's a glimpse of the result-oriented services that make us the top
+          web and mobile app development company.
+        </p>
       </div>
-      <div className="our-keyfetures-list">
-        <div className="owl-carousel owl-theme keyfetures-owl">
-          <div className="item">
-            <figure className="orange-bg-box">
-              <img
-                className="lazyload"
-                alt="Time Delivery"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-6.svg"
-              />
-            </figure>
-            <figcaption>
-              <h3>Timely Delivery</h3>
-              <p>
-                Time is money. At Dev Technosys, we value every client’s time;
-                hence, our team makes sure to deliver the project within the
-                promised deadline.{" "}
-              </p>
-            </figcaption>
-          </div>
-          <div className="item">
-            <figure className="green-bg-box">
-              <img
-                className="lazyload"
-                alt="Top Work Quality"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-7.svg"
-              />
-            </figure>
-            <figcaption>
-              <h3>Top Work Quality</h3>
-              <p>
-                We never compromise with the work quality and ensure to deliver
-                top quality work adhering to the business needs and project
-                requirements.{" "}
-              </p>
-            </figcaption>
-          </div>
-          <div className="item">
-            <figure className="blue-bg-box">
-              <img
-                className="lazyload"
-                alt="Dedicated Team"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-1.svg"
-              />
-            </figure>
-            <figcaption>
-              <h3>Dedicated Team</h3>
-              <p>
-                Whether you want to develop a website or mobile application, we
-                have a dedicated team for all. Share your requirements with our
-                experts!
-              </p>
-            </figcaption>
-          </div>
-          <div className="item">
-            <figure className="purple-bg-box">
-              <img
-                className="lazyload"
-                alt="24*7 Support"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-2.svg"
-              />
-            </figure>
-            <figcaption>
-              <h3>24*7 Support</h3>
-              <p>
-                It doesn’t matter what time or day it is; Dev Technosys customer
-                support is there to assist you with the best services and
-                resolve concerns instantly.{" "}
-              </p>
-            </figcaption>
-          </div>
-          <div className="item">
-            <figure className="pink-bg-box">
-              <img
-                className="lazyload"
-                alt="Agile Development"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-3.svg"
-              />
-            </figure>
-            <figcaption>
-              <h3>Agile Development</h3>
-              <p>
-                We always follow an agile development approach that helps us
-                deliver the project with the utmost quality. Get reliable and
-                scalable business solutions.
-              </p>
-            </figcaption>
-          </div>
-          <div className="item">
-            <figure className="orange-bg-box">
-              <img
-                className="lazyload"
-                alt="Cost-effective Solutions"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-4.svg"
-              />
-            </figure>
-            <figcaption>
-              <h3>Cost-effective Solutions</h3>
-              <p>
-                At Dev Technosys, we always value hard-earned money and also
-                understand budget concerns. So, we offer reasonable mobile and
-                web development services.
-              </p>
-            </figcaption>
-          </div>
-          <div className="item">
-            <figure className="orange-bg-box">
-              <img
-                className="lazyload"
-                alt="User-centric Development"
-                data-src="https://devtechnosys.com/images-2023/home/slide-icon-5.svg"
-              />
-            </figure>
-            <figcaption>
-              <h3>User-centric Development</h3>
-              <p>
-                An application, website, or software is nothing if it is not
-                user-friendly. Considering this, Dev Technosys always offers
-                user-centric development assistance.
-              </p>
-            </figcaption>
-          </div>
-        </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 max-h-[600px] overflow-y-auto scrollbar-hide">
+        <FeatureCard
+          Icon={Clock}
+          title="Timely Delivery"
+          description="Time is money. At Dev Technosys, we value every client's time; hence, our team makes sure to deliver the project within the promised deadline."
+          iconColor="bg-[#FFA726]"
+        />
+        <FeatureCard
+          Icon={Target}
+          title="Top Work Quality"
+          description="We never compromise with the work quality and ensure to deliver top quality work adhering to the business needs and project requirements."
+          iconColor="bg-[#66BB6A]"
+        />
+        <FeatureCard
+          Icon={Users}
+          title="Dedicated Team"
+          description="Whether you want to develop a website or mobile application, we have a dedicated team for all. Share your requirements with our experts!"
+          iconColor="bg-[#4DD0E1]"
+        />
+        <FeatureCard
+          Icon={Headphones}
+          title="24*7 Support"
+          description="It doesn't matter what time or day it is; Dev Technosys customer support is there to assist you with the best services and resolve concerns instantly."
+          iconColor="bg-[#7C4DFF]"
+        />
+        <FeatureCard
+          Icon={GitBranch}
+          title="Agile Development"
+          description="We always follow an agile development approach that helps us deliver the project with the utmost quality. Get reliable and scalable business solutions."
+          iconColor="bg-[#EC407A]"
+        />
       </div>
-    </section>
+    </div>
   );
 }
-
-export default FeatureSection;

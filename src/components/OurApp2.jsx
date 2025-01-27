@@ -5,9 +5,7 @@ function OurApp2() {
     <section className="blog-box odd-blog">
       <div className="blog-img-content">
         <div className="title-head text-left">
-          <span className="text-black">Mindbodyonline Franchise </span>
-          <span>Management Software Development</span>
-          <h2 className="text-black">Mind Body Online</h2>
+          <h2 className="text-black">GibiInfo</h2>
           <p className="text-black">
             Connecting the world to wellness- Mindbodyonline
           </p>
@@ -23,7 +21,7 @@ function OurApp2() {
           <img
             className="lazyload"
             alt="blog"
-            data-src="https://devtechnosys.com/images-2023/home/blog-img-2.webp"
+            data-src="https://img.freepik.com/free-photo/glad-student-has-curly-hair-holds-notebook-uses-mobile-phone-surfing-internet-reads-ideas-project-dressed-casually-poses-outdoors_273609-55627.jpg?t=st=1737968418~exp=1737972018~hmac=9ff41f741f9ed22a21d1375245913406686be52fee67afb64441913361b1d723&w=740"
           />
         </figure>
         <div className="blog-mob-box green-shadow">
@@ -31,7 +29,7 @@ function OurApp2() {
             <img
               className="lazyload"
               alt="mob"
-              data-src="https://devtechnosys.com/images-2023/home/mob-2.webp"
+              data-src="https://firebasestorage.googleapis.com/v0/b/dawaafinder-files.appspot.com/o/yai-pictures%2FScreenshot_20250122-003751.jpg?alt=media&token=2359ca48-281b-4cf5-addb-0e88d24ae5e0"
             />
           </figure>
         </div>
