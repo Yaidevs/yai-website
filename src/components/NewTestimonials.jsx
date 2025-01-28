@@ -51,7 +51,7 @@ export default function NewTestimonials() {
           <h2 className="text-4xl font-bold text-[#1a237e] mb-6">
             Our clients simply love our work
           </h2>
-          <button className="inline-flex items-center px-6 py-2.5 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors">
+          <button className="inline-flex items-center px-6 py-2.5 bg-[#1c6aa3] text-white rounded-md hover:bg-purple-700 transition-colors">
             VIEW ALL
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -70,7 +70,7 @@ function Blogs() {
             <figure className="lazyload">
               <img
                 className="lazyload"
-                data-src="https://devtechnosys.com/images/2024/blog/blog1.webp"
+                data-src="https://as1.ftcdn.net/jpg/01/58/67/82/1000_F_158678282_Bz7KIm8bRFWDHZyvlIMLjuqmue56tOMu.webp"
                 alt="How to Create Order Management Software in 2024"
                 width={370}
                 height={181}
@@ -109,7 +109,7 @@ function Blogs() {
             <figure className="lazyload">
               <img
                 className="lazyload"
-                data-src="https://devtechnosys.com/images/2024/blog/blog2.png"
+                data-src="https://as1.ftcdn.net/jpg/01/58/67/82/1000_F_158678282_Bz7KIm8bRFWDHZyvlIMLjuqmue56tOMu.webp"
                 alt="How To Develop An App Like Wechat?"
                 width={370}
                 height={181}
@@ -148,7 +148,7 @@ function Blogs() {
             <figure className="lazyload">
               <img
                 className="lazyload"
-                data-src="https://devtechnosys.com/images/2024/blog/blog3.png"
+                data-src="https://as1.ftcdn.net/jpg/01/58/67/82/1000_F_158678282_Bz7KIm8bRFWDHZyvlIMLjuqmue56tOMu.webp"
                 alt="Top Soap2Day Alternatives"
                 width={370}
                 height={181}

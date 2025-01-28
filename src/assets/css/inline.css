@@ -701,7 +701,7 @@ body .paddBot20 {
 }
 .common-btn {
   height: 45px;
-  background: #184c4c;
+  background: #1c6aa3;
   border-radius: 15px;
   padding: 10px 15px;
   display: inline-flex;
@@ -724,7 +724,7 @@ body .paddBot20 {
   margin-top: 40px;
 }
 .purple-btn {
-  background: #184c4c;
+  background: #1c6aa3;
 }
 .common-btn.purple-btn svg path {
   stroke: #fff;

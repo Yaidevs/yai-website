@@ -7,13 +7,13 @@ function BoostBusiness() {
           <div className="cta-content-r">
             <div className="title-head text-left">
               <h2 className="text-white">
-                Boost Your Business Growth with T1 op-notch Mobile App
-                Development Services!
+                Boost Your Business Growth with Top Mobile App Development
+                Services!
               </h2>
               <p className="text-white">
                 Are you looking for the right place to kickstart a digital
-                business journey? Look no further than Dev Technosys. Accomplish
-                your business dream with us!
+                business journey? Look no further than Yai Software Technology.
+                Accomplish your business dream with us!
               </p>
               <div className="btn-group-box">
                 <a

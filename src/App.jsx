@@ -73,14 +73,14 @@ function App() {
                     <OurApp3 />
                     {/* <OurApp4 /> */}
                     <DiscussYourProject />
-                    <NewTestimonials />
+                    {/* <NewTestimonials /> */}
                     {/* <Testimonials /> */}
                     {/* <CaseStudies /> */}
                     {/* <Faq /> */}
                     <div>
                       <Blogs />
-                      <GetFreeQuote />
-                      <Honour />
+                      {/* <GetFreeQuote /> */}
+                      {/* <Honour /> */}
                       {/* <OurOffices /> */}
                     </div>
                   </>
