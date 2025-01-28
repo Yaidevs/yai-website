@@ -538,7 +538,7 @@
   display: flex;
   align-items: center;
   padding-right: 100px;
-  width: 40%;
+  width: 90%;
   justify-content: flex-end;
 }
 .blog-mob-box figure {
@@ -571,6 +571,7 @@
   justify-content: flex-start;
   left: 0;
   padding-left: 60px;
+  width: 40%;
 }
 .blog-mob-box.green-shadow {
   background: -moz-linear-gradient(

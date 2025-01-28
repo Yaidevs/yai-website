@@ -16,7 +16,7 @@ function OurApp3() {
             <img
               className="lazyload"
               alt="mob"
-              data-src="https://firebasestorage.googleapis.com/v0/b/dawaafinder-files.appspot.com/o/yai-pictures%2FScreenshot_20250115-114448.jpg?alt=media&token=9a657c2d-d71e-4eae-880f-3bb89e7f4a4b"
+              data-src="https://firebasestorage.googleapis.com/v0/b/dawaafinder-files.appspot.com/o/yai-pictures%2Fbetale%20Home%20page%20screen%20shoot.png?alt=media&token=f09fff64-a13a-4702-9d85-a51ef533ac53"
             />
           </figure>
         </div>

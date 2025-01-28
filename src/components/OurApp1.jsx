@@ -15,8 +15,8 @@ function OurApp1() {
           <figure className="">
             <img
               className="lazyload"
-              alt="mob"
-              data-src="https://firebasestorage.googleapis.com/v0/b/dawaafinder-files.appspot.com/o/yai-pictures%2FHome%20(1).jpg?alt=media&token=0e32c121-c53b-4d4f-8279-309f1856437b"
+              alt=""
+              data-src="https://firebasestorag.googleapis.com/v0/b/dawaafinder-files.appspot.com/o/yai-pictures%2FHome%20(1).jpg?alt=media&token=0e32c121-c53b-4d4f-8279-309f1856437b"
             />
           </figure>
         </div>
