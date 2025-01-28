@@ -25,10 +25,7 @@ function OurApp3() {
         <div className="title-head text-left">
           <h2 className="text-black">ቤት Ale</h2>
           <p className="text-black">
-            In hand car wash system, system mismanagement and bondage is taking
-            place. But with only anecdotal evidence and a partial understanding
-            of the problem, law enforcement needs the public’s support to map
-            this issue.
+            App designed to make finding your dream home or house effortless.
           </p>
           <div className="btn-group-box">
             <button data-dialog="modal-3" className="common-btn lazyloaded">

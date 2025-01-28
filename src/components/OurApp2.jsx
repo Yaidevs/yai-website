@@ -7,7 +7,9 @@ function OurApp2() {
         <div className="title-head text-left">
           <h2 className="text-black">GibiInfo</h2>
           <p className="text-black">
-            Connecting the world to wellness- Mindbodyonline
+            A learning app designed to help students excel in their academic
+            journey by providing a platform to practice a wide range of
+            questions.
           </p>
           <div className="btn-group-box">
             <button data-dialog="modal-2" className="common-btn lazyloaded">
