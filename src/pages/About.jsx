@@ -12,8 +12,28 @@ function About() {
     <div className="inner-warper">
       {/* Banner section */}
       <section className="about-us-main-banner-sec lazyload">
-        <div className="about-us-main-banner-content lazyload">
-          <img alt="Dev Technosys" className="lazyload" src={aboutbanner} />
+        <div
+          className="about-us-main-banner-content lazyload"
+          style={{ position: "relative" }}
+        >
+          <div
+            style={{
+              backgroundImage:
+                "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1))",
+              position: "absolute",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              zIndex: 1,
+            }}
+          />
+          <img
+            alt="Dev Technosys"
+            className="lazyload w-52"
+            src="https://media.licdn.com/dms/image/v2/D4E22AQFZAlTx4fA1vw/feedshare-shrink_1280/feedshare-shrink_1280/0/1706466254243?e=1741219200&v=beta&t=ICzNqxVOadtN5Tg3oI-YV_dHj98Vj8BeDFzjDrMSFY8"
+            style={{ position: "relative", zIndex: 0 }}
+          />
           <div className="container lazyload">
             <div className="main-heading-box lazyload">
               <h1 className="lazyload">
@@ -42,7 +62,7 @@ function About() {
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">Office Location</p>
-                  <h4 className="lazyload">5+</h4>
+                  <p className="lazyload">Jimma</p>
                 </figcaption>
               </li>
               <li className="lazyload">
@@ -55,7 +75,7 @@ function About() {
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">Team Members</p>
-                  <h4 className="lazyload">150+</h4>
+                  <h4 className="lazyload">4</h4>
                 </figcaption>
               </li>
               <li className="lazyload">
@@ -68,7 +88,7 @@ function About() {
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">Year in business</p>
-                  <h4 className="lazyload">14+</h4>
+                  <h4 className="lazyload">1 year</h4>
                 </figcaption>
               </li>
               <li className="lazyload">
@@ -81,7 +101,7 @@ function About() {
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">Clients</p>
-                  <h4 className="lazyload">600+</h4>
+                  <h4 className="lazyload">100+</h4>
                 </figcaption>
               </li>
               <li className="lazyload">
@@ -94,7 +114,7 @@ function About() {
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">App deliver</p>
-                  <h4 className="lazyload">950+</h4>
+                  <h4 className="lazyload">20+</h4>
                 </figcaption>
               </li>
             </ul>

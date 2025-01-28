@@ -1,4 +1,9 @@
 import React from "react";
+import img1 from "../assets/images/Group 1.png"
+import img2 from "../assets/images/Group 2.png"
+import img3 from "../assets/images/Group 3.png"
+import img4 from "../assets/images/Group 4.png"
+
 
 export default function MyHero() {
   return (
@@ -45,7 +50,7 @@ export default function MyHero() {
                 </span>
                 <img
                   className="lazyload"
-                  data-src="https://devtechnosys.com/images-2023/home/banner-img-1.webp"
+                  data-src={img1}
                   alt="banner"
                 />
                 <span className="star-b">
@@ -59,14 +64,14 @@ export default function MyHero() {
               <figure className="banner-img-2">
                 <img
                   className="lazyload"
-                  data-src="https://devtechnosys.com/images-2023/home/banner-img-2.webp"
+                  data-src={img2}
                   alt="banner"
                 />
               </figure>
               <figure className="banner-img-3">
                 <img
                   className="lazyload"
-                  data-src="https://devtechnosys.com/images-2023/home/banner-img-3.webp"
+                  data-src={img3}
                   alt="banner"
                 />
               </figure>

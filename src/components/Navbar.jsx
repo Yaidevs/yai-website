@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../assets/images/logo-cmmi.png";
+import logo from "../assets/images/yai-logo.jpeg";
 import logowhite from "../assets/images/logo-cmmi-white.png";
 import quoteicon from "../assets/images/quote-icon.svg";
 import whatsappicon from "../assets/images/whatsapp.svg";
@@ -34,17 +34,9 @@ function Navbar() {
   return (
     <header className="full-header lazyload ">
       <div className="nav-left">
-        <div className="branding-logo lazyload">
+        <div className="branding-log lazyload">
           <Link to="/" className="lazyload">
-            <h1 className=" text-2xl border-red-500">
-              {" "}
-              <span className="text-gray-600 font-bold text-4xl">
-                YAI{" "}
-              </span>{" "}
-              SOFTWARE TECHNOLOGY PLC
-            </h1>
-            {/* <img className="lazyload logo-b" src={logo} alt="Dev Logo" /> */}
-            {/* <img className="lazyload logo-w" src={logowhite} alt="Dev Logo" /> */}
+            <img className="lazyload w-16" src={logo} alt="yai logo" />
           </Link>
         </div>
         <nav className="nav-list">
