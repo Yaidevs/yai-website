@@ -25,9 +25,9 @@ function OurApp1() {
         <div className="title-head text-left">
           <h2 className="text-black">DawaaFinder</h2>
           <p className="text-black">
-            An artificial intelligence-powered smartphone scanning solution.
-            Upload 2 photos within seconds and get 65+ different body
-            measurements in a go.
+            App that simplifies finding affordable medicines and ensures
+            adherence through timely reminders.We as a DawaaFinder also provide
+            an ERP for health organizations to enhance efficiency and safety.
           </p>
           <div className="btn-group-box">
             <button
