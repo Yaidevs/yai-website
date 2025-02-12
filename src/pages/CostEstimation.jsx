@@ -5,6 +5,7 @@ import wantto3 from "../assets/images/want-to-3.png";
 import wantto4 from "../assets/images/want-to-4.png";
 import wantto5 from "../assets/images/want-to-5.png";
 import wantto6 from "../assets/images/want-to-6.png";
+import { Link } from "react-router-dom";
 
 function CostEstimation() {
   return (
@@ -30,9 +31,9 @@ function CostEstimation() {
                   team? Know how much it cost to hire dedicated developers.
                 </p>
               </figcaption>
-              <a href="javascript:;" className="get-quote-btn pricing-modal">
+              <Link to="/send-inquiry" className="get-quote-btn">
                 Get A Quote
-              </a>
+              </Link>
             </div>
           </div>
           {/* <div className="col-md-4">
@@ -70,12 +71,12 @@ function CostEstimation() {
                 <h3>IT Consulting Services</h3>
                 <p>
                   Do you have a project idea and want professional assistance to
-                  implement it? Seek IT consulting services from Dev Technosys.
+                  implement it? Seek IT consulting services from Yai Softwares.
                 </p>
               </figcaption>
-              <a href="javascript:;" className="get-quote-btn pricing-modal">
+              <Link to="/send-inquiry" className="get-quote-btn">
                 Get A Quote
-              </a>
+              </Link>
             </div>
           </div>
           {/* <div className="col-md-4">
@@ -110,12 +111,12 @@ function CostEstimation() {
                 <p>
                   Want to keep your application upgraded and increase its
                   lifespan? Seek mobile app support and maintenance services
-                  from Dev Technosys.
+                  from Yai Softwares.
                 </p>
               </figcaption>
-              <a href="javascript:;" className="get-quote-btn pricing-modal">
+              <Link to="/send-inquiry" className="get-quote-btn">
                 Get A Quote
-              </a>
+              </Link>
             </div>
           </div>
           {/* <div className="col-md-4">

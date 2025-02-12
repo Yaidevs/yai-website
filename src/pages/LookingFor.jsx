@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function LookingFor() {
   return (
@@ -22,12 +23,16 @@ function LookingFor() {
                 tomorrow
               </p>
             </div>
-            <a href="javascript:;" className="btn black-bg btn-purple">
+            <Link to="/portfolio" className="btn black-bg btn-purple">
               View Portfolio
-            </a>
-            <a href="javascript:;" className=" btn btn-white  margin-left-15">
-              Get Pricing
-            </a>
+            </Link>
+            <Link
+              to="/send-inquiry"
+              href="javascript:;"
+              className=" btn btn-white  margin-left-15"
+            >
+              Get a Qoute
+            </Link>
           </div>
         </div>
       </div>
