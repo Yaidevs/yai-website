@@ -273,9 +273,9 @@
 }
 .tabs li.active {
   background: #f99b1c;
-  background: -moz-linear-gradient(left, #f99b1c 0, #ff6f00 100%);
-  background: -webkit-linear-gradient(left, #f99b1c 0, #ff6f00 100%);
-  background: linear-gradient(to right, #f99b1c 0, #ff6f00 100%);
+  background: -moz-linear-gradient(left, #2c75aa 0, #5d95bd 100%);
+  background: -webkit-linear-gradient(left, #2c75aa 0, #5d95bd 100%);
+  background: linear-gradient(to right, #2c75aa 0, #5d95bd 100%);
   box-shadow: 0 2px 0 3px #000;
 }
 .tabs li.active .tab-l figure img {
