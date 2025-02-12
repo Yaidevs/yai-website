@@ -23,31 +23,23 @@ function FooterMenu() {
                   Contact Us
                 </a>
               </li>
-              <li className="lazyload">
-                <a className="lazyload" href=".">
-                  Insights
-                </a>
-              </li>
+            
               <li className="lazyload">
                 <a className="lazyload" href=".">
                   Testimonials
                 </a>
               </li>
-              <li className="lazyload">
-                <a className="lazyload" href=".">
-                  Careers
-                </a>
-              </li>
+             
               <li className="lazyload">
                 <a className="lazyload" href=".">
                   FAQ
                 </a>
               </li>
-              <li className="lazyload">
+              {/* <li className="lazyload">
                 <a className="lazyload" href=".">
                   Sitemap
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-md-3 lazyload">
@@ -58,41 +50,41 @@ function FooterMenu() {
                   Mobile Application Development
                 </a>
               </li>
-              <li className="lazyload">
+              {/* <li className="lazyload">
                 <a className="lazyload" href=".">
                   IOT Application Development
                 </a>
-              </li>
+              </li> */}
               <li className="lazyload">
                 <a className="lazyload" href=".">
                   Blockchain Development
                 </a>
               </li>
-              <li className="lazyload">
+              {/* <li className="lazyload">
                 <a className="lazyload" href=".">
                   POS Development Solution
                 </a>
-              </li>
+              </li> */}
               <li className="lazyload">
                 <a className="lazyload" href=".">
                   AI Development
                 </a>
               </li>
-              <li className="lazyload">
+              {/* <li className="lazyload">
                 <a className="lazyload" href=".">
                   ICO Development
                 </a>
-              </li>
+              </li> */}
               <li className="lazyload">
                 <a className="lazyload" href=".">
                   Custom Web Development
                 </a>
               </li>
-              <li className="lazyload">
+              {/* <li className="lazyload">
                 <a className="lazyload" href=".">
                   Mobile App Development Cost
                 </a>
-              </li>
+              </li> */}
               <li className="lazyload">
                 <a className="lazyload" href=".">
                   Web3 Development
@@ -122,22 +114,6 @@ function FooterMenu() {
               <li className="lazyload">
                 <a
                   className="lazyload"
-                  href="https://devtechnosys.com/healthcare-app-development.php"
-                >
-                  Healthcare
-                </a>
-              </li>
-              <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/event-management-app-development.php"
-                >
-                  Event &amp; Tickets
-                </a>
-              </li>
-              <li className="lazyload">
-                <a
-                  className="lazyload"
                   href="https://devtechnosys.com/travel-app-development.php"
                 >
                   Travel &amp; Tours
@@ -154,11 +130,28 @@ function FooterMenu() {
               <li className="lazyload">
                 <a
                   className="lazyload"
+                  href="https://devtechnosys.com/healthcare-app-development.php"
+                >
+                  Healthcare
+                </a>
+              </li>
+              <li className="lazyload">
+                <a
+                  className="lazyload"
+                  href="https://devtechnosys.com/event-management-app-development.php"
+                >
+                  Event &amp; Tickets
+                </a>
+              </li>
+             
+              {/* <li className="lazyload">
+                <a
+                  className="lazyload"
                   href="https://devtechnosys.com/auction-app-development.php"
                 >
                   Auction
                 </a>
-              </li>
+              </li> */}
               <li className="lazyload">
                 <a
                   className="lazyload"

@@ -5,42 +5,38 @@ function VisionSection() {
     <section className="one-team">
       <div className="container">
         <div className="title-head text-center">
-          <h2>Your Vision, Our Expertise – Let’s Create Magic Together!</h2>
+          <h2>Your Ideas, Our Expertise – Together, We Can Create Something Amazing!</h2>
           <p>
-            Dev Technosys has a team of dedicated developers, creative
-            designers, and experienced quality analysts. Get industry-best
-            website development and mobile app development services for
-            unparalleled outcomes.
-          </p>
+          YAI Software is comprised of a dedicated team of talented developers, innovative designers, and skilled quality analysts. Explore our high-quality website and mobile app development services for remarkable outcomes.</p>
         </div>
         <ul className="innovation-list">
           <li>
             <div className="innovation-content">
-              <b>14+</b>
+              <b>4+</b>
               <span>Years of Experience</span>
             </div>
             <div className="innovation-content">
-              <b>700+</b>
+              <b>5+</b>
               <span>Clients Worldwide</span>
             </div>
           </li>
           <li>
             <div className="innovation-content">
-              <b> 150+</b>
+              <b> 6+</b>
               <span>Dedicated Professionals</span>
             </div>
             <div className="innovation-content">
-              <b> 92%</b>
+              <b> 95%</b>
               <span>Happy Customers</span>
             </div>
           </li>
           <li>
             <div className="innovation-content">
-              <b> 71+</b>
+              <b> 3+</b>
               <span>Countries Served</span>
             </div>
             <div className="innovation-content">
-              <b>1000+</b>
+              <b>20+</b>
               <span>Successful projects</span>
             </div>
           </li>

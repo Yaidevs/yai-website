@@ -6,11 +6,11 @@ function ServingAll() {
       <div className="container">
         <div className="title-head text-center">
           <small className="purple-tag">
-            SERVING ALL-SCALE BUSINESSES WORLDWIDE
+            SERVING BUSINESSES OF ALL SIZES GLOBALLY
           </small>
           <h2>
-            Avail Profit-Driven Development Solutions <br /> to Resolve
-            All-Scale Business Needs
+            Unlock Profit-Driven Development Solutions <br /> to Address
+            Diverse Business Needs
           </h2>
         </div>
         <div className="row">
@@ -19,17 +19,14 @@ function ServingAll() {
               <figure>
                 <img
                   className="lazyload"
-                  alt="SMBs"
+                  alt="Small and Medium Businesses"
                   data-src="https://devtechnosys.com/images-2023/home/Diverging-1.svg"
                 />
               </figure>
               <figcaption>
-                <h3>SMBs </h3>
+                <h3>Small and Medium Businesses</h3>
                 <p>
-  
-                  Seamlessly turn your small business into a well-known brand
-                  with the top development assistance. For decades, we have been
-                  helping small-scale businesses earn.
+                  Transform your small business into a recognized brand with our expert development support. For years, we've helped SMBs thrive.
                 </p>
               </figcaption>
             </div>
@@ -46,9 +43,7 @@ function ServingAll() {
               <figcaption>
                 <h3>Startups</h3>
                 <p>
-                  Let your startup climb the ladder of success in no time. We
-                  offer software development services for startups and help them
-                  get more funding as a brand.
+                  Propel your startup to success quickly. We provide tailored software development services that help you secure funding and grow as a brand.
                 </p>
               </figcaption>
             </div>
@@ -65,9 +60,7 @@ function ServingAll() {
               <figcaption>
                 <h3>Enterprises</h3>
                 <p>
-                  Seek robust and customized enterprise mobility solutions to
-                  meet your business needs. Our each development layer is
-                  engineered with experience and expertise.
+                  Discover robust and customized enterprise mobility solutions tailored to your business needs. Each development layer is crafted with expertise and experience.
                 </p>
               </figcaption>
             </div>
@@ -77,16 +70,14 @@ function ServingAll() {
               <figure>
                 <img
                   className="lazyload"
-                  alt="Agenices"
+                  alt="Agencies"
                   data-src="https://devtechnosys.com/images-2023/home/Diverging-4.svg"
                 />
               </figure>
               <figcaption>
                 <h3>Agencies</h3>
                 <p>
-                  Our technical approach makes it accessible for offshore
-                  agencies to get great exposure, improve businesses' financial
-                  growth, and increase sales &amp; marketing potential.
+                  Our technical approach empowers offshore agencies to gain visibility, enhance financial growth, and maximize sales and marketing potential.
                 </p>
               </figcaption>
             </div>

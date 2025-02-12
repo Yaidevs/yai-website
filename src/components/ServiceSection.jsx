@@ -160,14 +160,14 @@ function ServiceSection() {
                   can completely transform your business success. Get highly
                   interactive and fully-functional mobile apps!
                 </p>
-                <div className="btn-group-box">
+                {/* <div className="btn-group-box">
                   <a
                     href="https://devtechnosys.com/mobile-app-development.php"
                     className="common-btn lazyloaded"
                   >
                     Know More
                   </a>
-                </div>
+                </div> */}
                 <ul className="validate-list">
                   <li>
                     <figure>
@@ -232,14 +232,14 @@ function ServiceSection() {
                   Ensure a strong digital presence in today's competitive
                   landscape.
                 </p>
-                <div className="btn-group-box">
+                {/* <div className="btn-group-box">
                   <a
                     href="https://devtechnosys.com/custom-web-development.php"
                     className="common-btn lazyloaded"
                   >
                     Know More
                   </a>
-                </div>
+                </div> */}
                 <ul className="validate-list">
                   <li>
                     <figure>
@@ -302,14 +302,14 @@ function ServiceSection() {
                   a smooth development from concept to deployment, bringing your
                   business app vision to life.
                 </p>
-                <div className="btn-group-box">
+                {/* <div className="btn-group-box">
                   <a
                     href="https://devtechnosys.com/industry-on-demand.php"
                     className="common-btn lazyloaded"
                   >
                     Know More
                   </a>
-                </div>
+                </div> */}
                 <ul className="validate-list">
                   <li>
                     <figure>
@@ -374,14 +374,14 @@ function ServiceSection() {
                   elevate your operations and stay ahead in this evolving
                   landscape.
                 </p>
-                <div className="btn-group-box">
+                {/* <div className="btn-group-box">
                   <a
                     href="https://devtechnosys.com/custom-software-development.php"
                     className="common-btn lazyloaded"
                   >
                     Know More
                   </a>
-                </div>
+                </div> */}
                 <ul className="validate-list">
                   <li>
                     <figure>
@@ -448,14 +448,14 @@ function ServiceSection() {
                   us to experience affordable mobile app &amp; website
                   development solutions.
                 </p>
-                <div className="btn-group-box">
+                {/* <div className="btn-group-box">
                   <a
                     href="https://devtechnosys.com/hire-developers.php"
                     className="common-btn lazyloaded"
                   >
                     Know More
                   </a>
-                </div>
+                </div> */}
                 <ul className="validate-list">
                   <li>
                     <figure>

@@ -5,7 +5,7 @@ import quoteicon from "../assets/images/quote-icon.svg";
 import whatsappicon from "../assets/images/whatsapp.svg";
 import menu from "../assets/images/menu.svg";
 import { Link } from "react-router-dom";
-import { ArrowRightFromLineIcon } from "lucide-react";
+import { MoveUpRight } from "lucide-react";
 
 function Navbar() {
   useEffect(() => {
@@ -110,7 +110,7 @@ function Navbar() {
         <nav className="navbar lazyload">
           <div className="right-nav-bt lazyload">
             <div className="icon-box">
-              {/* <a
+              <a
                 className="header-btn quote-bg lazyload get-consultant"
                 href="javascript:;"
                 title="Let's talk"
@@ -125,9 +125,9 @@ function Navbar() {
               </a>
               <a
                 className="header-btn whatsapp-bg lazyload"
-                href="https://wa.me/919983263662?text=hello devtechnosys"
+                href="https://wa.me/251948952757?text=hello yaisoftware"
                 target="_blank"
-                title="+91-9983263662"
+                title="+251-948952757"
               >
                 <img
                   className="lazyload"
@@ -137,7 +137,7 @@ function Navbar() {
                   height={24}
                 />
               </a>
-              <a
+              {/* <a
                 href="https://devtechnosys.com/menu.php"
                 className="header-btn menu-bg lazyload"
                 title="menu"
@@ -145,9 +145,15 @@ function Navbar() {
                 <img className="lazyload" src={menu} alt="Dev Menu" />
               </a> */}
             </div>
-            <Link to="/send-inquiry" className="common-btn GetQuoteBtn lazyload">
+            <a
+              href="https://devtechnosys.com/request-a-quote.php"
+              className=" rounded-lg bg-[#1c6aa3] px-3 text-lg  py-2 justify-center items-center text-white lazyload flex gap-3"
+            >
+             <span>
+              
               Get a Quote
-            </Link>
+              </span> 
+              <MoveUpRight size={36} color="#fff" />            </a>
           </div>
         </nav>
       </div>
