@@ -44,6 +44,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Pricing from "./pages/Pricing";
 import NewTestimonials from "./components/NewTestimonials";
+import SendInqury from "./pages/SendInqury";
 // import Other from "./pages/Other";
 
 function App() {
@@ -93,6 +94,7 @@ function App() {
               {/* Portfolio Route */}
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/pricing" element={<Pricing />} />
+              <Route path="/send-inquiry" element={<SendInqury />} />
 
               {/* Other Route */}
               {/* <Route path="/other" element={<Other />} /> */}

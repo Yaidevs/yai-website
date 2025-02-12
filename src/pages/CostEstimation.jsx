@@ -35,7 +35,7 @@ function CostEstimation() {
               </a>
             </div>
           </div>
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="want-to-get-box green-bg">
               <figure>
                 <img
@@ -56,7 +56,7 @@ function CostEstimation() {
                 Get A Quote
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-4">
             <div className="want-to-get-box blue-bg">
               <figure>
@@ -78,7 +78,7 @@ function CostEstimation() {
               </a>
             </div>
           </div>
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="want-to-get-box purple-bg">
               <figure>
                 <img className="lazyload" src={wantto4} alt="QA And Testing" />
@@ -95,7 +95,7 @@ function CostEstimation() {
                 Get A Quote
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-4">
             <div className="want-to-get-box lightyallow-bg">
               <figure>
@@ -118,7 +118,7 @@ function CostEstimation() {
               </a>
             </div>
           </div>
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="want-to-get-box pink-bg">
               <figure>
                 <img
@@ -139,7 +139,7 @@ function CostEstimation() {
                 Get A Quote
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

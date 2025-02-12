@@ -145,12 +145,9 @@ function Navbar() {
                 <img className="lazyload" src={menu} alt="Dev Menu" />
               </a> */}
             </div>
-            <a
-              href="https://devtechnosys.com/request-a-quote.php"
-              className="common-btn GetQuoteBtn lazyload"
-            >
+            <Link to="/send-inquiry" className="common-btn GetQuoteBtn lazyload">
               Get a Quote
-            </a>
+            </Link>
           </div>
         </nav>
       </div>
