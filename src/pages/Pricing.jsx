@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./price.css";
 import "./cta.css";
 import "../assets/css/common.css";
+import "react-toastify/dist/ReactToastify.css";
 import icon1 from "../assets/images/project-icon-1.png";
 import icon2 from "../assets/images/client-icon.png";
 import img1 from "../assets/images/portrait-happy.png";
@@ -12,7 +13,8 @@ import LookingFor from "./LookingFor";
 import CostEstimation from "./CostEstimation";
 import LookingFor2 from "./LookingFor2";
 import Testinomials from "./Testimonials";
-
+import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
 
 function Pricing() {
   const [currentStep, setCurrentStep] = useState(1);
@@ -136,9 +138,9 @@ function Pricing() {
       setCurrentStep(step);
     }
   };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
     // Validate contact form
     if (
       !contactForm.fullName ||
@@ -150,14 +152,40 @@ function Pricing() {
       setShowWarning(true);
       return;
     }
-    console.log("Final submission:", {
-      ...formData,
-      contact: contactForm,
-    });
-    // Here you can send the data to your backend
+
+    const submissionData = {
+      data: {
+        type: formData.tech_stack.join(", "),
+        app_type: formData.app_stack.join(", "),
+        ui_type: formData.ui_stack.join(", "),
+        screen_count: formData.screen_stack.join(", "),
+        urgency: formData.urgency_stack.join(", "),
+        contact: contactForm,
+      },
+    };
+
+    try {
+      await axios.post(
+        "https://yai-backend.onrender.com/api/v1/quotes/manage/client-request/",
+        submissionData
+      );
+      setContactForm({
+        fullName: "",
+        email: "",
+        phone: "",
+        description: "",
+      });
+      setCurrentStep(1);
+      toast.success(
+        "Successfully submitted! We will send the calculated price to your email. Check yor Email!"
+      );
+    } catch (error) {
+      console.error("Error submitting data:", error);
+      setWarningMessage("Failed to submit your inquiry. Please try again.");
+      setShowWarning(true);
+    }
   };
 
-  // Update the progress steps rendering to include click handlers
   const renderProgressSteps = () => {
     return (
       <ul className="nav nav-tabs" role="tablist">
@@ -246,6 +274,7 @@ function Pricing() {
         </div>
       </section>
       <section className="signup-step-container section-padding">
+        <ToastContainer />
         <div className="container">
           <div className="main-heading-box main-heading-box-inner">
             <h2>App and Web Cost Calculator</h2>
@@ -686,7 +715,7 @@ function Pricing() {
                           />
                         </div>
                         <div className="text-center">
-                          <button type="submit" className="btn btn-orange">
+                          <button type="submit" className="btn text-white bg-[#1c6aa3]">
                             SEND YOUR INQUIRY
                           </button>
                         </div>
@@ -701,8 +730,8 @@ function Pricing() {
       </section>
       <LookingFor />
       <CostEstimation />
-      <LookingFor2/>
-      <Testinomials/>
+      <LookingFor2 />
+      <Testinomials />
     </div>
   );
 }
