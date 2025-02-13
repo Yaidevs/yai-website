@@ -39,7 +39,7 @@ function Portfolio() {
               <p>
                 Yai Softwares, a leading mobile &amp; web development offers the
                 best solutions which won national and global awards. Those are
-                DawaaFinder ,Gibi Info and BetAle.
+                DawaaFinder ,Gibi Info and ቤትAle.
               </p>
             </div>
             <figure className="banner-sec-shape-r">
@@ -116,7 +116,11 @@ function Portfolio() {
 
               <div className="box-portfolio-img">
                 <figure>
-                  <img className="lazyload" src="https://img.freepik.com/free-photo/young-pretty-woman-student-browsed-mobile-phone-walking-city-street_231208-1202.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid" alt="Yai Softwares" />
+                  <img
+                    className="lazyload"
+                    src="https://img.freepik.com/free-photo/young-pretty-woman-student-browsed-mobile-phone-walking-city-street_231208-1202.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid"
+                    alt="Yai Softwares"
+                  />
                 </figure>
               </div>
             </div>
@@ -164,9 +168,16 @@ function Portfolio() {
               </figure>
               <div className="col-md-7 box-portfolio-content">
                 <div className="img-content">
-                  <h2>Betale</h2>
+                  <h2>ቤትAle</h2>
                   <h4>Get Your Dream Home</h4>
-                  <p>App for finding your dream home or house effortless.</p>
+                  <p className="max-w-lg">
+                    ቤትAle is an easy-to-use app that helps you find your dream
+                    home, whether you're looking to rent or buy. Property owners
+                    can easily post their listings, while buyers and renters can
+                    browse and connect with them. ቤትAle makes it simple to find
+                    the perfect home and connect with the right people. Get Your
+                    Dream Home with ቤትAle!
+                  </p>
                   {/* <a
                     href="https://devtechnosys.com/case-study/music-application-giggle.php"
                     className="link-text"
@@ -178,7 +189,11 @@ function Portfolio() {
               </div>
               <div className="box-portfolio-img">
                 <figure>
-                  <img className="lazyload" src="https://img.freepik.com/premium-photo/young-man-with-keys-just-bought-new-appartment_926199-3591900.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid" alt="Yai Softwares" />
+                  <img
+                    className="lazyload"
+                    src="https://img.freepik.com/premium-photo/young-man-with-keys-just-bought-new-appartment_926199-3591900.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid"
+                    alt="Yai Softwares"
+                  />
                 </figure>
               </div>
             </div>

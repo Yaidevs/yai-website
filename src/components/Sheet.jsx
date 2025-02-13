@@ -53,10 +53,10 @@ function Sheet({ title, description, image, isOpen, onClose }) {
             className="w-44 h-72 object-contain  rounded-md mb-4"
           />
           <p>{description}</p>
-          <p className="mt-4">
+          {/* <p className="mt-4">
             Additional content here to test scrolling. Add more details to see
             how scrolling behaves inside the sheet.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

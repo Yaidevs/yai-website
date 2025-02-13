@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import Sheet from "./Sheet"; // Import the Sheet component
-import betaleImage from "../assets/images/Betale home page - Afaan Oromo.png"
-import betalePcImage from "../assets/images/betale_web.png"
+import betaleImage from "../assets/images/Betale home page - Afaan Oromo.png";
+import betalePcImage from "../assets/images/betale_web.png";
 function OurApp3() {
   const [isSheetOpen, setSheetOpen] = useState(false);
 
   const sheetData = {
     title: "ቤት Ale Details",
     description:
-      "App designed to make finding your dream home or house effortless.",
-  image: betaleImage,
-       pcImage: betalePcImage,
+      "ቤትAle is an easy-to-use app that helps people find homes for rent or sale. It allows property owners to post their listings and connect with potential buyers or renters. Whether you're looking to rent or buy, BetAle makes it simple to find the right home and connect with the right people. It's a convenient way for both home seekers and owners to find what they need.",
+    image: betaleImage,
+    pcImage: betalePcImage,
   };
 
   return (
     <section className="blog-box ">
-     <div className="blog-img-box flex gap-1">
+      <div className="blog-img-box flex gap-1">
         {/* Wrap both images in a flex container */}
         <div className=" flex gap-8 justify-center ml-4  w-full h-auto p-4">
           <div className="w-[290px]">
@@ -51,14 +51,14 @@ function OurApp3() {
 
       {/* Conditionally render the Sheet */}
       {isSheetOpen && (
-       <Sheet
-       title={sheetData.title}
-       description={sheetData.description}
-       image={sheetData.image}
-       pcImage={sheetData.pcImage}
-       isOpen={isSheetOpen}
-       onClose={() => setSheetOpen(false)}
-     />
+        <Sheet
+          title={sheetData.title}
+          description={sheetData.description}
+          image={sheetData.image}
+          pcImage={sheetData.pcImage}
+          isOpen={isSheetOpen}
+          onClose={() => setSheetOpen(false)}
+        />
       )}
     </section>
   );

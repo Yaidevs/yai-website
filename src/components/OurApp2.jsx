@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Sheet from "./Sheet"; // Import the Sheet component
-import gibiImage from "../assets/images/frame landing page.png"
-import gibiPcImage from "../assets/images/gibiinfo-web.png"
+import gibiImage from "../assets/images/frame landing page.png";
+import gibiPcImage from "../assets/images/gibiinfo-web.png";
 function OurApp2() {
   const [isSheetOpen, setSheetOpen] = useState(false);
 
   const sheetData = {
     title: "GibiInfo Details",
     description:
-      "A learning app designed to help students excel in their academic journey by providing a platform to practice a wide range of questions.",
+      "Gibi Info is a platform that helps students practice with expert-analyzed questions, exchange educational materials, and access a blog to guide them in understanding universities and improving academically.",
     image: gibiImage,
-       pcImage: gibiPcImage,
+    pcImage: gibiPcImage,
   };
 
   return (
@@ -52,13 +52,13 @@ function OurApp2() {
       {/* Conditionally render the Sheet */}
       {isSheetOpen && (
         <Sheet
-        title={sheetData.title}
-        description={sheetData.description}
-        image={sheetData.image}
-        pcImage={sheetData.pcImage}
-        isOpen={isSheetOpen}
-        onClose={() => setSheetOpen(false)}
-      />
+          title={sheetData.title}
+          description={sheetData.description}
+          image={sheetData.image}
+          pcImage={sheetData.pcImage}
+          isOpen={isSheetOpen}
+          onClose={() => setSheetOpen(false)}
+        />
       )}
     </section>
   );

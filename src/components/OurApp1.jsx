@@ -9,7 +9,7 @@ function OurApp1() {
   const sheetData = {
     title: "DawaaFinder Details",
     description:
-      "App that simplifies finding affordable medicines and ensures adherence through timely reminders. We also provide an ERP for health organizations to enhance efficiency and safety.",
+      "Dawafinder is a platform that enables patients to easily find medications by easily scanning prescriptions or typing the name of medications while fighting against fake drugs by using block chain technology.  As well it enables pharmacies to sell more and manage their pharmacies.",
     image: dawaaFinderImage,
     pcImage: dawaaFinderPcImage,
   };
@@ -39,10 +39,7 @@ function OurApp1() {
       <div className="blog-img-content">
         <h2 className="text-black text-3xl font-bold">DawaaFinder</h2>
         <p className="text-black text-lg mt-2">{sheetData.description}</p>
-        <button
-          onClick={() => setSheetOpen(true)}
-          className="common-btn mt-3"
-        >
+        <button onClick={() => setSheetOpen(true)} className="common-btn mt-3">
           Discover More
         </button>
       </div>
