@@ -423,7 +423,7 @@ body.fixed header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1000;
+  z-index: 997;
   top: 0;
   background: #fff !important;
 }

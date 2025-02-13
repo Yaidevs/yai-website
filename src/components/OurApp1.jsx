@@ -1,44 +1,59 @@
-import React from "react";
+import React, { useState } from "react";
+import Sheet from "./Sheet";
+import dawaaFinderImage from "../assets/images/dawafinder home page.png";
+import dawaaFinderPcImage from "../assets/images/dawa-web.png";
 
 function OurApp1() {
+  const [isSheetOpen, setSheetOpen] = useState(false);
+
+  const sheetData = {
+    title: "DawaaFinder Details",
+    description:
+      "App that simplifies finding affordable medicines and ensures adherence through timely reminders. We also provide an ERP for health organizations to enhance efficiency and safety.",
+    image: dawaaFinderImage,
+    pcImage: dawaaFinderPcImage,
+  };
+
   return (
     <section className="blog-box">
-      <div className="blog-img-box">
-        <figure className="">
-          <img
-            className="lazyload"
-            alt="Blog"
-            data-src="https://t4.ftcdn.net/jpg/10/11/47/65/240_F_1011476573_EkVPrBC7mLgh100qsv2Fa61WasgiQJlm.jpg"
-          />
-        </figure>
-        <div className="blog-mob-box pink-shadow">
-          <figure className="">
+      <div className="blog-img-box flex gap-1">
+        {/* Wrap both images in a flex container */}
+        <div className=" flex gap-8 justify-center ml-4  w-full h-auto p-4">
+          <div className="w-[290px]">
             <img
-              className="lazyload"
-              alt=""
-              data-src="https://firebasestorag.googleapis.com/v0/b/dawaafinder-files.appspot.com/o/yai-pictures%2FHome%20(1).jpg?alt=media&token=0e32c121-c53b-4d4f-8279-309f1856437b"
+              className="   object-contain  "
+              alt="Mobile App"
+              src={sheetData.image}
             />
-          </figure>
-        </div>
-      </div>
-      <div className="blog-img-content">
-        <div className="title-head text-left">
-          <h2 className="text-black">DawaaFinder</h2>
-          <p className="text-black">
-            App that simplifies finding affordable medicines and ensures
-            adherence through timely reminders.We as a DawaaFinder also provide
-            an ERP for health organizations to enhance efficiency and safety.
-          </p>
-          <div className="btn-group-box">
-            <button
-              data-dialog="modal-1"
-              className="common-btn lazyloaded btnblog"
-            >
-              discover more
-            </button>
+          </div>
+          <div className="hidden md:flex">
+            <img
+              className="  lazyload h-8 "
+              alt="Web App"
+              src={sheetData.pcImage}
+            />
           </div>
         </div>
       </div>
+
+      <div className="blog-img-content">
+        <h2 className="text-black text-3xl font-bold">DawaaFinder</h2>
+        <p className="text-black text-lg mt-2">{sheetData.description}</p>
+        <button
+          onClick={() => setSheetOpen(true)}
+          className="common-btn mt-3"
+        >
+          Discover More
+        </button>
+      </div>
+
+      <Sheet
+        title={sheetData.title}
+        description={sheetData.description}
+        image={sheetData.image}
+        isOpen={isSheetOpen}
+        onClose={() => setSheetOpen(false)}
+      />
     </section>
   );
 }

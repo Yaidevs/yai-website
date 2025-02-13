@@ -16,35 +16,35 @@ function FooterSocial() {
           <div className="footer-social-icon">
             <ul>
               <li>
-                <a
-                  href="https://www.facebook.com/devtechnosys/"
+                <Link
+                  to="https://www.linkedin.com/company/yai-software-technologies/?viewAsMember=true"
                   target="_blank"
                   rel="nofollow"
                 >
                   <FaFacebookSquare size={40} color="white" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://bit.ly/clicktosubscribenow"
+                <Link
+                  to="https://www.linkedin.com/company/yai-software-technologies/?viewAsMember=true"
                   target="_blank"
                   rel="nofollow"
                 >
                   <FaYoutubeSquare size={40} color="white" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://twitter.com/devtechnosys?lang=en"
+                <Link
+                  to="https://www.linkedin.com/company/yai-software-technologies/?viewAsMember=true"
                   target="_blank"
                   rel="nofollow"
                 >
                   <FaInstagramSquare size={40} color="white" />
-                </a>
+                </Link>
               </li>
               <li>
-                <Link
-                  href="https://www.instagram.com/devtechnosys/"
+              <Link
+                  to="https://www.linkedin.com/company/yai-software-technologies/?viewAsMember=true"
                   target="_blank"
                   rel="nofollow"
                 >
@@ -53,7 +53,7 @@ function FooterSocial() {
               </li>
             </ul>
           </div>
-          <div className="rating-star lazyload">
+          {/* <div className="rating-star lazyload">
             <span className="rating-tag">
               <img
                 className="lazyload"
@@ -69,7 +69,7 @@ function FooterSocial() {
               by 800+ customers for 1000+ Web and Mobile App Development
               Projects.{" "}
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -8,12 +8,10 @@ function GainUpperEdge() {
           <div className="cta-blue-l">
             <div className="title-head text-left">
               <h2>
-                Gain An Upper Edge Over Your Competitors with Our Development
-                Assistance!
+                Gain a Competitive Edge with Our Expert Development Assistance!
               </h2>
               <p>
-                Connect with Dev Technosys to empower businesses with
-                out-of-the-box software development solutions.
+                Partner with YAI Software Technologies to empower your business with innovative software development solutions that stand out.
               </p>
               <div className="btn-group-box">
                 <a
@@ -21,7 +19,6 @@ function GainUpperEdge() {
                   className="common-btn white-btn lazyloaded"
                 >
                   Connect with Us
-            
                 </a>
               </div>
             </div>
@@ -30,7 +27,7 @@ function GainUpperEdge() {
             <figure>
               <img
                 className="lazyload"
-                alt="CTA"
+                alt="Empower Your Business"
                 data-src="https://devtechnosys.com/images-2023/home/cta-girl.webp"
               />
             </figure>
