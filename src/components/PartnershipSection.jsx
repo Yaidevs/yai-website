@@ -17,7 +17,6 @@ export default function PartnershipSection() {
   });
   const [loading, setLoading] = useState(false);
 
-
   // Auto-scroll testimonials
   // useEffect(() => {
   //   const timer = setInterval(() => {
@@ -30,6 +29,7 @@ export default function PartnershipSection() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     // Validate form data
     if (
@@ -52,8 +52,7 @@ export default function PartnershipSection() {
         "https://yai-backend.onrender.com/api/v1/quotes/",
         submissionData
       );
-      console.log("Response from server:", response.data);
-
+      setLoading(false);
       // Clear the form after successful submission
       setFormData({
         fullName: "",
@@ -87,8 +86,8 @@ export default function PartnershipSection() {
         </h2>
         <p className="text-gray-600">
           Allow us to be your technical aid in another of your successful
-          business venture. Mail, Call or better meet us over a cup of
-          coffee and share with us your development plan.
+          business venture. Mail, Call or better meet us over a cup of coffee
+          and share with us your development plan.
         </p>
       </div>
 
@@ -140,7 +139,7 @@ export default function PartnershipSection() {
           type="submit"
           className="w-full bg-[#1c6aa3] text-white py-3 px-6 rounded-md transition-colors"
         >
-          {loading ? "sending ...":"SEND YOUR INQUIRY"}
+          {loading ? "sending ..." : "SEND YOUR INQUIRY"}
         </button>
       </form>
     </div>

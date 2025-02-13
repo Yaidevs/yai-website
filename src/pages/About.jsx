@@ -1,6 +1,12 @@
 import React from "react";
 import aboutbanner from "../assets/images/about-banner.webp";
 import missionvisionimg from "../assets/images/Ceo.jpg";
+import inc1 from "../assets/images/inc-1.svg";
+import inc2 from "../assets/images/inc-2.svg";
+import inc3 from "../assets/images/inc-3.svg";
+import inc4 from "../assets/images/inc-4.svg";
+import inc5 from "../assets/images/inc-5.svg";
+import inc6 from "../assets/images/inc-6.svg";
 import "./about.css";
 import Blogs from "../components/Blogs";
 import GetFreeQuote from "../components/GetFreeQuote";
@@ -215,7 +221,7 @@ function About() {
                     height={52}
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/inc-1.svg"
+                    src={inc1}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -236,7 +242,7 @@ function About() {
                     height={51}
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/inc-2.svg"
+                    src={inc2}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -257,7 +263,7 @@ function About() {
                     height={49}
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/inc-3.svg"
+                    src={inc3}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -278,7 +284,7 @@ function About() {
                     height={49}
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/inc-4.svg"
+                    src={inc4}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -299,7 +305,7 @@ function About() {
                     height={49}
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/inc-5.svg"
+                    src={inc5}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -320,7 +326,7 @@ function About() {
                     height={49}
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/inc-6.svg"
+                    src={inc6}
                   />
                 </figure>
                 <figcaption className="lazyload">
