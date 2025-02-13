@@ -10,30 +10,30 @@ function FooterCopyright() {
           </span>
           {/* <img class="lazyload" data-src="images/2021-new/dmca_premi_badge_5.jpg" alt="Dev Technosys" width="135" height="28"> */}
           <ul className="lazyload">
-            <li className="lazyload">
+            {/* <li className="lazyload">
               <a
                 className="lazyload"
                 href="https://devtechnosys.com/terms-of-services.php"
               >
                 Terms of services
               </a>
-            </li>
-            <li className="lazyload">
+            </li> */}
+            {/* <li className="lazyload">
               <a
                 className="lazyload"
                 href="https://devtechnosys.com/privacy-policy.php"
               >
                 Privacy policy
               </a>
-            </li>
-            <li className="lazyload">
+            </li> */}
+            {/* <li className="lazyload">
               <a
                 className="lazyload"
                 href="https://devtechnosys.com/refund-policy.php"
               >
                 Refund policy
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

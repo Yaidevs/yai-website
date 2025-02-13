@@ -194,12 +194,12 @@ function FooterMenu() {
                     </span>
                   </a>
                 </li>
-                <li className="lazyload">
+                {/* <li className="lazyload">
                   <span className="lazyload">HR :</span>{" "}
                   <a className="lazyload" href="tel:+91 141-4107667">
                     +251948952757
                   </a>
-                </li>
+                </li> */}
                 <li className="lazyload">
                   <span className="lazyload">HQ :</span>Ethiopia ,Oromia ,Jimma
                 </li>

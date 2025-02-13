@@ -73,13 +73,15 @@ function App() {
                     <OurApp2 />
                     <OurApp3 />
                     {/* <OurApp4 /> */}
-                    <DiscussYourProject />
+                    {/* <DiscussYourProject /> */}
                     {/* <NewTestimonials /> */}
                     {/* <Testimonials /> */}
                     {/* <CaseStudies /> */}
                     {/* <Faq /> */}
                     <div>
-                      <Blogs />
+                    <NewsLetter />
+
+                      {/* <Blogs /> */}
                       {/* <GetFreeQuote /> */}
                       {/* <Honour /> */}
                       {/* <OurOffices /> */}
@@ -102,8 +104,7 @@ function App() {
 
             {/* Footer (Displayed for All Pages) */}
             <footer className="lazyload">
-              <NewsLetter />
-              <ServingFooter />
+              {/* <ServingFooter /> */}
               <FooterMenu />
               <FooterSocial />
               <FooterCopyright />

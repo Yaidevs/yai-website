@@ -1,41 +1,65 @@
-import React from "react";
-
+import React, { useState } from "react";
+import Sheet from "./Sheet"; // Import the Sheet component
+import gibiImage from "../assets/images/frame landing page.png"
+import gibiPcImage from "../assets/images/gibiinfo-web.png"
 function OurApp2() {
+  const [isSheetOpen, setSheetOpen] = useState(false);
+
+  const sheetData = {
+    title: "GibiInfo Details",
+    description:
+      "A learning app designed to help students excel in their academic journey by providing a platform to practice a wide range of questions.",
+    image: gibiImage,
+       pcImage: gibiPcImage,
+  };
+
   return (
     <section className="blog-box odd-blog">
       <div className="blog-img-content">
         <div className="title-head text-left">
-          <h2 className="text-black">GibiInfo</h2>
-          <p className="text-black">
-            A learning app designed to help students excel in their academic
-            journey by providing a platform to practice a wide range of
-            questions.
-          </p>
+          <h2 className="text-black text-3xl font-bold">GibiInfo</h2>
+          <p className="text-black text-lg mt-2">{sheetData.description}</p>
           <div className="btn-group-box">
-            <button data-dialog="modal-2" className="common-btn lazyloaded">
-              discover more
+            <button
+              onClick={() => setSheetOpen(true)}
+              className="common-btn mt-3"
+            >
+              Discover More
             </button>
           </div>
         </div>
       </div>
-      <div className="blog-img-box">
-        <figure>
-          <img
-            className="lazyload"
-            alt="blog"
-            data-src="https://img.freepik.com/free-photo/glad-student-has-curly-hair-holds-notebook-uses-mobile-phone-surfing-internet-reads-ideas-project-dressed-casually-poses-outdoors_273609-55627.jpg?t=st=1737968418~exp=1737972018~hmac=9ff41f741f9ed22a21d1375245913406686be52fee67afb64441913361b1d723&w=740"
-          />
-        </figure>
-        <div className="blog-mob-box green-shadow">
-          <figure>
+      <div className="blog-img-box flex gap-1">
+        {/* Wrap both images in a flex container */}
+        <div className=" flex gap-8 justify-center   w-full h-auto p-4">
+          <div className="w-[290px]">
             <img
-              className="lazyload"
-              alt="mob"
-              data-src="https://firebasestorage.googleapis.com/v0/b/dawaafinder-files.appspot.com/o/yai-pictures%2FScreenshot_20250122-003751.jpg?alt=media&token=2359ca48-281b-4cf5-addb-0e88d24ae5e0"
+              className="   object-contain  "
+              alt="Mobile App"
+              src={sheetData.image}
             />
-          </figure>
+          </div>
+          <div className="hidden md:flex">
+            <img
+              className="  lazyload h-8 "
+              alt="Web App"
+              src={sheetData.pcImage}
+            />
+          </div>
         </div>
       </div>
+
+      {/* Conditionally render the Sheet */}
+      {isSheetOpen && (
+        <Sheet
+        title={sheetData.title}
+        description={sheetData.description}
+        image={sheetData.image}
+        pcImage={sheetData.pcImage}
+        isOpen={isSheetOpen}
+        onClose={() => setSheetOpen(false)}
+      />
+      )}
     </section>
   );
 }
