@@ -10,9 +10,16 @@ import starshapeb from "../assets/images/star-shape-b.png";
 import mob1 from "../assets/images/mob-1.png";
 import mob2 from "../assets/images/mob-2.png";
 import img1 from "../assets/images/img-1.png";
+import womenwithmedicine from "../assets/images/womenwithmedicine.png";
+import doctorwithmobile from "../assets/images/doctorwithmobile.png";
+import doctor from "../assets/images/doctor.png";
 import screen1 from "../assets/images/screen-1.png";
 import img2 from "../assets/images/img-2.png";
 import img3 from "../assets/images/img-3.png";
+import dawafinder from "../assets/images/dawafinderhomepage.png";
+import gibiinfo from "../assets/images/gibiinfohomepage.png";
+import betale from "../assets/images/betalehome.png";
+
 import arrow from "../assets/images/arrow-up.png";
 
 function Portfolio() {
@@ -22,23 +29,21 @@ function Portfolio() {
         <div className="banner-sec">
           <div className="container">
             <figure className="banner-sec-shape-l">
-              <img className="lazyload" src={starshape1} alt="Dev Technosys" />
+              <img className="lazyload" src={starshape1} alt="Yai Softwares" />
             </figure>
             <div className="banner-sec-content">
               <h1>
-                <i>Transforming </i> Goals into Thriving Business
-                <i>Opportunities </i>
+                <i>Transforming </i> Ideas into Thriving Business
+                {""} <i>Opportunities </i>
               </h1>
               <p>
-                Dev Technosys, a leading mobile &amp; web development offers the
-                best solutions to SMEs and global brands. Some of our top
-                clients include Careu, Kawni, Qarish, FYNDA Pro, and more.
-                Explore our work portfolio to get an insight into our work
-                excellence!
+                Yai Softwares, a leading mobile &amp; web development offers the
+                best solutions which won national and global awards. Those are
+                DawaaFinder ,Gibi Info and BetAle.
               </p>
             </div>
             <figure className="banner-sec-shape-r">
-              <img className="lazyload" src={starshapeb} alt="Dev Technosys" />
+              <img className="lazyload" src={starshapeb} alt="Yai Softwares" />
             </figure>
           </div>
         </div>
@@ -46,60 +51,35 @@ function Portfolio() {
           <div className="container">
             <div className="green-bg box-portfolio-inner">
               <figure className="porfolio-mob">
-                <img className="lazyload" src={mob1} alt="Dev Technosys" />
+                <img
+                  className="lazyload w-72"
+                  src={dawafinder}
+                  alt="Yai Softwares"
+                />
               </figure>
               <div className="box-portfolio-content">
                 <div className="img-content">
-                  <h2>Careu</h2>
-                  <h4>Empowering Lives with A Trusted Healthcare App</h4>
+                  <h2>DawaFinder</h2>
+                  <h4>Finding Medicine Shouldn’t Be a Struggle!</h4>
                   <p>
-                    CareU is a distinctive healthcare application in Egypt that
-                    allows users to browse through all medical institutions.
+                    Dawafinder is a platform that enables patients to easily
+                    find medications by easily scanning prescriptions or typing
+                    the name of medications.
                   </p>
-                  <a
+                  {/* <a
                     href="https://devtechnosys.com/case-study/healthcare-careu.php"
                     className="link-text"
                   >
                     View Case Study
-                    <img className="lazyload" src={arrow} alt="Dev Technosys" />
-                  </a>
+                    <img className="lazyload" src={arrow} alt="Yai Softwares" />
+                  </a> */}
                 </div>
               </div>
+
               <div className="box-portfolio-img">
                 <figure>
-                  <img className="lazyload" src={img1} alt="Dev Technosys" />
+                  <img className="lazyload" src={doctor} alt="Yai Softwares" />
                 </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="box-portfolio portfolio-odd">
-          <div className="container">
-            <div className="skin-bg box-portfolio-inner">
-              <figure className="porfolio-screen">
-                <img className="lazyload" src={screen1} alt="Dev Technosys" />
-              </figure>
-              <div className="box-portfolio-img">
-                <figure>
-                  <img className="lazyload" src={img2} alt="Dev Technosys" />
-                </figure>
-              </div>
-              <div className=" box-portfolio-content">
-                <div className="img-content">
-                  <h2>Kawni</h2>
-                  <h4>Unleashing the Multi-Vendor E-Commerce Revolution</h4>
-                  <p>
-                    Kawni is a unique e-commerce platform enabling end-users to
-                    buy the products (online or offline) the vendor sells.
-                  </p>
-                  <a
-                    href="https://devtechnosys.com/case-study/ecommerce-kawni.php"
-                    className="link-text"
-                  >
-                    View Case Study
-                    <img className="lazyload" src={arrow} alt="Dev Technosys" />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -108,28 +88,97 @@ function Portfolio() {
           <div className="container">
             <div className="green-bg box-portfolio-inner">
               <figure className="porfolio-mob">
-                <img className="lazyload" src={mob2} alt="Dev Technosys" />
+                <img
+                  className="lazyload w-72"
+                  src={gibiinfo}
+                  alt="Yai Softwares"
+                />
+              </figure>
+              <div className="box-portfolio-content">
+                <div className="img-content">
+                  <h2>Gibi Info</h2>
+                  <h4>The Best Way To Learn!</h4>
+                  <p>
+                    Gibi Info is a platform that helps students practice with
+                    expert-analyzed questions, exchange educational materials,
+                    and access a blog to guide them in understanding
+                    universities and improving academically.
+                  </p>
+                  {/* <a
+                    href="https://devtechnosys.com/case-study/healthcare-careu.php"
+                    className="link-text"
+                  >
+                    View Case Study
+                    <img className="lazyload" src={arrow} alt="Yai Softwares" />
+                  </a> */}
+                </div>
+              </div>
+
+              <div className="box-portfolio-img">
+                <figure>
+                  <img className="lazyload" src="https://img.freepik.com/free-photo/young-pretty-woman-student-browsed-mobile-phone-walking-city-street_231208-1202.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid" alt="Yai Softwares" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="box-portfolio portfolio-odd">
+          <div className="container">
+            <div className="skin-bg box-portfolio-inner">
+              <figure className="porfolio-screen">
+                <img
+                  className="lazyload w-72 z-10"
+                  src={gibiinfo}
+                  alt="Yai Softwares"
+                />
+              </figure>
+              <div className="box-portfolio-img">
+                <figure>
+                  <img className="lazyload" src={img2} alt="Yai Softwares" />
+                </figure>
+              </div>
+              <div className=" box-portfolio-content">
+                <div className="img-content">
+                  <h2>Gibi Info</h2>
+                  <h4>The Best Way To Learn!</h4>
+                  <p>
+                    Gibi Info is a platform that helps students practice with
+                    expert-analyzed questions, exchange educational materials,
+                    and access a blog to guide them in understanding
+                    universities and improving academically.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
+        <div className="box-portfolio">
+          <div className="container">
+            <div className="green-bg box-portfolio-inner">
+              <figure className="porfolio-mob">
+                <img
+                  className="lazyload w-72"
+                  src={betale}
+                  alt="Yai Softwares"
+                />
               </figure>
               <div className="col-md-7 box-portfolio-content">
                 <div className="img-content">
-                  <h2>GiggleMusic</h2>
-                  <h4>Harmonizing World with the Rhythms of Music Streaming</h4>
-                  <p>
-                    GiggleMusic is a website and mobile-based social media
-                    platform that helps musicians find and connect.
-                  </p>
-                  <a
+                  <h2>Betale</h2>
+                  <h4>Get Your Dream Home</h4>
+                  <p>App for finding your dream home or house effortless.</p>
+                  {/* <a
                     href="https://devtechnosys.com/case-study/music-application-giggle.php"
                     className="link-text"
                   >
                     View Case Study
-                    <img className="lazyload" src={arrow} alt="Dev Technosys" />
-                  </a>
+                    <img className="lazyload" src={arrow} alt="Yai Softwares" />
+                  </a> */}
                 </div>
               </div>
               <div className="box-portfolio-img">
                 <figure>
-                  <img className="lazyload" src={img3} alt="Dev Technosys" />
+                  <img className="lazyload" src="https://img.freepik.com/premium-photo/young-man-with-keys-just-bought-new-appartment_926199-3591900.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid" alt="Yai Softwares" />
                 </figure>
               </div>
             </div>
@@ -142,7 +191,7 @@ function Portfolio() {
                 <img
                   className="lazyload"
                   src="images/2023/porfolio/screen-2.png"
-                  alt="Dev Technosys"
+                  alt="Yai Softwares"
                 />
               </figure>
               <div className="box-portfolio-img">
@@ -151,7 +200,7 @@ function Portfolio() {
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-4.png"
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                   />
                 </figure>
               </div>
@@ -174,7 +223,7 @@ function Portfolio() {
                     <img
                       className="lazyload"
                       src={arrow}
-                      alt="Dev Technosys"
+                      alt="Yai Softwares"
                     />
                   </a>
                 </div>
@@ -182,6 +231,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
+         {/*
         <div className="box-portfolio ">
           <div className="container">
             <div className="light-org-bg box-portfolio-inner">
@@ -189,7 +239,7 @@ function Portfolio() {
                 <img
                   className="lazyload"
                   src="images/2023/porfolio/mob-3.png"
-                  alt="Dev Technosys"
+                  alt="Yai Softwares"
                 />
               </figure>
               <div className="box-portfolio-img">
@@ -198,7 +248,7 @@ function Portfolio() {
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-5.png"
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                   />
                 </figure>
               </div>
@@ -219,7 +269,7 @@ function Portfolio() {
                     <img
                       className="lazyload"
                       src={arrow}
-                      alt="Dev Technosys"
+                      alt="Yai Softwares"
                     />
                   </a>
                 </div>
@@ -234,7 +284,7 @@ function Portfolio() {
                 <img
                   className="lazyload"
                   src="images/2023/porfolio/screen-3.png"
-                  alt="Dev Technosys"
+                  alt="Yai Softwares"
                 />
               </figure>
               <div className="box-portfolio-content">
@@ -253,7 +303,7 @@ function Portfolio() {
                     <img
                       className="lazyload"
                       src={arrow}
-                      alt="Dev Technosys"
+                      alt="Yai Softwares"
                     />
                   </a>
                 </div>
@@ -263,7 +313,7 @@ function Portfolio() {
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-6.png"
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                   />
                 </figure>
               </div>
@@ -277,7 +327,7 @@ function Portfolio() {
                 <img
                   className="lazyload"
                   src="images/2023/porfolio/mob-4.png"
-                  alt="Dev Technosys"
+                  alt="Yai Softwares"
                 />
               </figure>
               <div className="box-portfolio-content">
@@ -300,7 +350,7 @@ function Portfolio() {
                     <img
                       className="lazyload"
                       src={arrow}
-                      alt="Dev Technosys"
+                      alt="Yai Softwares"
                     />
                   </a>
                 </div>
@@ -310,7 +360,7 @@ function Portfolio() {
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-7.png"
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                   />
                 </figure>
               </div>
@@ -324,7 +374,7 @@ function Portfolio() {
                 <img
                   className="lazyload"
                   src="images/2023/porfolio/screen-4.png"
-                  alt="Dev Technosys"
+                  alt="Yai Softwares"
                 />
               </figure>
               <div className="box-portfolio-img">
@@ -333,7 +383,7 @@ function Portfolio() {
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-8.png"
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                   />
                 </figure>
               </div>
@@ -353,7 +403,7 @@ function Portfolio() {
                     <img
                       className="lazyload"
                       src={arrow}
-                      alt="Dev Technosys"
+                      alt="Yai Softwares"
                     />
                   </a>
                 </div>
@@ -368,7 +418,7 @@ function Portfolio() {
                 <img
                   className="lazyload"
                   src="images/2023/porfolio/mob-5.png"
-                  alt="Dev Technosys"
+                  alt="Yai Softwares"
                 />
               </figure>
               <div className="box-portfolio-img">
@@ -377,7 +427,7 @@ function Portfolio() {
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-9.png"
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                   />
                 </figure>
               </div>
@@ -398,7 +448,7 @@ function Portfolio() {
                     <img
                       className="lazyload"
                       src={arrow}
-                      alt="Dev Technosys"
+                      alt="Yai Softwares"
                     />
                   </a>
                 </div>
@@ -413,7 +463,7 @@ function Portfolio() {
                 <img
                   className="lazyload"
                   src="images/2023/porfolio/mob-6.png"
-                  alt="Dev Technosys"
+                  alt="Yai Softwares"
                 />
               </figure>
               <div className="box-portfolio-img">
@@ -422,7 +472,7 @@ function Portfolio() {
                   <img
                     className="lazyload"
                     src="images/2023/porfolio/img-10.png"
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                   />
                 </figure>
               </div>
@@ -445,7 +495,7 @@ function Portfolio() {
                     <img
                       className="lazyload"
                       src={arrow}
-                      alt="Dev Technosys"
+                      alt="Yai Softwares"
                     />
                   </a>
                 </div>
@@ -454,7 +504,6 @@ function Portfolio() {
           </div>
         </div> */}
       </section>
-  
     </div>
   );
 }
