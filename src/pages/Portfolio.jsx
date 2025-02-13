@@ -52,7 +52,7 @@ function Portfolio() {
             <div className="green-bg box-portfolio-inner">
               <figure className="porfolio-mob">
                 <img
-                  className="lazyload w-72"
+                  className="lazyload w-full lg:w-72"
                   src={dawafinder}
                   alt="Yai Softwares"
                 />
@@ -89,7 +89,7 @@ function Portfolio() {
             <div className="green-bg box-portfolio-inner">
               <figure className="porfolio-mob">
                 <img
-                  className="lazyload w-72"
+                  className="lazyload w-full lg:w-72"
                   src={gibiinfo}
                   alt="Yai Softwares"
                 />
@@ -157,7 +157,7 @@ function Portfolio() {
             <div className="green-bg box-portfolio-inner">
               <figure className="porfolio-mob">
                 <img
-                  className="lazyload w-72"
+                  className="lazyload w-full lg:w-72"
                   src={betale}
                   alt="Yai Softwares"
                 />
