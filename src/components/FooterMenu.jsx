@@ -170,7 +170,7 @@ function FooterMenu() {
                       className="__cf_email__"
                       data-cfemail="61080f070e21050417150402090f0e1218124f0004"
                     >
-                      0948952757
+                      +251948952757
                     </span>
                   </a>
                 </li>
