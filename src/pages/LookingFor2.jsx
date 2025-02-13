@@ -11,7 +11,7 @@ function LookingFor2() {
             <img
               className="lazyload"
               src={img1}
-              alt="Dev Technosys"
+              alt="Yai Softwares"
               width={468}
               height={468}
             />
