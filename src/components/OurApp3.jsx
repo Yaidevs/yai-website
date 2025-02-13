@@ -17,7 +17,7 @@ function OurApp3() {
 
   return (
     <section className="blog-box ">
-         <div className="flex flex-wrap justify-center bg-slate-400 rounded-xl items-center gap-8 p-4">
+         <div className="flex flex-nowrap justify-center bg-slate-400 rounded-xl items-center gap-8 p-4">
   <div className="w-full max-w-[290px]">
     <img
       className="w-full h-auto object-contain"

@@ -39,7 +39,7 @@ function Portfolio() {
               <p>
                 Yai Softwares, a leading mobile &amp; web development offers the
                 best solutions which won national and global awards. Those are
-                DawaaFinder ,Gibi Info and ቤትAle.
+                DawaFinder ,Gibi Info and ቤትAle.
               </p>
             </div>
             <figure className="banner-sec-shape-r">

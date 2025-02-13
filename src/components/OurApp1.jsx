@@ -19,7 +19,7 @@ function OurApp1() {
     <section className="blog-box">
     
         {/* Wrap both images in a flex container */}
-        <div className="flex flex-wrap justify-center bg-orange-100 rounded-xl items-center gap-8 p-4">
+        <div className="flex flex-nowrap justify-center bg-orange-100 rounded-xl items-center gap-8 p-4">
         <div className="w-full max-w-[290px]">
     <img
       className="w-full h-auto object-contain"

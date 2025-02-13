@@ -31,7 +31,7 @@ function OurApp2() {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center bg-green-100 rounded-xl items-center gap-8 p-4">
+      <div className="flex flex-nowrap justify-center bg-green-100 rounded-xl items-center gap-8 p-4">
       <div className="w-full max-w-[290px]">
     <img
       className="w-full h-auto object-contain"
