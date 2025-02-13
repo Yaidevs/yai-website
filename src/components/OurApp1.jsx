@@ -7,7 +7,7 @@ function OurApp1() {
   const [isSheetOpen, setSheetOpen] = useState(false);
 
   const sheetData = {
-    title: "DawaaFinder Details",
+    title: "DawaFinder Details",
     description:
       "Dawafinder is a platform that enables patients to easily find medications by easily scanning prescriptions or typing the name of medications while fighting against fake drugs by using block chain technology.  As well it enables pharmacies to sell more and manage their pharmacies.",
     image: dawaaFinderImage,
@@ -39,7 +39,7 @@ function OurApp1() {
      
 
       <div className="blog-img-content">
-        <h2 className="text-black text-3xl font-bold">DawaaFinder</h2>
+        <h2 className="text-black text-3xl font-bold">DawaFinder</h2>
         <p className="text-black text-lg mt-2">{sheetData.description}</p>
         <button onClick={() => setSheetOpen(true)} className="common-btn mt-3">
           Discover More
