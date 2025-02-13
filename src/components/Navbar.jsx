@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import logo from "../assets/images/yai-logo.jpeg";
 import logowhite from "../assets/images/logo-cmmi-white.png";
-import quoteicon from "../assets/images/quote-icon.svg";
+import gmail from "../assets/images/gmail.png";
 import whatsappicon from "../assets/images/whatsapp.svg";
 import menu from "../assets/images/menu.svg";
 import { Link, useLocation } from "react-router-dom";
@@ -115,18 +115,20 @@ function Navbar() {
           <div className="right-nav-bt lazyload">
             <div className="icon-box">
               <a
-                className="header-btn quote-bg lazyload get-consultant"
-                href="javascript:;"
-                title="Let's talk"
+                className="header-btn bg-gray-300 lazyload"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=yaidevs4@email.com&su=Hello Yai Software&body=I would like to get in touch."
+                target="_blank"
+                title="Email Yai Software"
               >
                 <img
                   className="lazyload"
-                  src={quoteicon}
-                  alt="talk"
+                  src={gmail}
+                  alt="yai software email"
                   width={24}
                   height={24}
                 />
               </a>
+
               <a
                 className="header-btn whatsapp-bg lazyload"
                 href="https://wa.me/251948952757?text=hello yaisoftware"
@@ -136,7 +138,7 @@ function Navbar() {
                 <img
                   className="lazyload"
                   src={whatsappicon}
-                  alt="Dev Whatsapp"
+                  alt="yai software Whatsapp"
                   width={24}
                   height={24}
                 />
