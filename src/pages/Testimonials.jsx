@@ -1,7 +1,6 @@
 import React from "react";
-import test1 from "../assets/images/testimonial1.webp";
-import test2 from "../assets/images/testimonial2.webp";
-import test3 from "../assets/images/testimonial1.webp";
+import img1 from "../assets/images/innovation incubation center.png";
+import img3 from "../assets/images/ju1.png";
 
 function Testinomials() {
   return (
@@ -29,7 +28,7 @@ function Testinomials() {
                     width={69}
                     height={69}
                     className="lazyload"
-                    src="https://via.placeholder.com/150"
+                    src={img1}
                     alt="Yai Softwares"
                   />
                 </figure>
@@ -52,7 +51,7 @@ function Testinomials() {
                     width={69}
                     height={69}
                     className="lazyload"
-                    src="https://via.placeholder.com/150"
+                    src={img3}
                     alt="Yai Softwares"
                   />
                 </figure>

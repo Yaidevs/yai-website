@@ -87,12 +87,12 @@ section.about-profile-sec {
 
 .about-info-block ul li figcaption p {
   font-size: 19px;
-  color: #020288;
+  color: #1c6aa3;
 }
 
 .about-info-block ul li figcaption h4 {
   font-size: 31px;
-  color: #020288;
+  color: #1c6aa3;
   font-family: Cambria-Bold;
   line-height: 34px;
 }
@@ -104,7 +104,7 @@ section.about-profile-sec {
 .about-info-content h5 {
   font-size: 16px;
   margin-bottom: 5px;
-  color: #020288;
+  color: #1c6aa3;
   text-transform: uppercase;
 }
 
@@ -134,7 +134,7 @@ section.about-mission-vision-sec:before {
   right: 0;
   width: 70%;
   height: 100%;
-  background-color: #382d71;
+  background-color: #1c6aa3;
   top: 0;
 }
 
@@ -150,7 +150,7 @@ section.about-mission-vision-sec:after {
   right: 0;
   width: 50px;
   height: 100%;
-  background-color: #382d71;
+  background-color: #1c6aa3;
   top: 0;
 }
 
@@ -162,7 +162,7 @@ section.about-mission-vision-sec:after {
 .about-mission-vision-content.main-heading-box h4 {
   font-size: 16px;
   margin-bottom: 5px;
-  color: #020288;
+  color: #1c6aa3;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -240,7 +240,7 @@ section.our-work-sec {
 
 .box-style-left article,
 .box-style-right article {
-  background: #e34690;
+  background: #1c6aa3;
   border-radius: 10px;
   padding: 40px 60px;
   display: flex;
@@ -250,7 +250,7 @@ section.our-work-sec {
 }
 
 .box-style-right article {
-  background: #933ff4;
+  background: #1c6aa3;
   justify-content: flex-end;
 }
 
@@ -340,7 +340,7 @@ section.our-work-sec {
   top: -40px;
   transform: translate(17%, 0);
   font-size: 24px;
-  color: #e34690;
+  color: #1c6aa3;
 }
 
 .box-style-right article h4 {
@@ -348,7 +348,7 @@ section.our-work-sec {
   top: -40px;
   transform: translate(-40%, 0);
   font-size: 22px;
-  color: #933ff4;
+  color: #1c6aa3;
   font-family: OpenSans-Bold;
 }
 

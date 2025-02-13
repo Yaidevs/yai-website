@@ -4,11 +4,15 @@ import logowhite from "../assets/images/logo-cmmi-white.png";
 import quoteicon from "../assets/images/quote-icon.svg";
 import whatsappicon from "../assets/images/whatsapp.svg";
 import menu from "../assets/images/menu.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { MoveUpRight } from "lucide-react";
 
 function Navbar() {
   useEffect(() => {
+    const header = document.querySelector("header");
+    if (header) {
+      header.focus();
+    }
     // Mobile Menu Toggle
     const menuIcon = document.querySelector(".menu-icon");
     const navListMain = document.querySelector(".navlist-main");

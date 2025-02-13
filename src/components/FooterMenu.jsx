@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function FooterMenu() {
   return (
@@ -9,32 +10,32 @@ function FooterMenu() {
             <h4 className="footer-tit lazyload">Quick links</h4>
             <ul className="footer-menu lazyload">
               <li className="lazyload">
-                <a className="lazyload" href=".">
+                <Link to="/about" className="lazyload">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="lazyload">
-                <a className="lazyload" href=".">
+                <Link to="/portfolio" className="lazyload">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li className="lazyload">
-                <a className="lazyload" href=".">
+                <Link to="/send-inquiry" className="lazyload">
                   Contact Us
-                </a>
+                </Link>
               </li>
-            
-              <li className="lazyload">
-                <a className="lazyload" href=".">
+
+              {/* <li className="lazyload">
+                <Link to className="lazyload" >
                   Testimonials
-                </a>
-              </li>
-             
-              <li className="lazyload">
+                </Link>
+              </li> */}
+
+              {/* <li className="lazyload">
                 <a className="lazyload" href=".">
                   FAQ
                 </a>
-              </li>
+              </li> */}
               {/* <li className="lazyload">
                 <a className="lazyload" href=".">
                   Sitemap
@@ -46,9 +47,9 @@ function FooterMenu() {
             <h4 className="footer-tit lazyload">Our services</h4>
             <ul className="footer-menu lazyload">
               <li className="lazyload">
-                <a className="lazyload" href=".">
+                <Link to="/portfolio" className="lazyload">
                   Mobile Application Development
-                </a>
+                </Link>
               </li>
               {/* <li className="lazyload">
                 <a className="lazyload" href=".">
@@ -56,9 +57,9 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <a className="lazyload" href=".">
+                <Link to="/portfolio" className="lazyload" href=".">
                   Blockchain Development
-                </a>
+                </Link>
               </li>
               {/* <li className="lazyload">
                 <a className="lazyload" href=".">
@@ -66,9 +67,9 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <a className="lazyload" href=".">
+                <Link to="/portfolio" className="lazyload" href=".">
                   AI Development
-                </a>
+                </Link>
               </li>
               {/* <li className="lazyload">
                 <a className="lazyload" href=".">
@@ -76,9 +77,9 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <a className="lazyload" href=".">
+                <Link to="/portfolio" className="lazyload" href=".">
                   Custom Web Development
-                </a>
+                </Link>
               </li>
               {/* <li className="lazyload">
                 <a className="lazyload" href=".">
@@ -86,9 +87,9 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <a className="lazyload" href=".">
+                <Link to="/portfolio" className="lazyload" href=".">
                   Web3 Development
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -96,54 +97,36 @@ function FooterMenu() {
             <h4 className="footer-tit lazyload">Our industries</h4>
             <ul className="footer-menu lazyload">
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/real-estate-app-development.php"
-                >
+                <Link to="/portfolio" className="lazyload">
                   Real Estate
-                </a>
+                </Link>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/industry-on-demand.php"
-                >
+                <Link to="/portfolio" className="lazyload">
                   On-Demand
-                </a>
+                </Link>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/travel-app-development.php"
-                >
+                <Link to="/portfolio" className="lazyload">
                   Travel &amp; Tours
-                </a>
+                </Link>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/ecommerce-development-company.php"
-                >
+                <Link to="/portfolio" className="lazyload">
                   Ecommerce &amp; Retail
-                </a>
+                </Link>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/healthcare-app-development.php"
-                >
+                <Link to="/portfolio" className="lazyload">
                   Healthcare
-                </a>
+                </Link>
               </li>
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/event-management-app-development.php"
-                >
+                <Link to="/portfolio" className="lazyload">
                   Event &amp; Tickets
-                </a>
+                </Link>
               </li>
-             
+
               {/* <li className="lazyload">
                 <a
                   className="lazyload"
@@ -153,12 +136,9 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <a
-                  className="lazyload"
-                  href="https://devtechnosys.com/food-delivery-app-development.php"
-                >
+                <Link to="/portfolio" className="lazyload">
                   Food &amp; Restaurant
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -176,7 +156,7 @@ function FooterMenu() {
                       className="__cf_email__"
                       data-cfemail="e48d8a828ba48081929081878c8a8b979d97ca878b89"
                     >
-                      barnaan@gmail.com
+                      yaidevs4@gmail.com
                     </span>
                   </a>
                 </li>

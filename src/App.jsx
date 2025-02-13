@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./assets/js/lazysizes.min.js";
@@ -39,7 +39,7 @@ import FooterMenu from "./components/FooterMenu";
 import FooterSocial from "./components/FooterSocial";
 import FooterCopyright from "./components/FooterCopyright";
 
-// Additional Pages
+//Additional Pages
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Pricing from "./pages/Pricing";
@@ -79,7 +79,7 @@ function App() {
                     {/* <CaseStudies /> */}
                     {/* <Faq /> */}
                     <div>
-                    <NewsLetter />
+                      <NewsLetter />
 
                       {/* <Blogs /> */}
                       {/* <GetFreeQuote /> */}

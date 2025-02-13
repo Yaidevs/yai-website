@@ -1,6 +1,6 @@
 import React from "react";
 import aboutbanner from "../assets/images/about-banner.webp";
-import missionvisionimg from "../assets/images/mission-vision-img.png";
+import missionvisionimg from "../assets/images/Ceo.jpg";
 import "./about.css";
 import Blogs from "../components/Blogs";
 import GetFreeQuote from "../components/GetFreeQuote";
@@ -29,15 +29,15 @@ function About() {
             }}
           />
           <img
-            alt="Dev Technosys"
+            alt="Yai Softwares"
             className="lazyload w-52"
-            src="https://media.licdn.com/dms/image/v2/D4E22AQFZAlTx4fA1vw/feedshare-shrink_1280/feedshare-shrink_1280/0/1706466254243?e=1741219200&v=beta&t=ICzNqxVOadtN5Tg3oI-YV_dHj98Vj8BeDFzjDrMSFY8"
+            src="https://img.freepik.com/free-photo/dolly-out-shot-african-american-employees-sitting-desks-office-imputing-data-computers-overnight-coworkers-modern-relaxed-workspace-solving-tasks-nightshift_482257-70203.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid"
             style={{ position: "relative", zIndex: 0 }}
           />
           <div className="container lazyload">
             <div className="main-heading-box lazyload">
               <h1 className="lazyload">
-                Experience the True Technology at Dev Technosys
+                Experience the True Technology at Yai Softwares
               </h1>
               <p className="lazyload">
                 High - end IT solution from and by the world's greatest
@@ -55,7 +55,7 @@ function About() {
               <li className="lazyload">
                 <figure className="lazyload">
                   <img
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/map-icon.svg"
                   />
@@ -68,7 +68,7 @@ function About() {
               <li className="lazyload">
                 <figure className="lazyload">
                   <img
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/team-icon.svg"
                   />
@@ -81,7 +81,7 @@ function About() {
               <li className="lazyload">
                 <figure>
                   <img
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/business-icon.svg"
                   />
@@ -94,7 +94,7 @@ function About() {
               <li className="lazyload">
                 <figure className="lazyload">
                   <img
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/client-icon.svg"
                   />
@@ -107,7 +107,7 @@ function About() {
               <li className="lazyload">
                 <figure className="lazyload">
                   <img
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/rocket-icon.svg"
                   />
@@ -119,18 +119,18 @@ function About() {
               </li>
             </ul>
           </div>
-          <div className="about-info-content lazyload">
+          {/* <div className="about-info-content lazyload">
             <h5 className="lazyload">CORPORATE PROFILE</h5>
             <h4 className="lazyload">
               Does more then ever platform to achieve goal stages
             </h4>
             <p className="lazyload">
-              Dev Technosys is an ISO 9001:2015 certified Web/Mobile App
+              Yai Softwares is an ISO 9001:2015 certified Web/Mobile App
               Development Company, commenced in year 2010. In our 12+ years of
               experience we have continually delivered modern technology
               solutions that have strengthen enterprise’s technical
               infrastructure and helped them lead in their business domain. At
-              Dev Technosys we deploy a vast talent pool of skilful and
+              Yai Softwares we deploy a vast talent pool of skilful and
               experienced Web developers of strong command on contemporary
               languages and frameworks such as PHP, JavaScript, .Net, Open
               Source, etc.
@@ -143,7 +143,7 @@ function About() {
               development etc.
             </p>
             <p className="lazyload">
-              At Dev Technosys, we believe in the uniqueness of your idea and
+              At Yai Softwares, we believe in the uniqueness of your idea and
               industry specific requirements of your enterprise, thus to
               perfectly meet your needs we engineer highly customise our
               projects to make them feature-rich, robust, visually stunning and
@@ -154,14 +154,14 @@ function About() {
               years we have earned the repo as a ‘tech savvy’, ‘quality
               trendsetter’ developers of industry, our work and technical
               breadth has helped us earn recognition from prestigious
-              organisations such as NASSCOM, GoodFirms etc. Dev Technosys is a
+              organisations such as NASSCOM, GoodFirms etc. Yai Softwares is a
               team of 120+ experts across globe with great experience of their
               fields, determined to serve projects that surpass client
               imagination. The dynamic of the company is to constantly innovate,
               preserve the uniqueness of your enterprise, improve the products
               and services, and serve for customer satisfaction.
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* Mission - Vision Section */}
@@ -174,20 +174,12 @@ function About() {
                   <h4 className="lazyload">OUR VISION &amp; MISSION</h4>
                   <h3 className="lazyload">We help to achieve mutual goals</h3>
                   <p className="lazyload">
-                    Started out with one motto in our minds, Dev Technosys is an
-                    end-to-end IT Solution provider company established on the
-                    maxim of helping enterprise with advance technology to
-                    resolve modern challenges faced by them. We are a one-door
-                    solution web and app development solution provider company
-                    that is set out on a mission to help out Startups, SME’s,
-                    big corporate houses in their quest to be a leader in their
-                    business domain. Our solutions are perennial, advance and
-                    intelligently engineered to elevate your business value, we
-                    are visionary builders of modern day technology that set
-                    trends and revolutionise the standards of web development.
-                    We are sort out team of experts, deeply dedicated catering
-                    solutions that are well aligned with your enterprise
-                    futuristic needs with our high technical whereabouts.
+                    We started with one goal in mind—helping businesses grow
+                    with technology. Yai Softwares is a full-service IT
+                    solutions company dedicated to providing modern web and app
+                    development. We support startups, small and medium-sized
+                    businesses (SMEs), and large corporations in their journey
+                    to success.
                   </p>
                 </div>
               </div>
@@ -195,10 +187,8 @@ function About() {
                 <div className="about-mission-vision-img lazyload">
                   <figure className="lazyload">
                     <img
-                      width={445}
-                      height={481}
-                      alt="Dev Technosys"
-                      className="lazyload"
+                      alt="Yai Softwares"
+                      className="lazyload w-80"
                       src={missionvisionimg}
                     />
                   </figure>
@@ -223,7 +213,7 @@ function About() {
                   <img
                     width={50}
                     height={52}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-1.svg"
                   />
@@ -244,7 +234,7 @@ function About() {
                   <img
                     width={50}
                     height={51}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-2.svg"
                   />
@@ -265,7 +255,7 @@ function About() {
                   <img
                     width={50}
                     height={49}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-3.svg"
                   />
@@ -286,7 +276,7 @@ function About() {
                   <img
                     width={50}
                     height={49}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-4.svg"
                   />
@@ -307,7 +297,7 @@ function About() {
                   <img
                     width={50}
                     height={49}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-5.svg"
                   />
@@ -328,7 +318,7 @@ function About() {
                   <img
                     width={50}
                     height={49}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-6.svg"
                   />
@@ -343,13 +333,13 @@ function About() {
                 </figcaption>
               </article>
             </div>
-            <div className="col-md-4 box-style-1 lazyload">
+            {/* <div className="col-md-4 box-style-1 lazyload">
               <article className="lazyload">
                 <figure className="lazyload">
                   <img
                     width={50}
                     height={50}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-7.svg"
                   />
@@ -370,7 +360,7 @@ function About() {
                   <img
                     width={50}
                     height={55}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-8.svg"
                   />
@@ -391,7 +381,7 @@ function About() {
                   <img
                     width={50}
                     height={50}
-                    alt="Dev Technosys"
+                    alt="Yai Softwares"
                     className="lazyload"
                     data-src="https://devtechnosys.com/images/2021-new/about/inc-9.svg"
                   />
@@ -405,7 +395,7 @@ function About() {
                   </p>
                 </figcaption>
               </article>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -413,12 +403,12 @@ function About() {
       <section className="our-work-sec paddBot20 lazyload">
         <div className="container lazyload">
           <div className="main-heading-box main-heading-box-inner lazyload">
-            <h2>What devtechnosys does for you</h2>
+            <h2>What Yai Softwares does for you</h2>
             <p>
-              We design, we invent, we advent, we code, we engineer, we share
-              your load in your journey of becoming a leader. We have an advance
-              understanding of developing websites, applications, portals,
-              products etc that completes your enterprise.
+              We design, create, and build. We code, innovate, and support you
+              on your path to success. With our expertise in developing
+              websites, apps, portals, and digital solutions, we help bring your
+              business vision to life.
             </p>
           </div>
           <div className="row box-style-block lazyload">
@@ -426,13 +416,11 @@ function About() {
               <article className="lazyload">
                 <h4 className="lazyload">WHAT YOU NEED</h4>
                 <ul className="lazyload">
-                  <li className="lazyload">Consultation on project</li>
-                  <li className="lazyload">Workload division</li>
-                  <li className="lazyload">
-                    Some to chalkup your idea &amp; needs
-                  </li>
-                  <li className="lazyload">Brilliant developers</li>
-                  <li className="lazyload">Fund consultation</li>
+                  <li className="lazyload">Expert Project Consultation</li>
+                  <li className="lazyload">Efficient Workload Management</li>
+                  <li className="lazyload">Idea Refinement & Strategy</li>
+                  <li className="lazyload">Skilled Development Team</li>
+                  <li className="lazyload">Continuous Innovation</li>
                 </ul>
               </article>
             </div>
@@ -440,34 +428,34 @@ function About() {
               <article className="lazyload">
                 <ul className="lazyload">
                   <li className="lazyload">Product development</li>
-                  <li className="lazyload">Business strategic alliance</li>
-                  <li className="lazyload">
-                    Flawless &amp; ground breaking design
-                  </li>
-                  <li className="lazyload">Dedicated development</li>
-                  <li className="lazyload">High end solution</li>
+                  <li className="lazyload">Strategic Business Partnerships </li>
+                  <li className="lazyload">Cutting-Edge & Seamless Design</li>
+                  <li className="lazyload">Committed Development Team </li>
+                  <li className="lazyload">Advanced & Scalable Solutions</li>
                 </ul>
               </article>
             </div>
             <div className="col-md-5 box-style-right ml-auto lazyload">
               <article className="lazyload">
-                <h4 className="lazyload">WHAT DT DO</h4>
+                <h4 className="lazyload">WHAT YAI Softwares Does </h4>
                 <ul className="lazyload">
-                  <li className="lazyload">Draw technical conclusion</li>
-                  <li className="lazyload">Keeps you moving</li>
-                  <li className="lazyload">Brainstorming</li>
-                  <li className="lazyload">Develop great app &amp; website</li>
-                  <li className="lazyload">Keep inspiration churning</li>
+                  <li className="lazyload">Provide Technical Expertise</li>
+                  <li className="lazyload">Drive Progress</li>
+                  <li className="lazyload">Innovate Through Brainstorming</li>
+                  <li className="lazyload">
+                    Develop High-Quality Apps & Websites
+                  </li>
+                  <li className="lazyload">Fuel Inspiration & Growth</li>
                 </ul>
               </article>
             </div>
           </div>
         </div>
       </section>
-      <Blogs />
-      <GetFreeQuote />
-      <Honour />
-      <OurOffices />
+      {/* <Blogs /> */}
+      {/* <GetFreeQuote /> */}
+      {/* <Honour /> */}
+      {/* <OurOffices /> */}
     </div>
   );
 }
