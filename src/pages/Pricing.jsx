@@ -254,7 +254,7 @@ function Pricing() {
                     <img className="lazyload" src={icon1} alt="Dev Technosys" />
                   </figure>
                   <figcaption>
-                    <h3>1000+ Projects</h3>
+                    <h3>10+ Projects</h3>
                   </figcaption>
                 </div>
                 <figure>
@@ -265,7 +265,7 @@ function Pricing() {
                     <img className="lazyload" src={icon2} alt="Dev Technosys" />
                   </figure>
                   <figcaption>
-                    <h3>700+ Clients</h3>
+                    <h3>8+ Clients</h3>
                   </figcaption>
                 </div>
               </div>
@@ -715,7 +715,10 @@ function Pricing() {
                           />
                         </div>
                         <div className="text-center">
-                          <button type="submit" className="btn text-white bg-[#1c6aa3]">
+                          <button
+                            type="submit"
+                            className="btn text-white bg-[#1c6aa3]"
+                          >
                             SEND YOUR INQUIRY
                           </button>
                         </div>
