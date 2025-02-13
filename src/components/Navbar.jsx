@@ -145,15 +145,13 @@ function Navbar() {
                 <img className="lazyload" src={menu} alt="Dev Menu" />
               </a> */}
             </div>
-            <a
-              href="https://devtechnosys.com/request-a-quote.php"
+            <Link
+              to="/send-inquiry"
               className=" rounded-lg bg-[#1c6aa3] px-3 text-lg  py-2 justify-center items-center text-white lazyload flex gap-3"
             >
-             <span>
-              
-              Get a Quote
-              </span> 
-              <MoveUpRight size={36} color="#fff" />            </a>
+              <span>Get a Quote</span>
+              <MoveUpRight size={36} color="#fff" />{" "}
+            </Link>
           </div>
         </nav>
       </div>

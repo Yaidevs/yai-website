@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import icon1 from "../assets/images/project-icon-1.png";
 import icon2 from "../assets/images/client-icon.png";
 import img1 from "../assets/images/portrait-happy.png";
+import img2 from "../assets/images/man-with-dolar.png";
 import shape2 from "../assets/images/shape-2.png";
 import shape1 from "../assets/images/shape-1.png";
 import WarningModal from "./WarningModal";
@@ -258,7 +259,7 @@ function Pricing() {
                   </figcaption>
                 </div>
                 <figure>
-                  <img className="lazyload" src={img1} alt="Dev Technosys" />
+                  <img className="lazyload" src={img2} alt="Dev Technosys" />
                 </figure>
                 <div className="banner-info client-info">
                   <figure>

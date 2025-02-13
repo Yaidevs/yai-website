@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img1 from "../assets/images/app-dev-girl.webp";
 
 function LookingFor() {
   return (
@@ -9,8 +10,8 @@ function LookingFor() {
           <div className="col-md-5 looking-for-L">
             <img
               className="lazyload"
-              data-src="https://devtechnosys.com/images/2022/nft-marketplace-development/app-dev-girl.webp"
-              alt="Dev Technosys"
+              src={img1}
+              alt="Yai Softwares"
               width={468}
               height={468}
             />
@@ -26,11 +27,7 @@ function LookingFor() {
             <Link to="/portfolio" className="btn black-bg btn-purple">
               View Portfolio
             </Link>
-            <Link
-              to="/send-inquiry"
-              href="javascript:;"
-              className=" btn btn-white  margin-left-15"
-            >
+            <Link to="/send-inquiry" className=" btn btn-white  margin-left-15">
               Get a Qoute
             </Link>
           </div>

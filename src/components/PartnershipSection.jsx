@@ -167,9 +167,10 @@ export default function PartnershipSection() {
         </div>
 
         {/* Right Column - Testimonials & Awards */}
-        <div className="bg-[#fdfbf4] p-8 rounded-xl space-y-8">
+        {/* Right Column - Testimonials & Awards */}
+        <div className="bg-[#fdfbf4] p-8 rounded-xl flex flex-col justify-between min-h-[320px]">
           {/* Testimonial */}
-          <div className="space-y-4">
+          <div className="space-y-4 min-h-[180px]">
             <div className="flex justify-between items-start">
               <AnimatePresence mode="wait">
                 <motion.div
@@ -186,6 +187,7 @@ export default function PartnershipSection() {
                 </motion.div>
               </AnimatePresence>
               <div className="flex gap-1">
+                <h2 className="font-bold mr-2">Reviews</h2>
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}
@@ -207,21 +209,42 @@ export default function PartnershipSection() {
                 {testimonials[currentTestimonial].text}
               </motion.p>
             </AnimatePresence>
-            Reviews
           </div>
 
           {/* Awards Section */}
           <div>
             <h3 className="font-bold mb-4">Awards and Recognition</h3>
-            <div className="grid grid-cols-3 gap-4">
-              {[...Array(6)].map((_, i) => (
-                <div
-                  key={i}
-                  className="bg-gray-300 w-24 h-24 flex items-center justify-center"
-                >
-                  <div className="w-2 bg-gray-200 rounded-full" />
-                </div>
-              ))}
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-4">
+              <img
+                src="/path-to-logo1.png"
+                alt="Award 1"
+                className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
+              />
+              <img
+                src="/path-to-logo2.png"
+                alt="Award 2"
+                className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
+              />
+              <img
+                src="/path-to-logo3.png"
+                alt="Award 3"
+                className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
+              />
+              <img
+                src="/path-to-logo4.png"
+                alt="Award 4"
+                className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
+              />
+              <img
+                src="/path-to-logo5.png"
+                alt="Award 5"
+                className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
+              />
+              <img
+                src="/path-to-logo6.png"
+                alt="Award 6"
+                className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
+              />
             </div>
           </div>
         </div>
