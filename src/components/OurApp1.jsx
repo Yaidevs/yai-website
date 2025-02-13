@@ -12,29 +12,31 @@ function OurApp1() {
       "Dawafinder is a platform that enables patients to easily find medications by easily scanning prescriptions or typing the name of medications while fighting against fake drugs by using block chain technology.  As well it enables pharmacies to sell more and manage their pharmacies.",
     image: dawaaFinderImage,
     pcImage: dawaaFinderPcImage,
+    link:"https://dawaafinder.com"
   };
 
   return (
     <section className="blog-box">
-      <div className="blog-img-box flex gap-1">
+    
         {/* Wrap both images in a flex container */}
-        <div className=" flex gap-8 justify-center ml-4  w-full h-auto p-4">
-          <div className="w-[290px]">
-            <img
-              className="   object-contain  "
-              alt="Mobile App"
-              src={sheetData.image}
-            />
-          </div>
-          <div className="hidden md:flex">
-            <img
-              className="  lazyload h-8 "
-              alt="Web App"
-              src={sheetData.pcImage}
-            />
-          </div>
-        </div>
-      </div>
+        <div className="flex flex-wrap justify-center bg-orange-100 rounded-xl items-center gap-8 p-4">
+        <div className="w-full max-w-[290px]">
+    <img
+      className="w-full h-auto object-contain"
+      alt="Mobile App"
+      src={sheetData.image}
+    />
+  </div>
+  <div className="hidden xl:flex w-full max-w-[400px]">
+    <img
+      className="lazyload h-auto max-h-[400px] object-contain"
+      alt="Web App"
+      src={sheetData.pcImage}
+    />
+  </div>
+</div>
+
+     
 
       <div className="blog-img-content">
         <h2 className="text-black text-3xl font-bold">DawaaFinder</h2>
@@ -48,6 +50,8 @@ function OurApp1() {
         title={sheetData.title}
         description={sheetData.description}
         image={sheetData.image}
+        pcImage={sheetData.pcImage}
+        link={sheetData.link}
         isOpen={isSheetOpen}
         onClose={() => setSheetOpen(false)}
       />

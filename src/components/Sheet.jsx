@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
-
-function Sheet({ title, description, image, isOpen, onClose }) {
+import { Link } from "react-router-dom";
+function Sheet({ title, description, image,pcImage, link,isOpen, onClose }) {
   const sheetRef = useRef(null);
  console.log(image);
   useEffect(() => {
@@ -41,22 +41,41 @@ function Sheet({ title, description, image, isOpen, onClose }) {
         className="relative w-[60%] max-w-[700px] h-full bg-white shadow-lg p-6 overflow-y-auto"
       >
         <div className="flex justify-between items-center border-b pb-2">
-          <h2 className="text-lg font-semibold">{title}</h2>
+          <h2 className="text-2xl font-semibold">{title}</h2>
           <button onClick={onClose} className="text-gray-500 hover:text-black">
             ✕
           </button>
         </div>
         <div className="mt-4">
+          <div className="flex">
+
           <img
             src={image}
             alt={title}
             className="w-44 h-72 object-contain  rounded-md mb-4"
           />
-          <p>{description}</p>
+          <img
+            src={pcImage}
+            alt={title}
+            className="w-80  object-contain  rounded-md mb-4"
+          />
+          </div>
+          <p className="text-xl font-semibold text-gray-800">{description}</p>
           {/* <p className="mt-4">
             Additional content here to test scrolling. Add more details to see
             how scrolling behaves inside the sheet.
           </p> */}
+        
+          <Link
+                  to={link}
+                  target="_blank"
+                  rel="nofollow"
+                >
+                   <button  className="common-btn mt-4">
+                    View Now
+                   </button>
+                </Link>
+          
         </div>
       </div>
     </div>
