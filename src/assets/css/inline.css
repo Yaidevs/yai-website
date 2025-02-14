@@ -703,7 +703,7 @@ body .paddBot20 {
   height: 45px;
   background: #1c6aa3;
   border-radius: 15px;
-  padding: 10px 15px;
+  padding: 20px 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -717,6 +717,7 @@ body .paddBot20 {
   margin-left: 10px;
 }
 .white-btn {
+  padding: 20px 20px;
   background: #fff;
   color: #000;
 }

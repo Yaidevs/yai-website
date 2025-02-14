@@ -98,7 +98,7 @@ function Blogs() {
                 <img
                   className="lazyload"
                   data-src="https://devtechnosys.com/images/2021-new/arrow-btn.svg"
-                  alt="Dev Technosys"
+                  alt="YAI Software Technologies"
                   width={30}
                   height={30}
                 />
@@ -137,7 +137,7 @@ function Blogs() {
                 <img
                   className="lazyload"
                   data-src="https://devtechnosys.com/images/2021-new/arrow-btn.svg"
-                  alt="Dev Technosys"
+                  alt="YAI Software Technologies"
                   width={30}
                   height={30}
                 />
@@ -175,7 +175,7 @@ function Blogs() {
                 <img
                   className="lazyload"
                   data-src="https://devtechnosys.com/images/2021-new/arrow-btn.svg"
-                  alt="Dev Technosys"
+                  alt="YAI Software Technologies"
                   width={30}
                   height={30}
                 />

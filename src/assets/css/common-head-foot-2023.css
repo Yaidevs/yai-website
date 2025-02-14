@@ -285,7 +285,7 @@ body .paddBot20 {
   background: #1c6aa3;
   color: #fff;
   border-radius: 15px;
-  padding: 10px 15px;
+  padding: 20px 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1228,7 +1228,8 @@ body .inner-wraper {
 
 @media (max-width: 991px) {
   .cta-blue-l {
-    padding: 0 50px;
+    width: 100%;
+    padding: 10px 20px;
   }
   .cta-blue .title-head h2 {
     font-size: 26px;
@@ -1328,7 +1329,7 @@ body .inner-wraper {
     padding-top: 99px;
   }
   .common-btn {
-    padding: 10px 10px;
+    padding: 20px 20px;
     height: 40px;
   }
   .cta-color-r {
@@ -1434,7 +1435,7 @@ body .inner-wraper {
     padding-right: 30px;
   }
   .common-btn {
-    padding: 10px 10px;
+    padding: 20px 20px;
     height: 39px;
   }
   .cta-color-box {
@@ -1495,7 +1496,7 @@ body .inner-wraper {
     display: block;
   }
   .common-btn {
-    padding: 10px 6px;
+    padding: 20px 20px;
     height: 34px;
     font-size: 11px;
   }

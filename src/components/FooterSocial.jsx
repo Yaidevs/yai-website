@@ -58,7 +58,7 @@ function FooterSocial() {
               <img
                 className="lazyload"
                 data-src="https://devtechnosys.com/images-2023/common/start-rating-w.svg"
-                alt="Dev Technosys"
+                alt="YAI Software Technologies"
                 width={13}
                 height={13}
               />

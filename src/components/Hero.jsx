@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTrophy } from 'react-icons/fa';
 import img1 from '../assets/images/hero-img1-women.jpg'
-
+import { Link } from 'react-router-dom';
 function Hero() {
   return (
     <div className="hero">
@@ -20,7 +20,14 @@ function Hero() {
             <p className="hero-description">
               Hire dedicated developers to develop revenue-driven mobile apps and websites
             </p>
-            <button className="hero-cta">LET'S CONNECT</button>
+            <Link
+              to="/send-inquiry"
+              className="rounded-lg bg-[#1c6aa3] px-3 text-lg py-2 justify-center items-center text-white lazyload flex gap-3"
+              
+            >
+              <span>LET'S CONNECT</span>
+            </Link>
+            {/* <button className="hero-cta">LET'S CONNECT</button> */}
           </div>
           <div className="hero-images p-5">
             <div className="hero-award">

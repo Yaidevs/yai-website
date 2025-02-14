@@ -232,10 +232,10 @@ function Pricing() {
 
       <section className="banner-top">
         <span className="shape-1">
-          <img className="lazyload" src={shape1} alt="Dev Technosys" />
+          <img className="lazyload" src={shape1} alt="YAI Software Technologies" />
         </span>
         <span className="shape-2">
-          <img className="lazyload" src={shape2} alt="Dev Technosys" />
+          <img className="lazyload" src={shape2} alt="YAI Software Technologies" />
         </span>
         <div className="container">
           <div className="row">
@@ -252,18 +252,18 @@ function Pricing() {
               <div className="bg-rec">
                 <div className="banner-info">
                   <figure>
-                    <img className="lazyload" src={icon1} alt="Dev Technosys" />
+                    <img className="lazyload" src={icon1} alt="YAI Software Technologies" />
                   </figure>
                   <figcaption>
                     <h3>10+ Projects</h3>
                   </figcaption>
                 </div>
                 <figure>
-                  <img className="lazyload" src={img2} alt="Dev Technosys" />
+                  <img className="lazyload" src={img2} alt="YAI Software Technologies" />
                 </figure>
                 <div className="banner-info client-info">
                   <figure>
-                    <img className="lazyload" src={icon2} alt="Dev Technosys" />
+                    <img className="lazyload" src={icon2} alt="YAI Software Technologies" />
                   </figure>
                   <figcaption>
                     <h3>8+ Clients</h3>

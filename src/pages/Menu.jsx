@@ -6,10 +6,10 @@ function Menu() {
     <div>
       <header className="full-header">
         <a href="https://devtechnosys.com/" className="logo">
-          <img alt="Dev Technosys" src="images/logo-cm.png" />
+          <img alt="YAI Software Technologies" src="images/logo-cm.png" />
         </a>
         <a href="#" onclick="goBack()" className="menu-btn">
-          Close <img alt="Dev Technosys" src="images/close.svg" />
+          Close <img alt="YAI Software Technologies" src="images/close.svg" />
         </a>
       </header>
       <div className="menu-container">
@@ -2489,16 +2489,16 @@ function Menu() {
       <div className="last-menu">
         <ul className="last-menu-in">
           <li>
-            <img alt="Dev Technosys" src="images/menu1.svg" /> 14+ YEAR'S
+            <img alt="YAI Software Technologies" src="images/menu1.svg" /> 14+ YEAR'S
           </li>
           <li>
-            <img alt="Dev Technosys" src="images/menu2.svg" /> 150+ EMPLOYEES
+            <img alt="YAI Software Technologies" src="images/menu2.svg" /> 150+ EMPLOYEES
           </li>
           <li>
-            <img alt="Dev Technosys" src="images/menu3.svg" /> 1000+ PROJECTS
+            <img alt="YAI Software Technologies" src="images/menu3.svg" /> 1000+ PROJECTS
           </li>
           <li>
-            <img alt="Dev Technosys" src="images/menu4.svg" /> 700+ CLIENTS{" "}
+            <img alt="YAI Software Technologies" src="images/menu4.svg" /> 700+ CLIENTS{" "}
           </li>
         </ul>
       </div>

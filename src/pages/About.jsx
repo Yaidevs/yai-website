@@ -81,7 +81,7 @@ function About() {
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">Team Members</p>
-                  <h4 className="lazyload">4</h4>
+                  <h4 className="lazyload">6</h4>
                 </figcaption>
               </li>
               <li className="lazyload">
@@ -94,7 +94,7 @@ function About() {
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">Year in business</p>
-                  <h4 className="lazyload">1 year</h4>
+                  <h4 className="lazyload">4 year</h4>
                 </figcaption>
               </li>
               <li className="lazyload">
@@ -107,7 +107,7 @@ function About() {
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">Clients</p>
-                  <h4 className="lazyload">100+</h4>
+                  <h4 className="lazyload">10+</h4>
                 </figcaption>
               </li>
               <li className="lazyload">
