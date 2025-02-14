@@ -59,8 +59,10 @@ function Portfolio() {
               </figure>
               <div className="box-portfolio-content">
                 <div className="img-content">
-                  <h2>DawaFinder</h2>
-                  <h4>Finding Medicine Shouldn’t Be a Struggle!</h4>
+                  <h2 className="font-bold">DawaFinder</h2>
+                  <h4 className="font-bold">
+                    Finding Medicine Shouldn’t Be a Struggle!
+                  </h4>
                   <p>
                     Dawafinder is a platform that enables patients to easily
                     find medications by easily scanning prescriptions or typing
@@ -77,7 +79,7 @@ function Portfolio() {
               </div>
 
               <div className="box-portfolio-img">
-                <figure className="lg:h-[900px]">
+                <figure className="h-[450px] lg:h-[600px] xl:h-[800px]">
                   <img className="lazyload" src={doctor} alt="Yai Softwares" />
                 </figure>
               </div>
@@ -96,8 +98,8 @@ function Portfolio() {
               </figure>
               <div className="box-portfolio-content">
                 <div className="img-content">
-                  <h2>Gibi Info</h2>
-                  <h4>The Best Way To Learn!</h4>
+                  <h2 className="font-bold">Gibi Info</h2>
+                  <h4 className="font-bold">The Best Way To Learn!</h4>
                   <p>
                     Gibi Info is a platform that helps students practice with
                     expert-analyzed questions, exchange educational materials,
@@ -115,7 +117,7 @@ function Portfolio() {
               </div>
 
               <div className="box-portfolio-img">
-                <figure className="lg:h-[900px]">
+                <figure className="h-[620px] lg:h-[900px] xl:h-[1060px]">
                   <img
                     className="lazyload"
                     src="https://img.freepik.com/free-photo/young-pretty-woman-student-browsed-mobile-phone-walking-city-street_231208-1202.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid"
@@ -168,8 +170,8 @@ function Portfolio() {
               </figure>
               <div className="col-md-7 box-portfolio-content">
                 <div className="img-content">
-                  <h2>ቤትAle</h2>
-                  <h4>Get Your Dream Home</h4>
+                  <h2 className="font-bold">ቤትAle</h2>
+                  <h4 className="font-bold">Get Your Dream Home</h4>
                   <p className="max-w-lg">
                     ቤትAle is an easy-to-use app that helps you find your dream
                     home, whether you're looking to rent or buy. Property owners
@@ -188,10 +190,10 @@ function Portfolio() {
                 </div>
               </div>
               <div className="box-portfolio-img">
-                <figure className="lg:h-[500px]">
+                <figure className="h-[680px] w-[550px] lg:w-[600px]">
                   <img
                     className="lazyload"
-                    src="https://img.freepik.com/premium-photo/young-man-with-keys-just-bought-new-appartment_926199-3591900.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid"
+                    src="https://img.freepik.com/free-photo/young-adult-red-shirt-taking-self-photo-brick-walls-building_23-2148638755.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid"
                     alt="Yai Softwares"
                   />
                 </figure>
