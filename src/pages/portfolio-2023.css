@@ -132,9 +132,9 @@
   height: 744px;
   margin: 60px 0;
 }
-.box-portfolio-img figure {
-  height: 100%;
-}
+/* .box-portfolio-img figure {
+  height: 270px;
+} */
 .box-portfolio-content {
   max-width: 60%;
   flex: 0 0 60%;

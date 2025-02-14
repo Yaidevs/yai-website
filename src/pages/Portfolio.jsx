@@ -77,7 +77,7 @@ function Portfolio() {
               </div>
 
               <div className="box-portfolio-img">
-                <figure>
+                <figure className="lg:h-[900px]">
                   <img className="lazyload" src={doctor} alt="Yai Softwares" />
                 </figure>
               </div>
@@ -115,7 +115,7 @@ function Portfolio() {
               </div>
 
               <div className="box-portfolio-img">
-                <figure>
+                <figure className="lg:h-[900px]">
                   <img
                     className="lazyload"
                     src="https://img.freepik.com/free-photo/young-pretty-woman-student-browsed-mobile-phone-walking-city-street_231208-1202.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid"
@@ -188,7 +188,7 @@ function Portfolio() {
                 </div>
               </div>
               <div className="box-portfolio-img">
-                <figure>
+                <figure className="lg:h-[500px]">
                   <img
                     className="lazyload"
                     src="https://img.freepik.com/premium-photo/young-man-with-keys-just-bought-new-appartment_926199-3591900.jpg?uid=R120137908&ga=GA1.1.552436040.1735197856&semt=ais_hybrid"
