@@ -155,8 +155,7 @@ function ServiceSection() {
                 <h4>Elevating Business Experiences, One App At A Time</h4>
                 <p>
                   Want to develop a business app that can take your business to
-                  the next level? Seek mobile app development services from Dev
-                  Technosys. With a team of dedicated developers for hire, we
+                  the next level? Seek mobile app development services from YAI Software Technologies. With a team of dedicated developers for hire, we
                   can completely transform your business success. Get highly
                   interactive and fully-functional mobile apps!
                 </p>
@@ -226,7 +225,7 @@ function ServiceSection() {
                 <h4>Crafting Digital Destinations, Building Online Success</h4>
                 <p>
                   Unlock your business potential with the top website
-                  development services by Dev Technosys. We create engaging and
+                  development services by YAI Software Technologies. We create engaging and
                   user-centric business websites, marking a lasting impression.
                   From website design to development, we've got you covered.
                   Ensure a strong digital presence in today's competitive
@@ -298,7 +297,7 @@ function ServiceSection() {
                 <h4>Empowering Businesses with On-Demand App Services</h4>
                 <p>
                   Turn your business app idea into reality with our exclusive
-                  on-demand app development services. Dev Technosys team ensures
+                  on-demand app development services. YAI Software Technologies team ensures
                   a smooth development from concept to deployment, bringing your
                   business app vision to life.
                 </p>
@@ -370,10 +369,10 @@ function ServiceSection() {
                   Get ready to experience tailored business excellence with our
                   future-proof software development services. Our team of
                   dedicated developers crafts cutting-edge software driving
-                  efficiency and innovation. Partner with Dev Technosys to
+                  efficiency and innovation. Partner with YAI Software Technologies to
                   elevate your operations and stay ahead in this evolving
                   landscape.
-                </p>
+                </p>s
                 {/* <div className="btn-group-box">
                   <a
                     href="https://devtechnosys.com/custom-software-development.php"
@@ -442,8 +441,7 @@ function ServiceSection() {
                 </h4>
                 <p>
                   Do you want to hire dedicated developers within the desired
-                  budget? Choose from the flexible hiring models of Dev
-                  Technosys. We value every business time and money, offering a
+                  budget? Choose from the flexible hiring models of YAI Software Technologies. We value every business time and money, offering a
                   professional team of experts for a specific project. Contact
                   us to experience affordable mobile app &amp; website
                   development solutions.

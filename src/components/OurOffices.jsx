@@ -15,7 +15,7 @@ function OurOffices() {
                 <img
                   className="lazyload"
                   data-src="https://devtechnosys.com/images-2023/common/flag-1.png"
-                  alt="Dev Technosys"
+                  alt="YAI Software Technologies"
                   width
                   height
                 />
@@ -23,7 +23,7 @@ function OurOffices() {
               <figcaption className="lazyload">
                 <h4 className="lazyload">United States of America</h4>
                 <p className="lazyload">
-                  Dev Technosys LLC
+                  YAI Software Technologies LLC
                   <br />
                   5668 e 61st street ste 2000 #360 commerce, california 90040,
                   USA
@@ -40,7 +40,7 @@ function OurOffices() {
                 <img
                   className="lazyload"
                   data-src="https://devtechnosys.com/images-2023/common/flag-2.png"
-                  alt="Dev Technosys"
+                  alt="YAI Software Technologies"
                   width
                   height
                 />
@@ -62,7 +62,7 @@ function OurOffices() {
                 <img
                   className="lazyload"
                   data-src="https://devtechnosys.com/images-2023/common/flag-3.png"
-                  alt="Dev Technosys"
+                  alt="YAI Software Technologies"
                   width
                   height
                 />
@@ -84,7 +84,7 @@ function OurOffices() {
                 <img
                   className="lazyload"
                   data-src="https://devtechnosys.com/images-2023/common/flag-4.png"
-                  alt="Dev Technosys"
+                  alt="YAI Software Technologies"
                   width
                   height
                 />

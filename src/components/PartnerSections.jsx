@@ -14,7 +14,7 @@ function PartnerSections() {
               <img
                 className="lazyload"
                 data-src={img1}
-                alt="Dev Technosys"
+                alt="YAI Software Technologies"
                 width={100}
                 height={100}
               />
@@ -25,7 +25,7 @@ function PartnerSections() {
               <img
                 className="lazyload"
                 data-src={img2}
-                alt="Dev Technosys"
+                alt="YAI Software Technologies"
                 width={100}
                 height={100}
               />
@@ -36,7 +36,7 @@ function PartnerSections() {
               <img
                 className="lazyload"
                 data-src={img3}
-                alt="Dev Technosys"
+                alt="YAI Software Technologies"
                 width={100}
                 height={100}
               />
@@ -47,7 +47,7 @@ function PartnerSections() {
               <img
                 className="lazyload"
                 data-src={img4}
-                alt="Dev Technosys"
+                alt="YAI Software Technologies"
                 width={100}
                 height={100}
               />
@@ -58,7 +58,7 @@ function PartnerSections() {
               <img
                 className="lazyload"
                 data-src={img5}
-                alt="Dev Technosys"
+                alt="YAI Software Technologies"
                 width={100}
                 height={100}
               />
@@ -69,7 +69,7 @@ function PartnerSections() {
               <img
                 className="lazyload"
                 data-src="https://devtechnosys.com/images/2021-new/logo06.webp"
-                alt="Dev Technosys"
+                alt="YAI Software Technologies"
                 width={115}
                 height={115}
               />

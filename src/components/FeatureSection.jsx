@@ -14,7 +14,7 @@ export default function FeaturesSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 justify-items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-h-[600px] overflow-y-auto scrollbar-hide">
+      <div className="grid grid-cols-1 justify-items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:max-h-[600px] overflow-y-auto scrollbar-hide">
         <FeatureCard
           Icon={Clock}
           title="Punctuality"

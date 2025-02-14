@@ -38,7 +38,7 @@ function Sheet({ title, description, image,pcImage, link,isOpen, onClose }) {
     <div className="fixed inset-0 flex justify-end sheet bg-black/50">
       <div
         ref={sheetRef}
-        className="relative w-[60%] max-w-[700px] h-full bg-white shadow-lg p-6 overflow-y-auto"
+        className="relative lg:w-[60%] w-[80%] max-w-[700px] h-full bg-white shadow-lg p-6 overflow-y-auto"
       >
         <div className="flex justify-between items-center border-b pb-2">
           <h2 className="text-2xl font-semibold">{title}</h2>
@@ -57,7 +57,7 @@ function Sheet({ title, description, image,pcImage, link,isOpen, onClose }) {
           <img
             src={pcImage}
             alt={title}
-            className="w-80  object-contain  rounded-md mb-4"
+            className="w-80 hidden md:flex object-contain  rounded-md mb-4"
           />
           </div>
           <p className="text-xl font-semibold text-gray-800">{description}</p>

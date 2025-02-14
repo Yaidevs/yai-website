@@ -20,7 +20,7 @@ function Honour() {
                       <img
                         className="lazyload"
                         data-src="https://devtechnosys.com/images/2021-new/logo1.webp"
-                        alt="Dev Technosys"
+                        alt="YAI Software Technologies"
                         width={178}
                         height={48}
                       />
@@ -36,7 +36,7 @@ function Honour() {
                     <img
                       className="lazyload"
                       data-src="https://devtechnosys.com/images-2023/home/arrow-up-img.svg"
-                      alt="Dev Technosys"
+                      alt="YAI Software Technologies"
                     />
                   </div>
                 </div>
@@ -48,7 +48,7 @@ function Honour() {
                       <img
                         className="lazyload"
                         data-src="https://devtechnosys.com/images/2021-new/designrush-new-logo.svg"
-                        alt="Dev Technosys"
+                        alt="YAI Software Technologies"
                         width={184}
                         height={42}
                       />
@@ -66,7 +66,7 @@ function Honour() {
                     <img
                       className="lazyload"
                       data-src="https://devtechnosys.com/images-2023/home/arrow-up-img.svg"
-                      alt="Dev Technosys"
+                      alt="YAI Software Technologies"
                     />
                   </div>
                 </div>
@@ -78,7 +78,7 @@ function Honour() {
                       <img
                         className="lazyload"
                         data-src="https://devtechnosys.com/images/2021-new/award-5.webp"
-                        alt="Dev Technosys"
+                        alt="YAI Software Technologies"
                         width={204}
                         height={39}
                       />
@@ -96,7 +96,7 @@ function Honour() {
                     <img
                       className="lazyload"
                       data-src="https://devtechnosys.com/images-2023/home/arrow-up-img.svg"
-                      alt="Dev Technosys"
+                      alt="YAI Software Technologies"
                     />
                   </div>
                 </div>
@@ -108,7 +108,7 @@ function Honour() {
                       <img
                         className="lazyload"
                         data-src="https://devtechnosys.com/images/2021-new/logo4.webp"
-                        alt="Dev Technosys"
+                        alt="YAI Software Technologies"
                         width={128}
                         height={37}
                       />
@@ -124,7 +124,7 @@ function Honour() {
                     <img
                       className="lazyload"
                       data-src="https://devtechnosys.com/images-2023/home/arrow-up-img.svg"
-                      alt="Dev Technosys"
+                      alt="YAI Software Technologies"
                     />
                   </div>
                 </div>

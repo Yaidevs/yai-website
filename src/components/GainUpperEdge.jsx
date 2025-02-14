@@ -10,12 +10,12 @@ function GainUpperEdge() {
               <h2>
                 Gain a Competitive Edge with Our Expert Development Assistance!
               </h2>
-              <p>
+              <p >
                 Partner with YAI Software Technologies to empower your business with innovative software development solutions that stand out.
               </p>
               <div className="btn-group-box">
                 <a
-                  href="https://devtechnosys.com/request-a-quote.php"
+                  href="/send-inquiry"
                   className="common-btn white-btn lazyloaded"
                 >
                   Connect with Us

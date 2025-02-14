@@ -49,7 +49,7 @@ function CostEstimation() {
                 <h3>Seek Trending Solutions</h3>
                 <p>
                   Get the industry-best app and web development solutions for
-                  any industry while choosing Dev Technosys as your development
+                  any industry while choosing YAI Software Technologies as your development
                   partner.
                 </p>
               </figcaption>

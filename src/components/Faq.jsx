@@ -92,7 +92,7 @@ function Faq() {
             <li className="panel lazyload">
               <h3 className="panel-title lazyload">
                 <span className="lazyload">
-                  Why Will Choosing Dev Technosys Be an Excellent Choice?
+                  Why Will Choosing YAI Software Technologies Be an Excellent Choice?
                 </span>
                 <svg
                   id="acc-arrow"
@@ -118,7 +118,7 @@ function Faq() {
               <div className="answer lazyload">
                 <div className="panel-body lazyload">
                   <p className="lazyload">
-                    Dev Technosys is a leading web development company devoted
+                    YAI Software Technologies is a leading web development company devoted
                     to excellent and client-centric strategies that set us
                     aside. We prioritize your vision, ensuring modern answers,
                     on-time delivery, and continuous communications, which makes
@@ -243,7 +243,7 @@ function Faq() {
             <li className="panel lazyload">
               <h3 className="panel-title lazyload">
                 <span className="lazyload">
-                  What Are The Hiring Models Available At Dev Technosys?
+                  What Are The Hiring Models Available At YAI Software Technologies?
                 </span>
                 <svg
                   id="acc-arrow"
@@ -269,7 +269,7 @@ function Faq() {
               <div className="answer lazyload">
                 <div className="panel-body lazyload">
                   <p className="lazyload">
-                    Dev Technosys IT consulting agency has 3 unique hiring
+                    YAI Software Technologies IT consulting agency has 3 unique hiring
                     approach. You can pick any of the trending hiring models
                     depending on your needs. To hire dedicated developers,
                     follow these models-

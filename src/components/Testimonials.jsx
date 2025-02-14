@@ -163,7 +163,7 @@ function Testimonials() {
                 </figure>
                 <h3>Jesse Leal</h3>
                 <p>
-                  Dev Technosys are the best web developers I have worked with,
+                  YAI Software Technologies are the best web developers I have worked with,
                   no exception. I had some very convoluted requirements. Their
                   communication, reliability and skills are excellent which
                   allowed us to get the job done for our clients. Their
@@ -201,13 +201,13 @@ function Testimonials() {
                 </figure>
                 <h3>William Miller</h3>
                 <p>
-                  Dev Technosys designed and developed a mobile application to
+                  YAI Software Technologies designed and developed a mobile application to
                   provide roadside assistance to electric vehicles. The app
                   exists on both iOS and Android and is currently in the testing
                   phase. I was searching online for mobile app developers and
-                  put a proposal online. Dev Technosys was one of the first
+                  put a proposal online. YAI Software Technologies was one of the first
                   companies to get back to me. I spoke with about five other
-                  companies, but Dev Technosys stood out because of their price
+                  companies, but YAI Software Technologies stood out because of their price
                   and professionalism. It was clear from the beginning that they
                   understood our vision, so we decided to work with them.
                 </p>
@@ -222,7 +222,7 @@ function Testimonials() {
                 </figure>
                 <h3>Smith Brown</h3>
                 <p>
-                  Dev Technosys successfully solved many challenges the team
+                  YAI Software Technologies successfully solved many challenges the team
                   faced in developing iOS and Android specific mobile app
                   features. Highly responsive and proactive about meeting client
                   expectations, working with their team continues to add a lot
@@ -239,7 +239,7 @@ function Testimonials() {
                 </figure>
                 <h3>Johan Christian Santos</h3>
                 <p>
-                  Dev Technosys was really great throughout the project and was
+                  YAI Software Technologies was really great throughout the project and was
                   always keeping me up to date with the progress. They are also
                   very flexible with my requests and are very easy to deal with.
                   I definitely recommend them for future development projects.

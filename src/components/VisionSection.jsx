@@ -16,7 +16,7 @@ function VisionSection() {
               <span>Years of Experience</span>
             </div>
             <div className="innovation-content">
-              <b>5+</b>
+              <b>10+</b>
               <span>Clients Worldwide</span>
             </div>
           </li>
