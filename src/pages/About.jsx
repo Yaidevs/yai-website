@@ -1,6 +1,13 @@
 import React from "react";
 import aboutbanner from "../assets/images/about-banner.webp";
 import missionvisionimg from "../assets/images/Ceo.jpg";
+import logo from "../assets/images/yai-logo.jpeg";
+import mapicon from "../assets/images/map-icon.svg";
+import rocketicon from "../assets/images/rocket-icon.svg";
+import clienticon from "../assets/images/client-icon.svg";
+import businessicon from "../assets/images/business-icon.svg";
+import teamicon from "../assets/images/team-icon.svg";
+
 import inc1 from "../assets/images/inc-1.svg";
 import inc2 from "../assets/images/inc-2.svg";
 import inc3 from "../assets/images/inc-3.svg";
@@ -60,11 +67,7 @@ function About() {
             <ul className="lazyload">
               <li className="lazyload">
                 <figure className="lazyload">
-                  <img
-                    alt="Yai Softwares"
-                    className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/map-icon.svg"
-                  />
+                  <img alt="Yai Softwares" className="lazyload" src={mapicon} />
                 </figure>
                 <figcaption className="lazyload">
                   <p className="lazyload">Office Location</p>
@@ -76,7 +79,7 @@ function About() {
                   <img
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/team-icon.svg"
+                    src={teamicon}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -89,7 +92,7 @@ function About() {
                   <img
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/business-icon.svg"
+                    src={businessicon}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -102,7 +105,7 @@ function About() {
                   <img
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/client-icon.svg"
+                    src={clienticon}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -115,7 +118,7 @@ function About() {
                   <img
                     alt="Yai Softwares"
                     className="lazyload"
-                    data-src="https://devtechnosys.com/images/2021-new/about/rocket-icon.svg"
+                    src={rocketicon}
                   />
                 </figure>
                 <figcaption className="lazyload">
@@ -189,14 +192,10 @@ function About() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-5 ml-auto lazyload">
+              <div className="col-md-5 p-8  flex items-center justify-center ml-auto lazyload">
                 <div className="about-mission-vision-img lazyload">
                   <figure className="lazyload">
-                    <img
-                      alt="Yai Softwares"
-                      className="lazyload w-80"
-                      src={missionvisionimg}
-                    />
+                    <img alt="Yai Softwares" className="lazyload" src={logo} />
                   </figure>
                 </div>
               </div>
