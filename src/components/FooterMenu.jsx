@@ -156,7 +156,7 @@ function FooterMenu() {
                       className="__cf_email__"
                       data-cfemail="e48d8a828ba48081929081878c8a8b979d97ca878b89"
                     >
-                      yaidevs4@gmail.com
+                     info@yaisoftwares.com
                     </span>
                   </a>
                 </li>

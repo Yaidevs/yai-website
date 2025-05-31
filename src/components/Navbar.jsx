@@ -95,7 +95,7 @@ function Navbar() {
             <div className="icon-box">
               <a
                 className="header-btn bg-gray-300 lazyload"
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=yaidevs4@email.com&su=Hello Yai Software&body=I would like to get in touch."
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@yaisoftwares.com&su=Hello Yai Software&body=I would like to get in touch."
                 target="_blank"
                 title="Email Yai Software"
               >
