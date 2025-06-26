@@ -3,7 +3,7 @@ import img1 from "../assets/images/Group 1.png"
 import img2 from "../assets/images/Group 2.png"
 import img3 from "../assets/images/Group 3.png"
 import img4 from "../assets/images/Group 4.png"
-
+import { Link } from "react-router-dom";
 
 export default function MyHero() {
   return (
@@ -33,9 +33,9 @@ export default function MyHero() {
               and websites
             </p>
             <div className="btn-group-box">
-              <button className="common-btn get-consultant">
-                Let’s Connect
-              </button>
+              <Link to="/send-inquiry" className="common-btn get-consultant">
+                Let’s Connect 
+              </Link>
             </div>
           </div>
           <div className="col-md-7 home-banner-right">
