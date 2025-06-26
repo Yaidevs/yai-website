@@ -8,7 +8,7 @@ function FooterCopyright() {
       <div className="container lazyload">
         <div className="footer-copyright-in d-flex lazyload">
           <span className="lazyload">
-            Copyright © {currentYear} yaisoftwares.com. All Rights Reserved
+            Copyright © {currentYear} YAI Software Technologies. All Rights Reserved
           </span>
           {/* <img class="lazyload" data-src="images/2021-new/dmca_premi_badge_5.jpg" alt="YAI Software Technologies" width="135" height="28"> */}
           <ul className="lazyload">

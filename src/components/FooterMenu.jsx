@@ -10,17 +10,17 @@ function FooterMenu() {
             <h4 className="footer-tit lazyload">Quick links</h4>
             <ul className="footer-menu lazyload">
               <li className="lazyload">
-                <Link to="/about" className="lazyload">
+                <Link to="/about" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   About Us
                 </Link>
               </li>
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Portfolio
                 </Link>
               </li>
               <li className="lazyload">
-                <Link to="/send-inquiry" className="lazyload">
+                <Link to="/send-inquiry" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Contact Us
                 </Link>
               </li>
@@ -47,7 +47,7 @@ function FooterMenu() {
             <h4 className="footer-tit lazyload">Our services</h4>
             <ul className="footer-menu lazyload">
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Mobile Application Development
                 </Link>
               </li>
@@ -57,7 +57,7 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload" href=".">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload" href=".">
                   Blockchain Development
                 </Link>
               </li>
@@ -67,7 +67,7 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload" href=".">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload" href=".">
                   AI Development
                 </Link>
               </li>
@@ -77,7 +77,7 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload" href=".">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload" href=".">
                   Custom Web Development
                 </Link>
               </li>
@@ -87,7 +87,7 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload" href=".">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload" href=".">
                   Web3 Development
                 </Link>
               </li>
@@ -97,32 +97,32 @@ function FooterMenu() {
             <h4 className="footer-tit lazyload">Our industries</h4>
             <ul className="footer-menu lazyload">
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Real Estate
                 </Link>
               </li>
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   On-Demand
                 </Link>
               </li>
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Travel &amp; Tours
                 </Link>
               </li>
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Ecommerce &amp; Retail
                 </Link>
               </li>
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Healthcare
                 </Link>
               </li>
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Event &amp; Tickets
                 </Link>
               </li>
@@ -136,7 +136,7 @@ function FooterMenu() {
                 </a>
               </li> */}
               <li className="lazyload">
-                <Link to="/portfolio" className="lazyload">
+                <Link to="/portfolio" onClick={() => window.scrollTo(0, 0)} className="lazyload">
                   Food &amp; Restaurant
                 </Link>
               </li>

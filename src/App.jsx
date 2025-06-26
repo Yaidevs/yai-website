@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
 import "./assets/js/lazysizes.min.js";
 import "./assets/css/animation-2023.css";
@@ -39,7 +39,7 @@ import FooterMenu from "./components/FooterMenu";
 import FooterSocial from "./components/FooterSocial";
 import FooterCopyright from "./components/FooterCopyright";
 
-//Additional Pages
+// Additional Pages
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Pricing from "./pages/Pricing";
@@ -47,71 +47,81 @@ import NewTestimonials from "./components/NewTestimonials";
 import SendInqury from "./pages/SendInqury";
 // import Other from "./pages/Other";
 
+// Scroll to Top on Route Change
+function ScrollToTopOnRouteChange() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  return null;
+}
+
+function AppContent() {
+  return (
+    <div className="site_content overflow-hidden lazyload">
+      <div className="page-warper">
+        <Navbar />
+        <main>
+          <ScrollToTopOnRouteChange />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <MyHero />
+                  <PartnerSections />
+                  <VisionSection />
+                  <BoostBusiness />
+                  <ServiceSection />
+                  <FeatureSection />
+                  <GainUpperEdge />
+                  <ServingAll />
+                  {/* <Industries /> */}
+                  <OurApp1 />
+                  <OurApp2 />
+                  <OurApp3 />
+                  {/* <OurApp4 /> */}
+                  {/* <DiscussYourProject /> */}
+                  {/* <NewTestimonials /> */}
+                  {/* <Testimonials /> */}
+                  {/* <CaseStudies /> */}
+                  {/* <Faq /> */}
+                  <div>
+                    <NewsLetter />
+                    {/* <Blogs /> */}
+                    {/* <GetFreeQuote /> */}
+                    {/* <Honour /> */}
+                    {/* <OurOffices /> */}
+                  </div>
+                </>
+              }
+            />
+
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/send-inquiry" element={<SendInqury />} />
+            {/* <Route path="/other" element={<Other />} /> */}
+          </Routes>
+
+          <footer className="lazyload">
+            {/* <ServingFooter /> */}
+            <FooterMenu />
+            <FooterSocial />
+            <FooterCopyright />
+          </footer>
+        </main>
+      </div>
+    </div>
+  );
+}
+
 function App() {
   return (
     <Router>
-      <div className="site_content overflow-hidden lazyload">
-        <div className="page-warper">
-          <Navbar />
-          <main>
-            <Routes>
-              {/* Home Route */}
-              <Route
-                path="/"
-                element={
-                  <>
-                    <MyHero />
-                    <PartnerSections />
-                    <VisionSection />
-                    <BoostBusiness />
-                    <ServiceSection />
-                    <FeatureSection />
-                    <GainUpperEdge />
-                    <ServingAll />
-                    {/* <Industries /> */}
-                    <OurApp1 />
-                    <OurApp2 />
-                    <OurApp3 />
-                    {/* <OurApp4 /> */}
-                    {/* <DiscussYourProject /> */}
-                    {/* <NewTestimonials /> */}
-                    {/* <Testimonials /> */}
-                    {/* <CaseStudies /> */}
-                    {/* <Faq /> */}
-                    <div>
-                      <NewsLetter />
-
-                      {/* <Blogs /> */}
-                      {/* <GetFreeQuote /> */}
-                      {/* <Honour /> */}
-                      {/* <OurOffices /> */}
-                    </div>
-                  </>
-                }
-              />
-
-              {/* About Route */}
-              <Route path="/about" element={<About />} />
-
-              {/* Portfolio Route */}
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/pricing" element={<Pricing />} />
-              <Route path="/send-inquiry" element={<SendInqury />} />
-
-              {/* Other Route */}
-              {/* <Route path="/other" element={<Other />} /> */}
-            </Routes>
-
-            {/* Footer (Displayed for All Pages) */}
-            <footer className="lazyload">
-              {/* <ServingFooter /> */}
-              <FooterMenu />
-              <FooterSocial />
-              <FooterCopyright />
-            </footer>
-          </main>
-        </div>
-      </div>
+      <AppContent />
     </Router>
   );
 }
