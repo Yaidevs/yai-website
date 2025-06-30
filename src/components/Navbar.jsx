@@ -50,7 +50,7 @@ function Navbar() {
     <header className="full-header lazyload">
       <div className="nav-left">
         <div className="branding-log lazyload">
-          <Link to="/" className="lazyload">
+          <Link to="/" onClick={() => window.scrollTo(0, 0)} className="lazyload">
             <img className="lazyload w-16" src={logo} alt="yai logo" />
           </Link>
         </div>
